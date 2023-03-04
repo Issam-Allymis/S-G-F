@@ -1,10 +1,6 @@
 ![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
 
-Welcome Issam Allymis,
-
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
-
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+SGF is the abbreviation of Small-Gym-Fitness. We are here to provide a service wich includes a workout and meal plan to guide and assist you toward your body goal. In order for us to be able to help you reach your goal, you need to be willing motivated and determined through out this whole workout plan. This body transformation starts with you and your will to achieve and reach the end goal. Whether it is baby steps or leaps, our duty at SGF is to make sure by the end of this program your desired goal is now who you are. From that point going forward its up to you to Maintain what You have Achieved.
 
 ## Gitpod Reminders
 
