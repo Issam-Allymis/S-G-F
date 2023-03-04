@@ -57,7 +57,8 @@ form {
 
 .form-group {
   margin-bottom: 5rem;
-  background-color: rgb(243, 54, 54);
+  background-color: #15161b;
+  color:#fff;
 }
 
 /* contact us */
@@ -72,7 +73,8 @@ color:crimson;
 #join-com {
 width: 155px;
 margin: 0 auto;
-background-color: aliceblue;
+background-color: #15161b;
+color: #bc0202;
 }
 
 /* health benefits */
@@ -93,8 +95,8 @@ p {
 font-family:Georgia, 'Times New Roman', Times, serif;
 }
 
-a {
-background-color: aliceblue;
+a:hover {
+color: rgb(5, 10, 15);
 }
 
 /* health benefits heading */
@@ -131,6 +133,7 @@ textarea {
   border-radius: 0.25rem;
 }
 
+
 input[type="submit"] {
   display: block;
   width: 100%;
@@ -165,7 +168,8 @@ input[type="submit"]:hover {
 }
 
 #addss {
-  background-color: #ff0000;
+ color: #000000;
+ background-color: #fff;
 }
 
 .choose {
@@ -178,7 +182,7 @@ input[type="submit"]:hover {
 }
 
 .button {
-  display: block;
+  display: inline-block;
   width: 100px;
   margin: 0 auto;
   padding: 0.60rem;
@@ -187,6 +191,14 @@ input[type="submit"]:hover {
   color: #ffffff;
   border: none;
   cursor: pointer;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.button:hover {
+  background-color: rgb(255, 0, 0);
+  color: #fff;
+  border-radius: 70rem;
 }
 
 #services {
@@ -210,7 +222,7 @@ input[type="submit"]:hover {
   margin-bottom: 10px;
 }
 
-#services a.button:hover{
+#services a.button:hover {
   display: inline-block;
   background-color: rgb(255, 0, 0);
   color: #fff;
@@ -218,5 +230,9 @@ input[type="submit"]:hover {
   text-decoration: none;
   font-weight: bold;
   border-radius: 70rem;
+}
+  
+a:hover {
+color:#0b0d10;
 }
 
