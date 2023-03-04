@@ -30,48 +30,13 @@ nav {
 }
 
 
-nav a {
-  color: #000000d3;
-  text-decoration: none;
-  margin-right: 20px;
-  border-radius: 90rem;
-  font-weight: bold;
-}
 
 nav a:hover {
   text-decoration: underline;
 }
 
 
-nav ul ul {
-  display: none;
-  position: absolute;
-  top: 100%;
-  left: 0;
-  background-color: #fff;
-  padding: 10px;
-  box-shadow: 0 2px 4px rgba(244, 208, 5, 0.611);
-}
 
-nav ul li:hover > ul {
-  display:ruby;
-}
-
-
-nav ul li {
-  list-style:decimal;
-  position:relative;
-}
-
-nav ul li > a {
-  display: block;
-  padding: 10px;
-}
-
-
-nav ul li > a:hover {
-  background-color: #344af0;
-}
 
 #Page-2 {
   color:rgb(146, 3, 3);
@@ -149,7 +114,7 @@ input[type="submit"]:hover {
   display: block;
   width: 200px;
   margin: 0 auto;
-  display:ruby-base-container;
+  display:contents;
   width: 6.8%;
   padding: 0.5rem;
   border-radius: 0.70rem;
