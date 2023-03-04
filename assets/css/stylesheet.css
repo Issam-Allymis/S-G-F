@@ -3,65 +3,51 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 20px;
-  background-color: #4b8dfb ;
-  text-transform: uppercase;
+  background-color: #0b0d10 ;
+  text-transform: initial;
   border-radius: 0.70rem;
   
 }
 
 #Small_Gym_Fitness {
-    background-color: ---;
+    background-color: rgb(252, 2, 2);
 }
 
 #Small-Gym-Fitness {
-  background-color: rgb(0, 0, 0);
+  background-color: rgb(10, 207, 251);
   border-radius: 0.70rem;
   font-family:'Courier New', Courier, monospace; 
 }
 
 nav {
-  background-color: #ffffff;
+  background-color: #04c3d4;
   color: #d30606;
-  display: flex;
-  justify-content: space-between;
   align-items: center;
   padding: 10px 20px;
   border-radius: 70rem;
 }
 
-
-
 nav a:hover {
-  text-decoration: underline;
+  text-decoration: double;
 }
 
-
-
-
-#Page-2 {
-  color:rgb(146, 3, 3);
+#about {
+  background-color: #ff0000;
 }
 
 #pack {
-  background-color: rgb(255, 0, 0);
+  background-color: rgb(206, 236, 252);
   align-items: center;
   border-radius: 30rem;
 }
 
+/* class pricing, price deals*/
 .pricing {
   display: block;
-  width: 200px;
+  width: 300px;
   margin: 0 auto;
-border-radius: 60rem;
-}
-
-h1 {
-  color: #FFFFFF;
-}
-
-
-a{
-  background-color: beige;
+  border-radius: 60rem;
+  font-weight: bold;
 }
 
 form {
@@ -70,7 +56,65 @@ form {
 }
 
 .form-group {
-  margin-bottom: 1rem;
+  margin-bottom: 5rem;
+  background-color: rgb(243, 54, 54);
+}
+
+/* contact us */
+#con-us {
+width: 155px;
+margin: 0 auto;
+background-color: #15161b;
+color:crimson;
+}
+
+/* join our community */
+#join-com {
+width: 155px;
+margin: 0 auto;
+background-color: aliceblue;
+}
+
+/* health benefits */
+.benefits {
+background-color: rgb(251, 12, 12);
+
+}
+
+h1 {
+color: #FFFFFF;
+}
+
+h2 {
+font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+p {
+font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+a {
+background-color: aliceblue;
+}
+
+/* health benefits heading */
+.H-H {
+  background-color: rgb(255, 0, 0);
+  text-decoration: underline;
+  width: 155px;
+  margin: 0 auto;
+  color: #15161b;
+}
+
+/* __ in health benefits title */
+#O {
+  color:rgb(0, 0, 0);
+}
+
+/* h3 headings */
+.h-h {
+  text-decoration:underline;
+  color:rgb(0, 0, 0);
 }
 
 label {
@@ -91,7 +135,7 @@ input[type="submit"] {
   display: block;
   width: 100%;
   padding: 0.5rem;
-  border-radius: 0.70rem;
+  border-radius: 0.90rem;
   background-color: #007bff;
   color: #fff;
   border: none;
@@ -104,22 +148,43 @@ input[type="submit"]:hover {
 
 #pack{
   font-weight: bold;
+  font-weight: 600;
+  background-color: #ff0000;
 }
 
-#pricing{
-  font-weight: 800;
+#sign-up {
+  background-color: #15161b;
+}
+
+#Con-us {
+  background-color: #15161b;
+  }
+
+.pricing {
+  background-color: #fb0404;
+}
+
+#addss {
+  background-color: #ff0000;
+}
+
+.choose {
+  font-style: italic;
+  font-family:cursive;
+}
+
+#price {
+  background-color: #bc0202;
 }
 
 .button {
   display: block;
-  width: 200px;
+  width: 100px;
   margin: 0 auto;
-  display:contents;
-  width: 6.8%;
-  padding: 0.5rem;
+  padding: 0.60rem;
   border-radius: 0.70rem;
   background-color: #007bff;
-  color: #fff;
+  color: #ffffff;
   border: none;
   cursor: pointer;
 }
@@ -127,11 +192,12 @@ input[type="submit"]:hover {
 #services {
   text-align: center;
   margin: 50px auto;
+  background-color: rgb(200, 2, 2);
 }
 
 #services h2 {
   font-size: 2rem;
-  margin-bottom: 30px;
+  margin-bottom: 25px;
 }
 
 #services ul {
@@ -144,12 +210,13 @@ input[type="submit"]:hover {
   margin-bottom: 10px;
 }
 
-#services a.button {
+#services a.button:hover{
   display: inline-block;
-  background-color: #f00;
+  background-color: rgb(255, 0, 0);
   color: #fff;
   padding: 10px 20px;
   text-decoration: none;
   font-weight: bold;
   border-radius: 70rem;
 }
+

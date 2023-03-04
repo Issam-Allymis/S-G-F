@@ -15,13 +15,13 @@
       <!--navigation-->
       <nav>
         <div id="nav">
-          <a href="/workspace/S-G-F/html>.html" id="Page-2">Go To Page 2</a>
+          <a href="#sign-up">Sign up now!</a>
           <ul>
             <li><a href="#Small_Gym_Fitness">Home</a></li>
             <li><a href="#About_Us">About</a></li>
             <li><a href="#services">Services</a>
               <ul>
-                <li><a href="#pricing">Pricing</a></li>
+                <li><a href="#price">Pricing</a></li>
                 <li><a href="#contact">Contact</a></li>
               </ul>
             </li>
@@ -43,18 +43,71 @@
         With our help, you will leave no stone unturned when it comes to working out. We know how to get you to your fitness goals, how to make you more flexible and how to get your heart pumping the way it should.
         We will work with you to hit your targets and change how you can incorporate exersise into your day-to-day life. 
         You can find what exercise helps you fuel a fitness mind-set and reach your health goals.
-        In addition, our qualified personal trainers and teachers are there to support you and 
-        celebrate you for every step in your journey to ensure you secure the most out of your workout</p>
-      <a href="Small_Gym_Fitness" class="button">Join Us Now!</a>
+        In addition, our qualified personal trainers are there to support you and 
+        celebrate you for every step in your journey.</p>
+      <a href="#sign-up" class="button">Join Us Now!</a>
     </div>
     
     <div id="about">
       <h2>About Us</h2>
       <p>We are a small gym that is committed to helping our members achieve their fitness goals. 
-         We offer a variety of services including personal training, group fitness classes, and gym equipment.</p>
-      <a href="about1.html">Learn More</a>
+         We offer a variety of services including personal training, group fitness classes, and gym equipment.
+         We prioritize Our members needs because we believe in Community, all our staff members are friendly, charasmatic and willing
+         to help or answer any queries our customers may have. Every gesture is performed to the best of our ability. Our duty is to make sure every member
+         that signs up to our Personal training program gets the most out of our program and leaves everytime with muscle pains
+         and a huge smile on their face, knowing they took the right course of actions that is beneficial for their minds and hearts.
+      </p>
+      <a href="#sign-up">Learn More</a>
     </div>
+    <div class="benefits">
+      <h2 class="H-H"> Health<span id="O">_</span>Benefits</h2>
+      <h3 class="h-h">Why Should You Take Care Of Your Physical Health</h3>
+      <ul>
+    </div>
+    <div class="benefits">
+      <li>
+      <h3 class="h-h">Reduces Stress and Anxiety</h3> 
+       <p> Exercise can help reduce stress and anxiety by releasing endorphins, 
+        which are chemicals in the brain that act as natural painkillers and mood elevators. 
+        Exercise also reduces the levels of the stress hormone cortisol, which can contribute to feelings of anxiety and tension.
+       </p>
+      </li>
+    </div> 
+
+    <div class="benefits">
+      <li>
+      <h3 class="h-h">Boosts Mood</h3> 
+       <p>Regular exercise can also boost mood by increasing the production of serotonin and dopamine, which are neurotransmitters that regulate mood and happiness. 
+      Exercise has also been shown to improve symptoms of depression and anxiety disorders.
+       </p>
+      </li>
+    </div>
+  
+    <div class="benefits">
+      <li>
+      <h3 class="h-h">Heart Health</h3> 
+      <p>Exercise is one of the best things you can do to improve your heart health. Regular exercise can lower blood pressure, reduce LDL (bad) cholesterol levels, 
+      and increase HDL (good) cholesterol levels. Exercise can also improve blood flow to the heart, reduce the risk of blood clots, and improve overall cardiovascular function.
+      </p>
+      </li>
+    </div>
+    <div class="benefits">
+      <li><h3 class="h-h">Cognitive Function</h3> 
+      <p>Exercise has been shown to enhance cognitive function, including memory, attention, and learning. 
+      Exercise increases blood flow to the brain, which can improve brain function and reduce the risk of cognitive decline. 
+      Exercise has also been shown to reduce the risk of Alzheimer's disease and other forms of dementia.
+      </p>
+      </li>
+    </div>
+    </ul>
+    </div>
+
     
+    <section>
+      gallery
+
+    </section>
+
     <section id="services">
       <h2>Our Services</h2>
       <ul>
@@ -65,43 +118,88 @@
       <a href="#services" class="button">Learn More</a>
     </section>
     
-    <fieldset class="pricin"><legend class="pricing">Pricing Deals!!!</legend>
-      <h2></h2>
+    <fieldset id="price"><legend class="pricing">Pricing Deals!!!</legend>
       <ul>
         <select name="pricing" class="pricing" id="pack">
           <option value="1 Month pack for €39.99 Bronze">1 Month pack for €39.99</option>
           <option value="3 Months pack for €129.99 Silver">3 Months pack for €129.99</option>
-          <option value="6 Months pack for €200.00 Gold">6 Months pack for €200.00 Gold</option>
+          <option value="6 Months pack for €200.00 Gold">6 Months pack for €200.00</option>
           <option value="1 Year pack for €299.99 Platinum">1 Year pack for €299.99</option> 
         </select>
       </ul>
+      <br>
       <a href="#sign-up" class="button">Join Us Now!</a>
+      <br>
+      <p id="radio"><span class="choose">Choose your preferred service:</span></p>
+      <ul id="radio">
+        <li><input type="radio" name="training" value="personal trainer">Personal Trainer</li>
+        <li><input type="radio" name="training" value="solo training">Solo Training</li>
+      </ul>
+      <br>
+      <p><span class="choose">Choose your preferred payment method:</span></p>
+      <ul>
+        <li><input type="radio" name="payment" value="creditcard">Credit Card</li>
+        <li><input type="radio" name="payment" value="paypal">PayPal</li>
+        <li><input type="radio" name="payment" value="bitcoin">Bitcoin</li>
+      </ul> 
+     
     </fieldset>
     
-    <section><fieldset id="contact">
-      <center><h2>Contact Us</h2></center>
-<form action="#">
+    <section id="Con-us"><fieldset id="contact">
+   <h2 id="con-us">Contact Us</h2>
+<form action="#" method="post">
 <div class="form-group">
   <label for="name">Name:</label>
   <input type="text" id="name" name="name" placeholder="Name" required>
 </div>
+
 <div class="form-group">
   <label for="email">Email:</label>
   <input type="email" id="email" name="email" placeholder="Email" required>
 </div>
+
 <div class="form-group">
   <label for="message">Message:</label>
   <textarea id="message" name="message" placeholder="Write to us any message to help us help you" rows="5" cols="33"></textarea>
 </div>
+
 <input type="submit" value="Send Message">
 </form>
   </fieldset></section>
 
+  <section id="sign-up">
+ <h2 id="join-com">Join Our Community!</h2>
 
-    <h3>Address</h3>
-    <p>Small Gym <br> 43 Get Fit Road, Dublin</p>
+<form> 
+
+<div>
+  <label for="name">Name:</label>
+  <input type="text" id="name" name="name" placeholder="Full Name" required>
+</div>
+
+<div>
+  <label for="email">Email:</label>
+  <input type="text" id="email" name="email" placeholder="Email" required>
+</div>
+
+<div>
+  <label for="birthdate">Date Of Birth:</label>
+  <input type="date" id="birthdate" name="birthdate" required>
+</div>
+
+<div>
+  <input type="submit" value="Submit Form">
+</div>
+  </form> </section>
+
+
+    <div id="addss">
+      <h3>Address</h3>
+      <p>Small Gym <br> 43 Get Fit Road, Dublin</p>
+    </div>
+
     <!--google maps of the gyms location-->
-    <iframe src="http://bit.ly/3EDrNjZ" width="100%" height="300"></iframe>
+    <iframe src="https://bit.ly/3EDrNjZ" width="100%" height="300"></iframe>
 
 
     <section><footer>
