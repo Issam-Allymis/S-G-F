@@ -28,9 +28,10 @@
           </ul>
         </div>
       </nav>
-    </header>
-
-     <div id="Small-Gym-Fitness"><h1>Small Gym Website</h1></div>
+    
+     <div id="Small-Gym-Fitness">
+      <h1>Small Gym Website</h1>
+    </div>
     </header>
     
     <div id= "services" class="form-group">
@@ -62,6 +63,7 @@
       </p>
       <a href="#sign-up" class="button">Learn More</a>
     </div>
+    <br>
     <div id="price">
       <h2 class="H-H"> Health Benefits</h2>
       <h3 class="h-h">Why Should You Take Care Of Your Physical Health</h3>
@@ -119,35 +121,37 @@
       </ul>
       <a href="#services" class="button">Learn More</a>
     </section>
-    
+    <br>
     <fieldset id="price"><legend class="pricing">Pricing Deals!!!</legend>
       <ul>
         <select name="pricing" class="pricing" id="pack">
-          <option value="1 Month pack for €39.99 Bronze">1 Month pack for €39.99</option>
-          <option value="3 Months pack for €129.99 Silver">3 Months pack for €129.99</option>
-          <option value="6 Months pack for €200.00 Gold">6 Months pack for €200.00</option>
-          <option value="1 Year pack for €299.99 Platinum">1 Year pack for €299.99</option> 
+          <option value="1 Month pack for €39.99 Bronze" aria-label="1 Month pack for €39.99">1 Month pack for €39.99</option>
+          <option value="3 Months pack for €129.99 Silver" aria-label="3 Months pack for €129.99">3 Months pack for €129.99</option>
+          <option value="6 Months pack for €200.00 Gold" aria-label="6 Months pack for €200.00">6 Months pack for €200.00</option>
+          <option value="1 Year pack for €299.99 Platinum" aria-label="1 Year pack for €299.99">1 Year pack for €299.99</option> 
         </select>
       </ul>
       <br>
 
       <br>
-      <p id="radio"><span class="choose">Choose your preferred service:</span></p>
+      <!-- payment method -->
+      <p id="radio"><span class="choose" aria-label="choose your preffered way to workout">Choose your preferred service:</span></p>
       <ul id="radio">
         <li><input type="radio" name="training" value="personal trainer">Personal Trainer</li>
         <li><input type="radio" name="training" value="solo training">Solo Training</li>
       </ul>
       <br>
-      <p><span class="choose">Choose your preferred payment method:</span></p>
+      <p><span class="choose" aria-label="choose your preffered payment method">Choose your preferred payment method:</span></p>
       <ul>
-        <li><input type="radio" name="payment" value="creditcard">Credit Card</li>
+        <li><input type="radio" name="payment" value="creditcard">Credit Card/Debit Card</li>
         <li><input type="radio" name="payment" value="paypal">PayPal</li>
-        <li><input type="radio" name="payment" value="bitcoin">Bitcoin</li>
       </ul> 
      
     </fieldset>
-    
-    <section id="Con-us"><fieldset id="contact">
+
+
+    <!--contact/query-->
+<section id="Con-us"><fieldset id="contact">
    <h2 class="con-us">Contact Us</h2>
 <form action="#" method="post">
 <div class="form-group">
@@ -167,13 +171,15 @@
 
 <input type="submit" value="Send Message">
 </form>
-  </fieldset></section>
+  </fieldset>
+</section>
 <div id="sign-up">
-  <section id="sign-up">
- <h2 id="join-com">Join Our Community!</h2>
+
+<section id="sign-up">
+  <h2 id="join-com">Join Our Community!</h2>
 
 <form> 
-
+<!-- sign up form -->
 <div class="form-group">
   <label for="name">Name:</label>
   <input type="text" id="name" name="name" placeholder="Full Name" required>
@@ -190,22 +196,23 @@
   <input type="submit" value="Submit Form">
 </div>
 
-  </form> </section>
+  </form> 
 
-    <h3><span id="addss">Address</span></h3>
-      <p><span id="addss">Gym Long Mile<br> 43 Get Fit Road, Dublin</span></p>
-    </span> 
+</section>
 
+    <h3 id="addss"><span>Address</span></h3>
+      <p id="addss"><span>Gym Long Mile<br> 43 Get Fit Road, Dublin</span></p>
+    
     <!--google maps of the gyms location-->
-    <iframe src="https://bit.ly/3EDrNjZ" width="100%" height="300"></iframe>
+    <iframe src="https://bit.ly/3EDrNjZ" width="100%" height="300" aria-label="google maps"></iframe>
 </div>
 
-    <section><footer id="footer">
-      <a href="https://www.facebook.com" target="_blank">Find us on facebook</a>
-      <a href="https://www.instagram.com" target="_blank">Find us on instagram</a>
-      <a href="https://www.twitter.com" target="_blank">Find us on twitter</a>
+    <footer>
+      <a href="https://www.facebook.com" target="_blank" aria-label="find more about us on facebook">Find us on facebook</a>
+      <a href="https://www.instagram.com" target="_blank" aria-label="find more about us on instagram">Find us on instagram</a>
+      <a href="https://www.twitter.com" target="_blank" aria-label="find more about us on twitter">Find us on twitter</a>
       <p> Copyright &copy; Small Gym 2023. All Rights Reserved® .</p>
-    </footer></section>
+    </footer>
   
 </body>
 </html>

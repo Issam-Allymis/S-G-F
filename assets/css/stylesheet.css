@@ -39,6 +39,9 @@ nav a:hover {
   background-color: rgb(206, 236, 252);
   align-items: center;
   border-radius: 30rem;
+  font-weight: bold;
+  font-weight: 600;
+  background-color: #ff0000;
 }
 
 /* class pricing, price deals*/
@@ -133,7 +136,6 @@ textarea {
   border-radius: 0.25rem;
 }
 
-
 input[type="submit"] {
   display: block;
   width: 100%;
@@ -147,12 +149,6 @@ input[type="submit"] {
 
 input[type="submit"]:hover {
   background-color: #0069d9;
-}
-
-#pack{
-  font-weight: bold;
-  font-weight: 600;
-  background-color: #ff0000;
 }
 
 #sign-up {
@@ -172,6 +168,7 @@ input[type="submit"]:hover {
 #addss {
  color: #000000;
  background-color: #fff;
+ border-radius: 0.80 em;
 }
 
 .choose {
@@ -205,7 +202,8 @@ input[type="submit"]:hover {
 
 #services {
   text-align: center;
-  margin: 50px auto;
+  width: 100%;
+  margin: 0 auto;
   background-colo: rgb(200, 2, 2);
 }
 
@@ -214,11 +212,6 @@ input[type="submit"]:hover {
   margin-bottom: 25px;
 }
 
-#services ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
 
 #services li {
   margin-bottom: 10px;
@@ -229,12 +222,11 @@ input[type="submit"]:hover {
   background-color: rgb(255, 0, 0);
   color: #fff;
   padding: 10px 20px;
-  text-decoration: none;
   font-weight: bold;
   border-radius: 70rem;
 }
   
 a:hover {
-color:#0b0d10;
+color:#034ec0;
 }
 
