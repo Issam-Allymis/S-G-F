@@ -2,7 +2,7 @@
 
 SGF is the abbreviation of Small-Gym-Fitness. We are here to provide a service wich includes a workout and meal plan to guide and assist you toward your body goal. In order for us to be able to help you reach your goal, you need to be willing motivated and determined through out this whole workout plan. This body transformation starts with you and your will to achieve and reach the end goal. Whether it is baby steps or leaps, our duty at SGF is to make sure by the end of this program your desired goal is now who you are. From that point going forward its up to you to Maintain what You have Achieved.
 
-## Gitpod Reminders
+# Gitpod Reminders
 
 To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
 
