@@ -9,31 +9,32 @@
     <title>Small Gym fitness</title>
     <link rel="stylesheet" href="assets/css/stylesheet.css" href="/workspace/S-G-F/htm.html" content="width=device-width"> 
 </head>
-<body>
+<body id="nav">
       
     <header>
       <!--navigation-->
       <nav>
-        <div id="nav">
+        <div>
           <a href="#sign-up">Sign up now!</a>
           <ul>
-            <li><a href="#Small_Gym_Fitness">Home</a></li>
-            <li><a href="#About_Us">About</a></li>
-            <li><a href="#services">Services</a>
-              <ul>
-                <li><a href="#price">Pricing</a></li>
-                <li><a href="#contact">Contact</a></li>
-              </ul>
-            </li>
+            <li><a href="#Small_Gym_Fitness">Home</a></li></option>
+            <li><a href="#services"></a></li>
+            <li><a href="#gal">Gallery</a></li>
+            <li><a href="#contact">Contact</a></li>
           </ul>
         </div>
       </nav>
-    
-     <div id="Small-Gym-Fitness">
+      <div id="home">
+        <a href="#nav">Back To Top</a>
+      </div>
+
+  <div id="Small-Gym-Fitness">
       <h1>Small Gym Website</h1>
     </div>
     </header>
-    
+    <!-- centers from top top bottom -->
+    <div id="servies">
+
     <div id= "services" class="form-group">
       <h2>Welcome to Small Gym</h2>
       <p>Get fit and healthy with our state-of-the-art equipment and experienced trainers.
@@ -47,7 +48,7 @@
         In addition, our qualified personal trainers are there to support you and 
         celebrate you for every step in your journey.</p>
       <a href="#sign-up" class="button">Join Us Now!</a>
-      <div id="services"> 
+
 
   <div id="services" id="about">  
     <div id="about">
@@ -61,7 +62,7 @@
          that signs up to our Personal training program gets the most out of our program and leaves everytime with muscle pains
          and a huge smile on their face, knowing they took the right course of actions that is beneficial for their minds and hearts.
       </p>
-      <a href="#sign-up" class="button">Learn More</a>
+      <a href="#Con-us" class="button">Contact Us</a>
     </div>
     <br>
     <div id="price">
@@ -69,6 +70,7 @@
       <h3 class="h-h">Why Should You Take Care Of Your Physical Health</h3>
       <ul>
     </div>
+   
     <div id="price">
       <li>
       <h3>Reduces Stress and Anxiety</h3> 
@@ -108,7 +110,7 @@
   </div>
 
     
-    <section>
+    <section id="gal">
       GALLERY
     </section>
     
@@ -121,8 +123,22 @@
       </ul>
       <a href="#services" class="button">Learn More</a>
     </section>
+    
+<!-- timetable section -->
+ <div id="tab">   
+    <table id="table">
+      <h4>PARTICIPATE IN OUR FREE MORNING / EVENING GET FIT SESSIONS FOR OUR LOVELY GYM MEMBERS!</h4> 
+      <tr> <th>Times</th> <th>Monday</th> <th>Tuesday</th> <th>Wednesday</th> <th>Thursday</th> <th>Friday</th> <th>Saturday</th> <th>Sunday</th> </tr>
+      <tr> <td>06:00 - 08:00</td> <td>Cardio</td> <td>cycling</td> <td>Yoga</td> <td>Cycling</td> <td>Yoga</td> <td>--</td> <td>--</td> </tr>
+      <tr> <td>08:00 - 10:00</td> <td>Calisthenics</td> <td>Yoga</td> <td>Cycling</td> <td>Calisthenics</td> <td>Weights</td> <td>--</td> <td>--</td> </tr>
+      <tr> <td>10:00 - 12:00</td> <td>Yoga</td> <td>Weights</td> <td>Calisthenics</td> <td>Weights</td> <td>Calisthenics</td> <td>--</td> <td>--</td> </tr>
+      <tr> <td>12:00 - 14:00</td> <td>Weights</td> <td>Calisthenics</td> <td>Weights</td> <td>Yoga</td> <td>Cycling</td> <td>--</td> <td>--</td> </tr>
+    </table>
+  </div>
+
     <br>
-    <fieldset id="price"><legend class="pricing">Pricing Deals!!!</legend>
+   <div id="price">
+    <fieldset id="pricing"><legend class="pricing">Pricing Deals!!!</legend>
       <ul>
         <select name="pricing" class="pricing" id="pack">
           <option value="1 Month pack for €39.99 Bronze" aria-label="1 Month pack for €39.99">1 Month pack for €39.99</option>
@@ -131,9 +147,14 @@
           <option value="1 Year pack for €299.99 Platinum" aria-label="1 Year pack for €299.99">1 Year pack for €299.99</option> 
         </select>
       </ul>
+    </fieldset>
+   
       <br>
 
       <br>
+
+  
+    <fieldset>
       <!-- payment method -->
       <p id="radio"><span class="choose" aria-label="choose your preffered way to workout">Choose your preferred service:</span></p>
       <ul id="radio">
@@ -148,9 +169,9 @@
       </ul> 
      
     </fieldset>
+   </div>
 
-
-    <!--contact/query-->
+ <!--contact/query-->
 <section id="Con-us"><fieldset id="contact">
    <h2 class="con-us">Contact Us</h2>
 <form action="#" method="post">
@@ -172,14 +193,15 @@
 <input type="submit" value="Send Message">
 </form>
   </fieldset>
-</section>
+
 <div id="sign-up">
 
-<section id="sign-up">
+  <fieldset>
   <h2 id="join-com">Join Our Community!</h2>
 
-<form> 
 <!-- sign up form -->
+ <form>
+
 <div class="form-group">
   <label for="name">Name:</label>
   <input type="text" id="name" name="name" placeholder="Full Name" required>
@@ -192,20 +214,21 @@
   <label for="birthdate">Date Of Birth:</label>
   <input type="date" id="birthdate" name="birthdate" required>
 </div>
-<div>
+
   <input type="submit" value="Submit Form">
-</div>
 
+    <br>
   </form> 
-
+  </fieldset>
 </section>
 
+  <section id="base">
     <h3 id="addss"><span>Address</span></h3>
       <p id="addss"><span>Gym Long Mile<br> 43 Get Fit Road, Dublin</span></p>
     
     <!--google maps of the gyms location-->
     <iframe src="https://bit.ly/3EDrNjZ" width="100%" height="300" aria-label="google maps"></iframe>
-</div>
+
 
     <footer>
       <a href="https://www.facebook.com" target="_blank" aria-label="find more about us on facebook">Find us on facebook</a>
@@ -213,6 +236,6 @@
       <a href="https://www.twitter.com" target="_blank" aria-label="find more about us on twitter">Find us on twitter</a>
       <p> Copyright &copy; Small Gym 2023. All Rights Reserved® .</p>
     </footer>
-  
+  </section>
 </body>
 </html>
