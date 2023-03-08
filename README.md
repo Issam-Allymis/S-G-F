@@ -1,6 +1,14 @@
 ![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
 
-SGF is the abbreviation of Small-Gym-Fitness. We are here to provide a service wich includes a workout and meal plan to guide and assist you toward your body goal. In order for us to be able to help you reach your goal, you need to be willing motivated and determined through out this whole workout plan. This body transformation starts with you and your will to achieve and reach the end goal. Whether it is baby steps or leaps, our duty at SGF is to make sure by the end of this program your desired goal is now who you are. From that point going forward its up to you to Maintain what You have Achieved.
+The Small Gym Fitness Page is a web page that provides information about the gym's membership plans and pricing. The page is designed to be visually appealing and easy to navigate, with clear calls-to-action that encourage users to sign up for a membership.
+
+The Small Gym Fitness Page is built entirely using HTML and CSS, without the need for any additional programming languages or frameworks. The page includes information about each membership plan, such as the price, the duration, and the benefits of each plan.
+
+The page also includes a membership sign-up form that users can fill out to become members of the gym. The form includes fields for personal information, such as name and email address, as well as options to select a membership plan and payment method.
+
+The Small Gym Fitness Page is designed to be responsive, meaning that it adjusts to different screen sizes and devices. This ensures that users can view and sign up for memberships on any device, whether they're using a desktop computer, tablet, or smartphone.
+
+Overall, the Small Gym Fitness Page is a simple yet effective solution for promoting the gym's membership plans and encouraging sign-ups. By using only HTML and CSS, the page is lightweight and fast-loading, and can be easily customized and updated as needed.
 
 # Gitpod Reminders
 
