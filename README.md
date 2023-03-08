@@ -1,4 +1,4 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+#Small Gym Fitness
 
 The Small Gym Fitness Page is a web page that provides information about the gym's membership plans and pricing. The page is designed to be visually appealing and easy to navigate, with clear calls-to-action that encourage users to sign up for a membership.
 
