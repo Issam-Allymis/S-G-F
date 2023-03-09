@@ -1,5 +1,6 @@
-header {
+.page-header {
   display: flex;
+  height: 40vh;
   justify-content: space-between;
   align-items: center;
   padding: 20px;
@@ -7,23 +8,30 @@ header {
   text-transform: initial;
   border-radius: 0.70rem;
 }
+/* back to the top button at the bottom right of the screen */
+#back-top a:hover {
+  background-color: #ff0000;
+  font-size: 1.3em;
+  }
+ 
+ a:hover {
+      color: red;
+ }
 
-a:hover {
-  color: #ff0000;
-  }
-  
+  /* gives all links a blue tint */
   a {
-    color: blue;
+    color: rgb(133, 133, 218);
   }
-  
-#home a {
+
+  /*back to the top button at the bottom right of the screen */
+#back-top a {
   position: fixed;
   padding: 10px;
   border: 10px solid;
   border-color: rgb(2, 10, 60);
-  color:rgb(185, 0, 205);
-  background-color: #0c18ed;
-  border-radius: 90rem;
+  color:rgb(0, 0, 0);
+  background-color: #030eea;
+  border-radius: 6em;
   font-size: larger;
   bottom: 0;
   left: 0;
@@ -31,32 +39,38 @@ a:hover {
 
 /* font design for the header links */
 div a {
-
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+ font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 #home a:hover {
-background: rgb(255, 0, 0);
-color: #0015ff;
+backgroun: rgb(255, 0, 0);
+color: #6672f5;
+font-size: 1.3em;
 }
 
 #Small_Gym_Fitness {
   background-color: rgb(252, 2, 2);
 }
 
-#Small-Gym-Fitness {
-  background-color: rgb(10, 207, 251);
+#SGF {
+  background-color: #191970;
   border-radius: 0.70rem;
-  font-family:'Courier New', Courier, monospace; 
+  padding: 3em;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  min-height: auto;
 }
 
 nav {
-  background-color: #493690;
+  background-color: #191970;
   text-align: center;
-  padding: 1%;
+  padding: 2rem;
   border-radius: 1rem;
   margin: o auto;
   border: 2px solid red; 
+  font-size: 1.2em;
 }
 
 
@@ -93,7 +107,7 @@ form {
 }
 
 .form-group {
-  margin-bottom: 5rem;
+  margin: 5rem;
   background-color: #15161b;
   color:#fff;
 }
@@ -133,6 +147,8 @@ color: #FFFFFF;
 h2 {
 font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 color:#ef3f3f;
+font-weight: bolder;
+font-size: 30px;
 }
 
 h3 {
@@ -169,10 +185,12 @@ label {
   margin-bottom: 0.5rem;
 }
 
-input[type="text"],
-input[type="email"],
+
+input[type=text],
+input[type=email],
 textarea {
   width: 100%;
+  align-items: center;
   padding: 0.5rem;
   border: 1px solid #ccc;
   border-radius: 0.25rem;
@@ -201,6 +219,7 @@ input[type="submit"]:hover {
   background-color: #15161b;
   text-align: center;
   margin: 50px auto;
+  font-weight:bolder;
   }
 
 .pricing {
@@ -243,7 +262,7 @@ input[type="submit"]:hover {
 .button:hover {
   background-color: rgb(255, 0, 0);
   color: #fff;
-  border-radius: 70rem;
+  border-radius: 7rem;
 }
 /* aligns all content inside div parent */
 #services {
@@ -293,6 +312,8 @@ thead {
 }
 
 #tab {
+  width: 100%;
+  min-height: 20vh;
   text-align: center;
   background-color: #292c3a;
 }
@@ -312,6 +333,3 @@ td, h4 {
   margin: 0 auto;
   background-color: #15161b;
 }
-
-
-
