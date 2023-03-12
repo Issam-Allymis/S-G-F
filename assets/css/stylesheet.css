@@ -2,12 +2,12 @@
 .page-header {
   display: flex;
   height: 40vh;
-  justify-content: space-between;
+  border: solid 10px rgb(21, 10, 10);
   align-items: center;
   padding: 3rem;
-  background-color: #0b0d10 ;
   text-transform: initial;
   border-radius: 0.70rem;
+  background: #0b0d10 url("https://www.beattypark.com.au/Profiles/beattypark/Assets/ClientData/Images/News/body-combat-fun-cardio.jpg") round fixed;
 }
 /* back to the top button at the bottom right of the screen */
 #back-top a:hover {
@@ -19,6 +19,16 @@
       color: red;
  }
 
+ /* main heading */
+.logo {
+      color: rgb(67, 82, 103);
+      border-style: outset ;
+      font-style: oblique 9deg;
+      font-weight: 900;
+      font-size: xxx-large;
+ }
+
+ /* span inside 'our slogan' section */
 #big {
   font-family: 'Courier New', Courier, monospace;
   color: #868584d6 ;
@@ -36,7 +46,7 @@ article section h1 {
 
   /* gives all links a blue tint */
   a {
-    color: rgb(133, 133, 218);
+    color: rgb(134, 67, 235);
   }
 
   /*back to the top button at the bottom right of the screen */
@@ -51,6 +61,11 @@ article section h1 {
   font-size: larger;
   bottom: 0;
   left: 0;
+}
+
+section h1 {
+  font-size: xx-large;
+  color: red;
 }
 
 /* font design for the header links */
@@ -68,25 +83,39 @@ font-size: 1.3em;
 }
 
 #SGF {
-  background-color: #191970;
+  background-color: none;
   border-radius: 0.70rem;
-  padding: 3em;
-  border: 1px solid white;
-  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  width: 0 auto;
+  margin: auto;
+  color: midnightblue;
+  margin-to:;
+  padding: 1em;
+  display: flex;
+  justify-content: center;
+  border: none;
+  max-width: 460px;
+  text-align: center;
+  font-family:Geneva, Verdana, sans-serif;
 }
 
-.body {
+body {
   background-color: #15161b;
+
+  width: 100%;
 }
 
 nav {
-  background-color: #191970;
   text-align: center;
-  padding: 2rem;
+  background-color: none;
+  text-align: left;
+  padding: 3rem;
+  height: 35vh;
   border-radius: 1rem;
-  margin: o auto;
-  border: 2px solid white; 
-  font-size: 1.2em;
+  margin: auto;
+  margin-top: 3em;
+  width: auto;
+  border: none;
+  font-size: 1em;
 }
 
 
@@ -99,17 +128,12 @@ nav {
 }
 
 #pack {
-  background-color: rgb(255, 132, 0);
+  background-color: rgb(0, 145, 255);
   border-radius: 30rem;
   font-weight: bold;
   width: 30rem;
   margin: 0 auto;
   color: white;
-  
-}
-
-#li-serv {
-  text-align: center;
 }
 
 /* centers the pricing content*/
@@ -121,6 +145,11 @@ nav {
   font-weight: bold;
   color: white;
   background-color: #ff0000 !important;
+}
+
+/* dormant */
+article section p {
+  text-align: jstify;
 }
 
 form {
@@ -179,20 +208,31 @@ text-decoration: underline;
 color: #ef3f3f; 
 }
 
-/* i used the em unit to centralise the text as it was slightly off center */
-#li {
+/* i used the em unit to centralise the list as it was slightly off center */
+#opt {
   color: whitesmoke;
   text-align: center;
-  width:89em ;
+  font-style: italic;
+  font-size: large;
+  
 }
 
+#p-opt {
+  font-size: xx-large;
+}
+
+#li-serv {
+  text-align: center;
+}
+
+/* paragraphs */
 p {
 font-family:Georgia, 'Times New Roman', Times, serif;
 color:whitesmoke;
 }
 
-/* health benefits heading */
-.H {
+/* .DORMANT, health benefits heading */
+. {
   background-color: #ff0000;
   text-decoration: underline;
   border-radius: 80rem;
@@ -224,6 +264,7 @@ textarea {
   padding: 0.5rem;
   border: 1px solid #ccc;
   border-radius: 0.25rem;
+  max-width: 30em;
 }
 
 input[type="submit"] {
@@ -235,6 +276,8 @@ input[type="submit"] {
   color: #fff;
   border: none;
   cursor: pointer;
+  max-width: 40em;
+  margin: auto;
 }
 
 input[type="submit"]:hover {
@@ -249,14 +292,14 @@ input[type="submit"]:hover {
   background-color: #15161b;
   text-align: center;
   margin: 50px auto;
-  font-weight:bolder;
+  font-weight: bolder;
   }
 
 .pricing {
   background-color: #1e1818;
 }
 
-#addss {
+#add {
  color: #000000;
  background-color: #fff;
  border-radius: 0.80 em;
@@ -300,6 +343,10 @@ input[type="submit"]:hover {
   width: 100%;
   margin: 0 auto;
   background-color: #15161b;
+  border: solid rgb(63, 52, 136) 0.1em!important;
+  background-repeat: round;
+  background-attachment: fixed;
+  background-image: url('https://www.digitaltrends.com/wp-content/uploads/2016/07/13235611_10153702326471247_1758282436495273438_o.jpg?fit=720%2C720&p=1');
 }
 
 #services h2 {
@@ -310,7 +357,6 @@ input[type="submit"]:hover {
 
 #services li {
   margin-bottom: 10px;
-  baclor: #bc0202;
 }
 
 #services a:hover {
@@ -363,3 +409,4 @@ td, h4 {
   margin: 0 auto;
   background-color: #15161b;
 }
+
