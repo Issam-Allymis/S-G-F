@@ -1,412 +1,55 @@
-
-.page-header {
-  display: flex;
-  height: 40vh;
-  border: solid 10px rgb(21, 10, 10);
-  align-items: center;
-  padding: 3rem;
-  text-transform: initial;
-  border-radius: 0.70rem;
-  background: #0b0d10 url("https://www.beattypark.com.au/Profiles/beattypark/Assets/ClientData/Images/News/body-combat-fun-cardio.jpg") round fixed;
-}
-/* back to the top button at the bottom right of the screen */
-#back-top a:hover {
-  background-color: #ff0000;
-  font-size: 1.3em;
-  }
- 
- a:hover {
-      color: red;
- }
-
- /* main heading */
-.logo {
-      color: rgb(67, 82, 103);
-      border-style: outset ;
-      font-style: oblique 9deg;
-      font-weight: 900;
-      font-size: xxx-large;
- }
-
- /* span inside 'our slogan' section */
-#big {
-  font-family: 'Courier New', Courier, monospace;
-  color: #868584d6 ;
-}
-
-article section h1 {
-  color: red;
-  font-size: xx-large;
-}
-
-#goal {
-  color: red;
-  font-size: xx-large;
-}
-
-  /* gives all links a blue tint */
-  a {
-    color: rgb(134, 67, 235);
-  }
-
-  /*back to the top button at the bottom right of the screen */
-#back-top a {
-  position: fixed;
-  padding: 10px;
-  border: 10px solid;
-  border-color: rgb(2, 10, 60);
-  color:rgb(0, 0, 0);
-  background-color: #030eea;
-  border-radius: 6em;
-  font-size: larger;
-  bottom: 0;
-  left: 0;
-}
-
-section h1 {
-  font-size: xx-large;
-  color: red;
-}
-
-/* font design for the header links */
-div a {
- font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-}
-
-#home a:hover {
-color: #6672f5;
-font-size: 1.3em;
-}
-
-#Small_Gym_Fitness {
-  background-color: rgb(252, 2, 2);
-}
-
-#SGF {
-  background-color: none;
-  border-radius: 0.70rem;
-  width: 0 auto;
-  margin: auto;
-  color: midnightblue;
-  margin-to:;
-  padding: 1em;
-  display: flex;
-  justify-content: center;
-  border: none;
-  max-width: 460px;
-  text-align: center;
-  font-family:Geneva, Verdana, sans-serif;
-}
-
 body {
-  background-color: #15161b;
-
-  width: 100%;
+  margin: 0;
+  padding: 0;
 }
 
-nav {
+header h1 {
+  color: rgb(86, 147, 204);
+  font-size: 2.5em!important;
+  position: absolute;
+  margin-top: -2.5px;
+  margin-left: 2.5px;
+}
+
+
+nav ul {
+  list-style: none;
+  background-color: #4a4a4f;
   text-align: center;
-  background-color: none;
-  text-align: left;
-  padding: 3rem;
-  height: 35vh;
-  border-radius: 1rem;
-  margin: auto;
-  margin-top: 3em;
-  width: auto;
-  border: none;
-  font-size: 1em;
+  padding: 0;
+  margin: 0;
+  height: 50px;
 }
 
-
-#about {
-  background-color: #ff0000;
+a:hover {
+ color: #42b6c6;
+ text-decoration: dotted;
 }
 
-#points {
-  margin-block:20px;
+a {
+ text-decoration: none;
 }
 
-#pack {
-  background-color: rgb(0, 145, 255);
-  border-radius: 30rem;
-  font-weight: bold;
-  width: 30rem;
-  margin: 0 auto;
-  color: white;
-}
-
-/* centers the pricing content*/
-.pricing {
-  display: block;
-  width: 260px;
-  margin: 0 auto;
-  border-radius: 60rem;
-  font-weight: bold;
-  color: white;
-  background-color: #ff0000 !important;
-}
-
-/* dormant */
-article section p {
-  text-align: jstify;
-}
-
-form {
-  max-width: 500px;
-  margin: 0 auto;
-}
-
-.form-group {
-  margin: 5rem;
-  background-color: #15161b;
-  color: #fff;
-}
-
-/* join our community */
-#join-com {
-width: 155px;
-margin: 0 auto;
-background-color: #15161b;
-color: #bc0202;
-}
-
-table {
-  border-collapse: separate;
-  width: 100px;
-  margin: auto;
-}
-
-th, td {
-  border: 4px solid #400101;
-  padding: 10px;
+footer {
   text-align: center;
 }
 
-th {
-  background-color: #e59e03;
-  font-weight: bold;
-}
-
-td.class-a {
-  background-color: #e59e03;
-}
-
-h1 {
-color: #FFFFFF;
-}
-
-h2 {
-font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-color: red;
-font-weight: bolder;
-font-size: 30px;
-}
-
-h3 {
-text-decoration: underline;
-color: #ef3f3f; 
-}
-
-/* i used the em unit to centralise the list as it was slightly off center */
-#opt {
-  color: whitesmoke;
-  text-align: center;
-  font-style: italic;
-  font-size: large;
-  
-}
-
-#p-opt {
-  font-size: xx-large;
-}
-
-#li-serv {
-  text-align: center;
-}
-
-/* paragraphs */
-p {
-font-family:Georgia, 'Times New Roman', Times, serif;
-color:whitesmoke;
-}
-
-/* .DORMANT, health benefits heading */
-. {
-  background-color: #ff0000;
-  text-decoration: underline;
-  border-radius: 80rem;
-  width: 205px;
-  margin: 0 auto;
-  color: #000000;
-}
-
-div > h2 {
-  color: #ff0000;
-}
-
-/* __ in health benefits title */
-#O {
-  color:rgb(0, 0, 0);
-}
-
-label {
-  display: block;
-  margin-bottom: 0.5rem;
-}
-
-
-input[type=text],
-input[type=email],
-textarea {
-  width: 100%;
-  align-items: center;
-  padding: 0.5rem;
-  border: 1px solid #ccc;
-  border-radius: 0.25rem;
-  max-width: 30em;
-}
-
-input[type="submit"] {
-  display: block;
-  width: 100%;
-  padding: 0.5rem;
-  border-radius: 0.90rem;
-  background-color: #007bff;
-  color: #fff;
-  border: none;
-  cursor: pointer;
-  max-width: 40em;
-  margin: auto;
-}
-
-input[type="submit"]:hover {
-  background-color: #0069d9;
-}
-
-#sign-up {
-  background-color: #15161b;
-}
-
-#Con-us {
-  background-color: #15161b;
-  text-align: center;
-  margin: 50px auto;
-  font-weight: bolder;
-  }
-
-.pricing {
-  background-color: #1e1818;
-}
-
-#add {
- color: #000000;
- background-color: #fff;
- border-radius: 0.80 em;
-}
-
-.choose {
-  font-style: italic;
-  font-family:cursive;
-}
-
-#price {
-  background-color: #15161b;
-  text-align: center;
-  width: auto;
-  color: #222222;
-  font-size: larger;
-}
-
-.button {
-  display: inline-block;
-  width: 100px;
-  margin: 0 auto;
-  padding: 0.60rem;
-  border-radius: 0.70rem;
-  background-color: #007bff;
-  color: #ffffff;
-  border: none;
-  cursor: pointer;
-  font-weight: bold;
+nav a {
   text-decoration: none;
-}
-
-.button:hover {
-  background-color: rgb(255, 0, 0);
   color: #fff;
-  border-radius: 7rem;
-}
-/* aligns all content inside div parent */
-#services {
-  text-align: center;
-  width: 100%;
-  margin: 0 auto;
-  background-color: #15161b;
-  border: solid rgb(63, 52, 136) 0.1em!important;
-  background-repeat: round;
-  background-attachment: fixed;
-  background-image: url('https://www.digitaltrends.com/wp-content/uploads/2016/07/13235611_10153702326471247_1758282436495273438_o.jpg?fit=720%2C720&p=1');
+  display: flexbox;
 }
 
-#services h2 {
-  font-size: 2rem;
-  margin-bottom: 25px;
+nav a:hover {
+  background-color: #fff;
+  color: #41414f;
+  border-radius: 0.60em;
 }
 
-
-#services li {
-  margin-bottom: 10px;
-}
-
-#services a:hover {
+nav li {
+  font-size: 1em;
   display: inline-block;
-  background-color: rgb(255, 0, 0);
-  padding: 10px 20px;
-  font-weight: bold;
-  border-radius: 70rem;
+  line-height: 32px;
+  height: 32px;
+  margin:1.5%;
 }
-  
-#gal {
-  background-color: #ccc;
-}
-
-footer > p {
-  color:#c0c0c0;
-}
-
-thead {
-  color:rgb(250, 250, 250);
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-
-}
-
-#table {
-  text-align: center;
-  width: 100%;
-  margin: 0 auto;
-}
-
-#tab {
-  width: 100%;
-  min-height: 20vh;
-  text-align: center;
-  background-color: #292c3a;
-}
-
-#table {
-  background-color: #15161b;
-}
-
-td, h4 {
-  background-color: #32013b34;
-  color: whitesmoke;
-}
-
-#base {
-  text-align: center;
-  width: 100%;
-  margin: 0 auto;
-  background-color: #15161b;
-}
-
