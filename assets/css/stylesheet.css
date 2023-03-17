@@ -28,9 +28,10 @@ h4 {
 }
 
 #logo {
-  font-size: 240%;
+  font-size: 250%;
   float: left;
-  margin-left: 10px;
+  margin-left: 25px;
+  letter-spacing: 5px;
 }
 
 /* navigation links */
@@ -71,7 +72,7 @@ h4 {
 
 /* hero image and cover text info*/
 #hero-out {
-  height: 445px;
+  height: 439px;
   width: 100%;
   overflow: hidden;
 
@@ -83,7 +84,7 @@ h4 {
 }
 
 #hero-image {
-  height: 445px;
+  height: 439px;
   width: 100%;
   background: url('/assets/css/images/group-circle.jpg') repeat center center;
 
@@ -98,13 +99,16 @@ animation-fill-mode: forwards;
 /* creats a level of zoom for the hero image */
 @keyframes hero-zoom {
     from{
-         transform: scale(1)
+         transform: scale(1.5)
     }
     to{
         transform: scale(1.1);
 
     }
     
+}
+p {
+  color: rgb(86, 147, 204);
 }
 
 #cover-info {
@@ -127,16 +131,65 @@ animation-fill-mode: forwards;
   position: absolute;
 }
 
-p {
-  color: rgb(86, 147, 204);
+#left-reason {
+  padding-top: 30px;
+  width: 33%;
+  float: left;
+  background-color: rgb(26, 248, 251, .1);
+}
+
+#right-reason {
+  padding-top: 30px;
+  width: 33%;
+  float: right;
+  background-color: rgb(26, 248, 251, .1);
+}
+
+#center-reason {
+  padding-top: 30px;
+  width: 33%;
+  margin: 0 auto;
+  background-color: silver;
+}
+
+#strong-with-us {
+  height: 400px;
   text-align: center;
-  font-size: 3.4em;
-  margin-left: 6px;
 }
 
 #happy-customer {
   background-color: #ffffff;
+  text-align: center;
   font-size: 6em;
+  margin-left: 6px;
+}
+
+hr {
+  width: 96%;
+  border: 1px #5c5c5c solid;
+  margin: 12px;
+}
+
+.left-reason-about {
+  width: 65%;
+  line-height: 25px;
+  float: right;
+  clear: both;
+  margin-bottom: 50px;
+  text-align: left;
+}
+
+.right-reason-about {
+  width: 68%;
+  line-height: 25px;
+  float: left;
+  clear: both;
+  margin-bottom: 50px;
+  text-align: right;
+}
+
+.left-reason-about h2 {
+  text-align: right;
 }
 
 /* footer links */
@@ -150,6 +203,10 @@ footer a {
 
 footer {
   text-align: center;
+}
+
+.address {
+  font-size: 4em;
 }
 
 
