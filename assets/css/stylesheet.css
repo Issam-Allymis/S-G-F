@@ -14,7 +14,7 @@ body {
 /* headings and logo */
 h1, h2 {
   color: rgb(86, 147, 204);
-  font-size: 2.5em;
+  font-size: 250%;
   font-family: Oswald, sans-serif;
   text-transform: uppercase;
   letter-spacing: 4px;
@@ -22,9 +22,14 @@ h1, h2 {
 
 h4 {
   color: rgb(86, 147, 204);
-  font-size: 1em;
+  font-size: 2.5em;
   text-transform: uppercase;
   text-align: center;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 1.5em;
 }
 
 #logo {
@@ -45,7 +50,7 @@ h4 {
   list-style-type: none;
   color: #5c5c5c;
   float: right;
-  margin-right:25px;
+  margin-right: 25px;
 }
 
 #menu a {
@@ -86,7 +91,7 @@ h4 {
 #hero-image {
   height: 439px;
   width: 100%;
-  background: url('/assets/css/images/group-circle.jpg') repeat center center;
+  background: url('./images/group-circle.jpg') repeat center center;
 
 
 /* animates zoom effect on loading page */
@@ -107,6 +112,7 @@ animation-fill-mode: forwards;
     }
     
 }
+
 p {
   color: rgb(86, 147, 204);
 }
@@ -135,21 +141,25 @@ p {
   padding-top: 30px;
   width: 33%;
   float: left;
-  background-color: rgb(26, 248, 251, .1);
+  border-radius: 0.75em;
 }
 
 #right-reason {
   padding-top: 30px;
   width: 33%;
   float: right;
-  background-color: rgb(26, 248, 251, .1);
+  border-radius: 0.75em;
+}
+
+.reason-p {
+  font-size: 18px;
+  color: #3a3a3a;
 }
 
 #center-reason {
   padding-top: 30px;
   width: 33%;
   margin: 0 auto;
-  background-color: silver;
 }
 
 #strong-with-us {
@@ -166,30 +176,103 @@ p {
 
 hr {
   width: 96%;
-  border: 1px #5c5c5c solid;
+  border: 1px #42b6c4 solid;
   margin: 12px;
+}
+
+#reason {
+  margin-top: 60px;
+  font-size: 300%;
 }
 
 .left-reason-about {
   width: 65%;
-  line-height: 25px;
+  line-height: 35px;
   float: right;
   clear: both;
-  margin-bottom: 50px;
+  margin-bottom: 47px;
+}
+
+.right-reason-about {
+  width: 65%;
+  line-height: 35px;
+  float: left;
+  clear: both;
+  margin-bottom: 47px;
+}
+
+.left-reason-about {
   text-align: left;
 }
 
 .right-reason-about {
-  width: 68%;
-  line-height: 25px;
-  float: left;
-  clear: both;
-  margin-bottom: 50px;
   text-align: right;
 }
 
-.left-reason-about h2 {
-  text-align: right;
+#center-outer {
+  width: 295px;
+  height: 295px;
+  padding: 20px;
+  border-radius: 20%;
+  border: 0.1em solid #42b600;
+  margin: 0 auto;
+  background: whitesmoke;
+}
+
+#center-inner-img {
+  background: url('./images/group-circle().jpg') no-repeat;
+  height: 290px;
+  border-radius: 20%;
+}
+
+/* time table */
+#table {
+  margin: 0 auto;
+  border-radius: 0.75em;
+}
+
+td, th {
+  height: 2em;
+  text-align: center;
+  color: #ffffff;
+  background-color: #374e9a;
+  font-weight: 900;
+  font-size: 18px;
+  padding: 1px;
+  border-radius: 0.75em;
+  letter-spacing: 4px;
+  border: 2px #3a3a3a solid;
+}
+
+th {
+  color: rgb(117, 193, 193);
+  font-size: 22px;
+  text-decoration: underline;
+}
+
+/* back to top href link */
+#top-button {
+  width: 60px;
+  color: midnightblue;
+  font-size: 20px;
+  font-weight:  600;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 50px;
+  padding: 5px;
+  border: 2px solid #3a3a3a;
+  border-radius: 60em;
+  background-color: #42b6c4;
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+#top-button:hover {
+  color: #42b6c4;
+  background-color: midnightblue;
 }
 
 /* footer links */
@@ -203,6 +286,7 @@ footer a {
 
 footer {
   text-align: center;
+  background: url('./images/silhouette.jpg');
 }
 
 .address {
