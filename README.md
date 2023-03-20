@@ -2,11 +2,11 @@
 
 The [Strong Gym Fitness](https://github.com/Issam-Allymis/S-G-F) Page is a web page that provides information about the gym's membership plans and pricing. The page is designed to be visually appealing and easy to navigate, with clear calls-to-action that encourage users to sign up for a membership.
 
-The Small Gym Fitness Page is built entirely using HTML and CSS, without the need for any additional programming languages or frameworks. The page includes information about each membership plan, such as the price, the duration, and the benefits of each plan.
+The Strong Gym Fitness Page is built entirely using HTML and CSS, without the need for any additional programming languages or frameworks. The page includes information about each membership plan, such as the price, the duration, and the benefits of each plan.
 
 The page also includes a membership sign-up form that users can fill out to become members of the gym. The form includes fields for personal information, such as name and email address, as well as options to select a membership plan and payment method.
 
-The Small Gym Fitness Page is designed to be responsive, meaning that it adjusts to different screen sizes and devices. This ensures that users can view and sign up for memberships on any device, whether they're using a desktop computer, tablet, or smartphone.
+The Strong Gym Fitness Page is designed to be responsive, meaning that it adjusts to different screen sizes and devices. This ensures that users can view and sign up for memberships on any device, whether they're using a desktop computer, tablet, or smartphone.
 
 
 # Gitpod Reminders
