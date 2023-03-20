@@ -80,18 +80,73 @@ h2 {
   height: 439px;
   width: 100%;
   overflow: hidden;
-
   position: relative;
 }
 
+/* blue information box to the bottom right */
 #cover-info, #cover-info h2 {
   color: #ffff;
+}
+
+#hero-image3 {
+  height: 900px;
+  width: 30%;
+  background: url('./images/main-classes.jpg') no-repeat right center;
+  float: right;
+  overflow: hidden;
+
+
+/* animates zoom effect on loading page */
+animation-name: hero-zoom;
+animation-duration: 4.5s;
+animation-fill-mode: forwards;
+
+}
+
+/* creats a level of zoom for the hero image */
+@keyframes hero-zoom {
+    from{
+         transform: scale(1.5)
+    }
+    to{
+        transform: scale(1.1);
+
+    }
+    
+}
+
+#hero-image2 {
+  height: 439px;
+  width: 30%;
+  background: url('./images/fitness-workout-group-team.avif') no-repeat right center;
+  position: absolute;
+  overflow: hidden;
+
+
+/* animates zoom effect on loading page */
+animation-name: hero-zoom;
+animation-duration: 4.5s;
+animation-fill-mode: forwards;
+
+}
+
+/* creats a level of zoom for the hero image */
+@keyframes hero-zoom {
+    from{
+         transform: scale(1.5)
+    }
+    to{
+        transform: scale(1.1);
+
+    }
+    
 }
 
 #hero-image {
   height: 439px;
   width: 100%;
-  background: url('./images/group-circle.jpg') repeat center center;
+  background: url('./images/group-circle.jpg') no-repeat center center;
+  overflow: hidden;
 
 
 /* animates zoom effect on loading page */
@@ -223,29 +278,40 @@ hr {
   background: url('./images/group-circle().jpg') no-repeat;
   height: 290px;
   border-radius: 20%;
+  box-shadow: 0 6px 11px 0 #3a3a3a, 0 1em 1em 0 #3a3a3a;
 }
 
 /* time table */
-#table {
+table {
   margin: 0 auto;
   border-radius: 0.75em;
+  box-shadow: 0 6px 13px 0 #3a3a3a, 0 1em 2em 0 #3a3a3a;
+  background-color: #000000;
 }
 
 td, th {
   height: 2em;
   text-align: center;
   color: #ffffff;
-  background-color: #374e9a;
+  background-color: #42b6c4;
   font-weight: 900;
   font-size: 18px;
   padding: 1px;
   border-radius: 0.75em;
   letter-spacing: 4px;
-  border: 2px #3a3a3a solid;
+  border: 2px #ffffff solid;
+}
+
+th,td:first-child {
+  background-color: #000000;
+}
+
+td:last-child {
+  background-color: #000000;
 }
 
 th {
-  color: rgb(117, 193, 193);
+  color: rgb(255, 255, 255);
   font-size: 22px;
   text-decoration: underline;
 }
@@ -258,22 +324,194 @@ th {
   font-weight:  600;
   text-align: center;
   margin: 0 auto;
-  margin-top: 50px;
+  margin-top: 300px;
   padding: 5px;
   border: 2px solid #3a3a3a;
   border-radius: 60em;
   background-color: #42b6c4;
   text-decoration: none;
-}
-
-a {
-  text-decoration: none;
+  box-shadow: 0 3px 9px 0 #3a3a3a, 0 0.2em 0.2em 0 #3a3a3a;
 }
 
 #top-button:hover {
   color: #42b6c4;
   background-color: midnightblue;
+  cursor: pointer;
 }
+#back-top {
+  border: 1px solid blue;
+  border-radius: 100%;
+  border-top: 1px solid green;
+  width: 20px;
+  height: 20px;
+  animation: rotate 2s linear infinite;
+  }
+  @keyframes rotate {
+    0% { transform: rotate(0deg);}
+    100%{ transform:rotate(360deg);}
+  }
+  
+  a {
+    text-decoration: none;
+  }
+
+/* collapsible text */
+.wrapper {
+  display: flex;
+  padding-top: 25px;
+  justify-content: center;
+}
+
+.collapsible {
+  max-width: 450px;
+  overflow: hidden;
+  font-weight: 600;
+}
+
+.collapsible input {
+  display: none;  /* gets rid of the checkbox*/
+}
+
+.collapsible label {
+  position: relative;
+  font-weight: 700;
+  box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.6), 0 4px 8px 0 rgba(0, 0, 0, 0.08);
+  color: #374e9a;
+  display: inline-block;
+  margin-bottom: 10px;
+  margin-top: 80px;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 0.75em;
+  z-index: 1;
+}
+
+.collapsible-text {
+  max-height: 1px;
+  overflow: hidden;
+  border-radius: 0.75em;
+  line-height: 1.6;
+  position: relative;
+  top: -100%;
+  opacity: 0.5;
+  transition: all 0.2s ease;
+}
+
+.collapsible input:checked ~ .collapsible-text {
+  max-height: 480px;
+  padding-bottom: 30px;
+  background: #372121;
+  box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.5), 0 4px 11px 0 rgba(0, 0, 0, 0.08);
+  opacity: 3;
+  top: 0;
+}
+
+.collapsible-text h2 {
+  margin-bottom: 10px;
+  padding: 15px 15px 0;
+  color: #374e9a;
+  text-align: center;
+}
+.collapsible-text p {
+  padding-left: 15px;
+  padding-right: 15px;
+  text-align: left;
+}
+
+/* weekend meet up blocks */
+#weekend {
+  width: 18%;
+ margin-top: 40px;
+ margin-left: 39.4%;
+ margin-right: hidden;
+}
+
+#weekend :hover {
+  background-color: #5c5c5c;
+}
+
+#weekend div {
+  width: 48%;
+  color: #ffffff;
+  border: 2px solid rgb(255, 255, 255);
+  height: 200px; 
+  display: inline-block;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  box-shadow: 0 5px 11px 0 hsla(0, 0%, 0%, 0.5), 0 4px 11px 0 hsla(0, 0%, 22%, 0.08);
+}
+#weekend {
+  background-image: url(./images/blue-cup2.webp);
+}
+
+/* monthly updates on beneficial foods */
+#food {
+  width: 27%;
+ margin-top: 60px;
+ margin-left: 35%;
+ margin-right: hidden;
+}
+
+#food :hover {
+  background-color: #5c5c5c;
+}
+
+#food div {
+  width: 31.8%;
+  color: #ffffff;
+  border: 2px solid rgb(255, 255, 255);
+  height: 200px; 
+  display: inline-block;
+  text-align: center;
+  background-color: rgb(0, 0, 0, 0.5);
+  box-shadow: 0 5px 11px 0 hsla(0, 0%, 22%, 0.5), 0 4px 11px 0 hsla(0, 0%, 22%, 0.08);
+}
+#food {
+  background-image: url(./images/blue-cup2.webp);
+}
+
+
+/* personal trainer div section */
+#personal-trainer {
+  margin-top: 80px;
+  text-align: center;
+}
+
+#personal-trainer div {
+  margin: 0 5% 0 5%;
+  display: inline;
+}
+
+#pt1 {
+  width: 300px;
+  height: 300px;
+  background-image: url();
+}
+
+#pt2 {
+  width: 300px;
+  height: 300px;
+  background-image: url();
+}
+
+#pt3 {
+  width: 300px;
+  height: 300px;
+  background-image: url();
+}
+
+#pt4 {
+  width: 300px;
+  height: 300px;
+  background-image: url();
+}
+
+#pt5 {
+  width: 300px;
+  height: 300px;
+  background-image: url();
+}
+
 
 /* footer links */
 a:hover {
@@ -281,16 +519,31 @@ a:hover {
 }
 
 footer a {
+ margin: 0 20px 0 20px;
+ font-size: 2em;
  text-decoration: none;
 }
 
 footer {
   text-align: center;
-  background: url('./images/silhouette.jpg');
 }
 
-.address {
+footer h3 {
+  font-size: 2.4em;
+}
+
+footer p {
+  margin-top: 20px;
+}
+
+iframe {
+  margin-bottom: 20px;
+  box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.5), 0 4px 15px 0 rgba(0, 0, 0, 0.08);
+}
+
+.address2 {
   font-size: 4em;
+  box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.5), 0 4px 15px 0 rgba(0, 0, 0, 0.08);
 }
 
 
