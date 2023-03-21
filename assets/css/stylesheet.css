@@ -13,7 +13,7 @@ body {
 
 /* headings and logo */
 h1, h2 {
-  color: rgb(86, 147, 204);
+  color: #5693CC;
   font-size: 250%;
   font-family: Oswald, sans-serif;
   text-transform: uppercase;
@@ -21,7 +21,7 @@ h1, h2 {
 }
 
 h4 {
-  color: rgb(86, 147, 204);
+  color: #5693CC;
   font-size: 2.5em;
   text-transform: uppercase;
   text-align: center;
@@ -70,6 +70,7 @@ h2 {
   border-right: 5.5px solid #3a3a3a;
 }
 
+/* indicates to the user what page they are on */
 .current {
   border-left: 1px solid #3a3a3a;
   border-right: 1px solid #3a3a3a
@@ -169,7 +170,7 @@ animation-fill-mode: forwards;
 }
 
 p {
-  color: rgb(86, 147, 204);
+  color: #5693CC;
 }
 
 #cover-info {
@@ -209,6 +210,7 @@ p {
 .reason-p {
   font-size: 18px;
   color: #3a3a3a;
+  border-bottom: 2px solid #5693CC;
 }
 
 #center-reason {
@@ -269,7 +271,7 @@ hr {
   height: 295px;
   padding: 20px;
   border-radius: 20%;
-  border: 0.1em solid #42b600;
+  border: 0.1em solid #5693CC;
   margin: 0 auto;
   background: whitesmoke;
 }
@@ -293,7 +295,7 @@ td, th {
   height: 2em;
   text-align: center;
   color: #ffffff;
-  background-color: #42b6c4;
+  background-color: #359eb1;
   font-weight: 900;
   font-size: 18px;
   padding: 1px;
@@ -302,11 +304,11 @@ td, th {
   border: 2px #ffffff solid;
 }
 
-th,td:first-child {
+th,td:first-child { /*targets first column on timetable. (including table data and table heading)*/
   background-color: #000000;
 }
 
-td:last-child {
+td:last-child { /*targets last column on timetable. (excluding the table heading)*/
   background-color: #000000;
 }
 
@@ -324,7 +326,7 @@ th {
   font-weight:  600;
   text-align: center;
   margin: 0 auto;
-  margin-top: 300px;
+  margin-top: 80px;
   padding: 5px;
   border: 2px solid #3a3a3a;
   border-radius: 60em;
@@ -338,14 +340,16 @@ th {
   background-color: midnightblue;
   cursor: pointer;
 }
+
 #back-top {
-  border: 1px solid blue;
+  border: 1px solid #3a3a3a;
   border-radius: 100%;
-  border-top: 1px solid green;
+  border-top: 1px solid #5693CC;
   width: 20px;
   height: 20px;
   animation: rotate 2s linear infinite;
   }
+
   @keyframes rotate {
     0% { transform: rotate(0deg);}
     100%{ transform:rotate(360deg);}
@@ -372,11 +376,12 @@ th {
   display: none;  /* gets rid of the checkbox*/
 }
 
-.collapsible label {
+/*z-index property isn't neccessary, the label is still clickable with or without it. (left there to create stack order)*/
+.collapsible label { 
   position: relative;
   font-weight: 700;
   box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.6), 0 4px 8px 0 rgba(0, 0, 0, 0.08);
-  color: #374e9a;
+  color: #5693CC;
   display: inline-block;
   margin-bottom: 10px;
   margin-top: 80px;
@@ -390,7 +395,7 @@ th {
   max-height: 1px;
   overflow: hidden;
   border-radius: 0.75em;
-  line-height: 1.6;
+  line-height: 1.5;
   position: relative;
   top: -100%;
   opacity: 0.5;
@@ -400,7 +405,7 @@ th {
 .collapsible input:checked ~ .collapsible-text {
   max-height: 480px;
   padding-bottom: 30px;
-  background: #372121;
+  background: #3e3e3e;
   box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.5), 0 4px 11px 0 rgba(0, 0, 0, 0.08);
   opacity: 3;
   top: 0;
@@ -421,19 +426,18 @@ th {
 /* weekend meet up blocks */
 #weekend {
   width: 18%;
- margin-top: 40px;
- margin-left: 39.4%;
- margin-right: hidden;
+  margin-top: 40px;
+  transform: translateX(220%);
 }
 
-#weekend :hover {
-  background-color: #5c5c5c;
+#weeend :hover {
+  background-color: #ffffff;
 }
 
 #weekend div {
-  width: 48%;
+  width: 46.8%;
   color: #ffffff;
-  border: 2px solid rgb(255, 255, 255);
+  border: 3.5px solid rgb(255, 255, 255);
   height: 200px; 
   display: inline-block;
   text-align: center;
@@ -448,18 +452,17 @@ th {
 #food {
   width: 27%;
  margin-top: 60px;
- margin-left: 35%;
- margin-right: hidden;
+ transform: translateX(131%);
 }
 
-#food :hover {
-  background-color: #5c5c5c;
+#foo:hover {
+  background-color: hsla(150, 20, 25, 0.3);
 }
 
 #food div {
-  width: 31.8%;
+  width: 31%;
   color: #ffffff;
-  border: 2px solid rgb(255, 255, 255);
+  border: 3.5px solid rgb(255, 255, 255);
   height: 200px; 
   display: inline-block;
   text-align: center;
@@ -471,45 +474,42 @@ th {
 }
 
 
-/* personal trainer div section */
-#personal-trainer {
-  margin-top: 80px;
+#personal-trainers {
+  width: 100%;
+}
+
+#personal-trainers h2 {
+  font-size: 2.4em;
   text-align: center;
+  margin-top: 80px;
 }
 
 #personal-trainer div {
   margin: 0 5% 0 5%;
-  display: inline;
 }
 
-#pt1 {
-  width: 300px;
-  height: 300px;
-  background-image: url();
+#personal-trainers h3 {
+  color: #42b6c6;
 }
 
-#pt2 {
-  width: 300px;
-  height: 300px;
-  background-image: url();
+.column {
+  float: left;
+  width: 100%;
+  text-align: center;
+  position: relative;
+  clear: both;
 }
 
-#pt3 {
-  width: 300px;
-  height: 300px;
-  background-image: url();
+.row {
+  text-align: center;
+  margin: 0;
+  margin-top: 50px;
+  border-radius: 5em;
+  display: inline-block;
 }
 
-#pt4 {
-  width: 300px;
-  height: 300px;
-  background-image: url();
-}
-
-#pt5 {
-  width: 300px;
-  height: 300px;
-  background-image: url();
+.rounded-image {
+  border-radius: 50%;
 }
 
 
@@ -519,7 +519,8 @@ a:hover {
 }
 
 footer a {
- margin: 0 20px 0 20px;
+  color: #5693CC;
+ margin: 0 10% 0 10%;
  font-size: 2em;
  text-decoration: none;
 }
@@ -546,4 +547,12 @@ iframe {
   box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.5), 0 4px 15px 0 rgba(0, 0, 0, 0.08);
 }
 
+/* gallery section */
+#photos {
+  line-height: 0;
+  column-gap: 0;
+  column-count: 3;
+  clear: both;
+  box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.5), 0 4px 15px 0 rgba(0, 0, 0, 0.08);
+}
 
