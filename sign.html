@@ -21,10 +21,29 @@
       </nav>
       </header>
 
-        <section>
-            <div>Sign Up Section</div>
+        <section class="form-section">
+            <form action="https://8000-issamallymis-sgf-e3kea5k2trb.ws-eu92.gitpod.io/" method="POST" class="signup">
+              <h2>Sign Up And Join Our Team!</h2>
+
+                <label for="fname">First Name</label>
+                <input id="fname" type="text" name="first_name" class="form-input" required>
+
+                <label for="lname">Last Name</label>
+                <input id="lname" type="text" name="last_name" class="form-input" required>
+
+                <label for="email">Email Address</label>
+                <input id="email" type="email" name="email_address" class="form-input" required>
+
+                <label for="credit">Credit Card</label>
+                <input type="radio" id="credit" value="credit" name="card-type" required>
+
+                <label for="debit">Debit Card</label>
+                <input type="radio" id="debit" value="debit" name="card-type">
+
+                <input class="join" type="submit" value="Join Now"> <i class="fa-solid fa-check"></i>
+            </form>
         </section>
-        <br><br><br><br><br><br><br><br><br><br>
+       <br>
       <section>
       <footer>
       <!-- links to our page for more information  -->
