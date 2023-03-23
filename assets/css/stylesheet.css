@@ -624,16 +624,22 @@ label {
 
 /* for larger screens size from 1250px and down */
 @media screen and (max-width:1250px) {
+
   #menu {
     clear:both;
     float: left;
+    margin-left: 5%;
   }
 
   #strong-with-us {
   width: 100%;
   float: left;
-  height: 1350px;
+  height: 1500px;
   margin: 0 auto;
+ }
+
+ #strong-with-us > div {
+  margin-bottom: 100px;
  }
 
  #reason {
@@ -664,8 +670,11 @@ label {
   width: 45.7%;
 }
 
+/* i made the photos section 98% as to align the photos with the footer and to prevent image over-flow */
 #photos {
   column-count: 2;
+  position: relative;
+  width: 98%;
 }
 
 table {
@@ -680,9 +689,6 @@ tbody {
   flex-direction: column;
 }
 
-th {
-  width: 3000px;
-}
 
 td:first-child {
   margin-bottom: 10px;
@@ -699,6 +705,7 @@ th:first-child {
 
 /* for smaller screen sized 800px wide and down */
  @media screen and (max-width:800px) {
+
   tbody tr {
     display: flex;
     margin-bottom: 10px;
