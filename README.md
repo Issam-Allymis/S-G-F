@@ -9,35 +9,42 @@ The page also includes a membership sign-up form that users can fill out to beco
 The Strong Gym Fitness Page is designed to be responsive, meaning that it adjusts to different screen sizes and devices. This ensures that users can view and sign up for memberships on any device, whether they're using a desktop computer, tablet, or smartphone.
 
 
-# Gitpod Reminders
+#User Experience (UX)
+##Goals
+**The target audience for the Strong Gym Fitness website:**
+- people who want a sturdy guidance towards great change physically and mentally.
+- People who want nutritional health insight for overall wellness.
+- People who want to be a part of a community full of like minded people.
+- people who want a sturdy guidance towards great change physically and mentally.
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+**User goals are:**
+- To intuitively navigating throught the different sections in the site, by using the menu and back to top button.
+- Users may visit the website on a mobile/tablet device with the goal of accessing the site in a mobile-optimized/tablet-optimized format that is easy to read and navigate.
+- To access the sites content in an accessible format, including semantic structure.
+- To cater to the visually impaired with the use of the alt attribute.
+- Users may visit the website with the goal of viewing the gym's class schedule.
 
-`python3 -m http.server`
+###First Time Visitors
+- To find the services offered
+- To attain dietry and nutritional knowledge
+- To learn what the gym is about
+- To learn correct form and workout tips
 
-A blue button should appear to click: _Make Public_,
+###Returning Visitor Goals
+- To refresh/increase dietry and nutritonal knowledge.
+- To find out if there are any new deals or offerings available.
 
-Another blue button should appear to click: _Open Browser_.
+###Frequent Visitor Goals
+- To learn new effective workouts with correct form from a professional.
+- To icrease knowledge in diet and nutrition and spread the knowledge.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+#Design
+##Typography
+Google Fonts was used for:
+- Quicksand is used for the heading of the site.
+- Oswald is used for the body text of the site.
 
-A blue button should appear to click: _Make Public_,
 
-Another blue button should appear to click: _Open Browser_.
-
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
-
-To log into the Heroku toolbelt CLI:
-
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
-
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
-
-------
 
 
 Happy coding!
