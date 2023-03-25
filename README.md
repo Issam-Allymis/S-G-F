@@ -44,6 +44,9 @@ Google Fonts was used for:
 - Quicksand is used for the heading of the site.
 - Oswald is used for the body text of the site.
 
+## Color Scheme
+[Color-hex.com](https://www.color-hex.com/color-palette/1023831)
+
 
 
 
