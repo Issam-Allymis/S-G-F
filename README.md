@@ -44,9 +44,9 @@ Google Fonts was used for:
 - Quicksand is used for the heading of the site.
 - Oswald is used for the body text of the site.
 
-## Color Scheme
-[Color-hex.com](https://www.color-hex.com/color-palette/1023831)
-[color palette](https://github.com/Issam-Allymis/S-G-F/commit/5fd9a374f1a3bf4e2f823aacb68e7db200e5cad2#diff-3b626210580051a5c626540e5107779cf3688a0670f885c77a8e15287b0e2098)
+## Colour Scheme
+- [Color-hex.com](https://www.color-hex.com/color-palette/1023831)
+- [color palette](https://github.com/Issam-Allymis/S-G-F/commit/5fd9a374f1a3bf4e2f823aacb68e7db200e5cad2#diff-3b626210580051a5c626540e5107779cf3688a0670f885c77a8e15287b0e2098)
 
 
 
