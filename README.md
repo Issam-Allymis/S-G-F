@@ -46,7 +46,7 @@ Google Fonts was used for:
 
 ## Colour Scheme
 - [Color-hex.com](https://www.color-hex.com/color-palette/1023831)
-- [color palette](https://github.com/Issam-Allymis/S-G-F/commit/5fd9a374f1a3bf4e2f823aacb68e7db200e5cad2#diff-3b626210580051a5c626540e5107779cf3688a0670f885c77a8e15287b0e2098)
+- ![color palette](https://user-images.githubusercontent.com/126810074/227796932-ad18b931-f7ea-44c2-a2ce-2ae51ad371dc.png)
 
 
 
