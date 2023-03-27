@@ -13,7 +13,7 @@ body {
 }
 
 marquee {
-  background-color: #2b3445;
+  background-color: #314660;
 }
 
 /* headings and logo */
@@ -202,14 +202,19 @@ p {
   padding-top: 30px;
   width: 33%;
   float: left;
+  margin-bottom: 0;
   border-radius: 0.75em;
+  background-color: #2b3445;
 }
 
 #right-reason {
   padding-top: 30px;
   width: 33%;
   float: right;
+  text-align: center;
+  margin-bottom: 0;
   border-radius: 0.75em;
+  background-color: #2b3445;
 }
 
 .reason-p {
@@ -228,8 +233,9 @@ p {
   text-align: center;
 }
 
+/* targetted towards text inside the marquee tag */
 #happy-customer {
-  background-color: #2b3445;
+  background-color: #314660;
   text-align: center;
   font-size: 6em;
   margin-left: 6px;
@@ -244,6 +250,7 @@ hr {
 #reason {
   margin-top: 60px;
   font-size: 300%;
+  background-color: #2b3445;
 }
 
 .left-reason-about {
@@ -269,7 +276,7 @@ hr {
   border-radius: 20%;
   border: 0.1em solid #4289de;
   margin: 0 auto;
-  background: whitesmoke;
+  background: #2b3445;;
 }
 
 #center-inner-img {
@@ -465,21 +472,25 @@ th {
 }*/
 
 #food div {
-  width: 31%;
+  width: 100%;
   color: #ffffff;
-  border: 3.5px solid rgb(255, 255, 255);
+  border: 1.5px solid rgb(255, 255, 255);
   border-radius: 0.75em;
-  height: 200px; 
-  display: inline-block;
+  font-weight: 850;
+  height: 215px; 
+  display: inline-flexbox;
   text-align: center;
   background-color: rgb(0, 0, 0, 0.5);
   box-shadow: 0 5px 11px 0 hsla(0, 0%, 22%, 0.5), 0 4px 11px 0 hsla(0, 0%, 22%, 0.08);
 }
 #food {
-  background-image: url(./images/blue-cup2.webp);
+  background-image: url(./images/colorful-fruits-and-vegetables\ \(1\).jpg);
   border-radius: 0.75em;
 }
 
+#food div h3 {
+  font-size: 2.5em;
+}
 
 #personal-trainers {
   width: 100%;
@@ -649,9 +660,9 @@ label {
 @media screen and (max-width:1250px) {
 
 #menu {
-    clear: both;
-    float: left;
-    margin-left: 3%;
+  clear: both;
+  float: left;
+  margin-left: 3%;
   }
 
 #strong-with-us {
@@ -670,12 +681,18 @@ label {
   padding: 15px 0;
  }
 
-#left-reason, #right-reason {
-  width: 100%;
-  float: left;
-  height: 340px;
+#left-reason {
+  padding-top: 30px;
+  width: 40%;
  }
-  
+
+ #right-reason {
+  padding-top: 30px;
+  width: 40%;
+  float: right;
+  margin-left: 10px;
+}
+
 #center-reason {
   clear:both;
   width: 100%;
@@ -686,7 +703,8 @@ hr {
  }
 
 #food div {
-  width:29.5%;
+  width:100%;
+  height: 325px;
 }
 
 #weekend div {
@@ -767,6 +785,10 @@ table {
 
 }
 
+#left-reason, #right-reason {
+  float: left;
+}
+
 #strong-with-us {
   width: 100%;
   float: left;
@@ -780,6 +802,7 @@ table {
 
  #food div {
   width:100%;
+  height: 400px;
 }
 
 #weekend div {
@@ -790,7 +813,6 @@ table {
   height: 1500px;
   clear: both;
   background-image: url(./images/hunger-for-success.jpg);
-  background: ;
   box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.5)
 }
 
@@ -828,6 +850,12 @@ table {
   transform: translateX(85px);
   text-align: center;
   margin-top: 52px;
+}
+
+.workout-plan {
+  position: relative;
+  float: left;
+  margin-left: 50px;
 }
 
 tr{
