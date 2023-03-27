@@ -72,6 +72,6 @@ Our timetable displays all the training classes available to gym members from mo
 Each class is led by a professional trainer who provides helpful training tips to attendees. Each trainer ensures that attendees perform each exercise with correct form and maximum effort. Correct form is essential to reduce the risk of injury and achieve faster, more effective results.
 
 ### Icons
-The icons used on this website are sourced from [Font Awesome](https://fontawesome.com/search?o=r&m=free&f=brands%2Cclassic), and can be found throughout the header, body, and footer sections.
+The icons used on this website are sourced from [Font Awesome](https://fontawesome.com/), and can be found throughout the header, body, and footer sections.
 
 Happy coding!
