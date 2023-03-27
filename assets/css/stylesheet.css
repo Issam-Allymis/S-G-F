@@ -312,10 +312,6 @@ th,td:first-child { /*targets first column on timetable. (including table data a
   background-color: #000000;
 }
 
-td:last-child { /*targets last column on timetable. (excluding the table heading)*/
-  background-color: #000000;
-}
-
 th {
   color: rgb(255, 255, 255);
   font-size: 22px;
@@ -769,24 +765,42 @@ hr {
   width: 70%;
 }
 
-table {
-  display: flex;
-  flex-direction: column;
 }
 
+/* for medium screens size from 800px and down */
+@media screen and (max-width:1000px) {
+  
+  #food div {
+    width:100%;
+    height: 400px;
+  }
+  
+  #weekend div {
+    width: 100%;
+  }
+
+  /* Gallery */
+  #photos {
+    column-count: 2;
+    position: relative;
+    width: 98%;
+  }
 }
 
-/* for larger screens size from 800px and down */
+/* for smaller screens size from 800px and down */
 @media screen and (max-width:800px) {
 
 #menu {
   clear: both;
   float: left;
-
 }
 
-#left-reason, #right-reason {
+#left-reason {
   float: left;
+}
+
+#right-reason {
+  float: right;
 }
 
 #strong-with-us {
@@ -800,6 +814,28 @@ table {
   margin-bottom: 200px;
  }
 
+table, table tbody, table, tr, table td {
+  display: block;
+  width: 99%;
+}
+
+table tr {
+  margin-bottom: 10px;
+}
+
+table td {
+  text-align: right;
+  position: relative;
+}
+
+table td::before {
+  content: attr(data-label);
+  position: absolute;
+  left: 0;
+  width: 50%;
+  padding-left: 15px;
+}
+
  #food div {
   width:100%;
   height: 400px;
@@ -807,6 +843,12 @@ table {
 
 #weekend div {
   width: 100%;
+}
+
+#photos {
+  column-count: 2;
+  position: relative;
+  width: 98%;
 }
 
 .form-section {
@@ -852,17 +894,4 @@ table {
   margin-top: 52px;
 }
 
-.workout-plan {
-  position: relative;
-  float: left;
-  margin-left: 50px;
-}
-
-tr{
-  width: 100%;
-}
-td {
-  width: 70%;
-  display: list-item;
-}
 }
