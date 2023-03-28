@@ -88,7 +88,7 @@ Google Fonts was used for:
  ### Contact Form
  ![Screenshot 2023-03-27 152256](https://user-images.githubusercontent.com/126810074/228064618-99c0cc27-2247-4af1-832e-ca9d98bc99b3.png)
 
-- The contact form lets user input their personal information which includes their first and last name, their email address and indicate whether they want to join the gym to train with a group or solo when signing up. The web page also includes a motivational message to encourage our customers to take action and sign up, so they can start pursuing their dreams and achieve their body goals.
+- The contact form lets user input their personal information which includes their first and last name, their email address and indicate whether they want to join the gym to train with a group or solo when signing up. The web page also includes a motivational message to encourage our customers or potential customers to take action and sign up, so they can start pursuing their dreams and achieve their body goals.
 
 
 Happy coding!
