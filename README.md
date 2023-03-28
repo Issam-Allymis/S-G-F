@@ -1,4 +1,5 @@
 # Strong Gym Fitness
+![strong gym](https://user-images.githubusercontent.com/126810074/228272157-f6de8617-618c-4ba8-a97b-d3eb50580754.svg)
 
 The [Strong Gym Fitness](https://github.com/Issam-Allymis/S-G-F) Page is a web page that provides information about the gym's membership plans and pricing. The page is designed to be visually appealing and easy to navigate, with clear calls-to-action that encourage users to sign up for a membership.
 
@@ -10,6 +11,7 @@ The Strong Gym Fitness Page is designed to be responsive, meaning that it adjust
 
 
 # User Experience (UX)
+
 ## Goals
 **The target audience for the Strong Gym Fitness website:**
 - indiviudals who want a sturdy guidance towards great change physically and mentally.
@@ -66,7 +68,7 @@ Google Fonts was used for:
 - The navigation bar is located at the top of the page wrapped inside the header element. My menu is designed to make it simple for users to easily navigate through    pages. I added a hover effect to the menu to make the user experience more visually appealing and clean. I have designed the menu to highlight the current page a user is on, providing a clear indication of the user's location and reducing confusion for a better user experience. 
 
 ### Timetable
-![Screenshot 2023-03-27 151924](https://user-images.githubusercontent.com/126810074/228066274-c1923ff6-3992-4c01-b3e3-5057e03ba3f7.png)
+![Screenshot 2023-03-28 143314](https://user-images.githubusercontent.com/126810074/228271801-a1663e01-ef57-474f-a12c-0d44227eaa50.png)
 
 - Our timetable displays all the training classes available to gym members from morning until early afternoon. Our gym offers classes from Monday to Friday. On weekends, we encourage gym-goers to attend a coffee meetup with fellow members and personal trainers to connect and get to know each other better over a cup of coffee.
 
