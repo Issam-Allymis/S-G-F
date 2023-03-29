@@ -1,5 +1,5 @@
 # Strong Gym Fitness
-![strong gym](https://user-images.githubusercontent.com/126810074/228272157-f6de8617-618c-4ba8-a97b-d3eb50580754.svg)
+![strong gym b (1)](https://user-images.githubusercontent.com/126810074/228396407-d16a2bda-2f19-4b34-a181-6c7bb6aa12f2.svg)
 
 The [Strong Gym Fitness](https://github.com/Issam-Allymis/S-G-F) Page is a web page that provides information about the gym's membership plans and pricing. The page is designed to be visually appealing and easy to navigate, with clear calls-to-action that encourage users to sign up for a membership.
 
@@ -51,7 +51,7 @@ Google Fonts was used for:
 - [Color-hex.com](https://www.color-hex.com/color-palette/1023831)
 - ![color palette](https://user-images.githubusercontent.com/126810074/227796932-ad18b931-f7ea-44c2-a2ce-2ae51ad371dc.png)
 
-**I chose these colours because**
+**I chose these colours because:**
 - Blue is often associated with trust, reliability, and professionalism, which could be desirable qualities for a gym to convey to its customers.
 - Blue is also a calming colour that can evoke a sense of tranquility and relaxation. This could be appealing to gym-goers who want to feel at ease while working out.
 - The combination of blue shades with the darker gray and black tones creates a pleasing contrast that can make the design more visually interesting.
@@ -91,6 +91,13 @@ Google Fonts was used for:
  ![Screenshot 2023-03-27 152256](https://user-images.githubusercontent.com/126810074/228064618-99c0cc27-2247-4af1-832e-ca9d98bc99b3.png)
 
 - The contact form lets user input their personal information which includes their first and last name, their email address and indicate whether they want to join the gym to train with a group or solo when signing up. The web page also includes a motivational message to encourage our customers or potential customers to take action and sign up, so they can start pursuing their dreams and achieve their body goals.
+
+# Testing
+
+### Mobile
+![Screenshot 2023-03-28 154209](https://user-images.githubusercontent.com/126810074/228396788-8e6930be-093a-4353-adcc-cd167da91bb5.png)
+### Desktop
+![Screenshot 2023-03-28 154223](https://user-images.githubusercontent.com/126810074/228396806-70a3048a-9184-4f7e-a593-eaabb2c4ec17.png)
 
 
 Happy coding!
