@@ -125,6 +125,7 @@ As part of the planning stage, I used [Balsamiq](https://balsamiq.com/) to creat
 - [Gitpod:](https://www.gitpod.io/) IDE for project development.
 
 # Testing
+The Strong Gym website should be designed to be responsive, ensuring that all content and images stack on top of each other when viewed on mobile or tablet devices. This allows a clean and organised feel of the page.
 
 ### Mobile
 ![Screenshot 2023-03-28 154209](https://user-images.githubusercontent.com/126810074/228396788-8e6930be-093a-4353-adcc-cd167da91bb5.png)
