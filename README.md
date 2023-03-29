@@ -69,6 +69,7 @@ As part of the planning stage, I used [Balsamiq](https://balsamiq.com/) to creat
 
  ![Screenshot 2023-03-2 153852](https://user-images.githubusercontent.com/126810074/228578741-04a4740e-9e3a-4386-8d90-326caa88f9f4.png)
  
+ - The sign-up page layout closely resembles the wireframe, with a few additional features such as a motivational speech and a dropdown list showcasing all the gym membership deals available at Strong Gym, providing customers with a better understanding of what the gym has to offer.
 
 # Feautures
 ## Page Elements
@@ -110,11 +111,18 @@ As part of the planning stage, I used [Balsamiq](https://balsamiq.com/) to creat
 ## Languages Used
 - [HTML](https://en.wikipedia.org/wiki/HTML)
 - [CSS3](https://en.wikipedia.org/wiki/CSS)
+- 
+## Libraries
 - [Google Fonts](https://fonts.google.com/)
   - Google Font was used as a Font-family for the contents of the website.
 - [Font Awesome](https://fontawesome.com/)
   - Used in the header, footer and body contents throughout the website.
-- 
+- [Balsamiq](https://balsamiq.com/)
+  - Used to create the projected layout of the website.
+  
+  ## Platforms 
+- [Github:](https://github.com/) Used for storing code remotely and for project deployment.
+- [Gitpod:](https://www.gitpod.io/) IDE for project development.
 
 # Testing
 
