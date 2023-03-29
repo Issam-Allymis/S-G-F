@@ -57,9 +57,19 @@ Google Fonts was used for:
 - The combination of blue shades with the darker gray and black tones creates a pleasing contrast that can make the design more visually interesting.
  
 # Wireframes
+As part of the planning stage, I used [Balsamiq](https://balsamiq.com/) to create wireframes. This helped me to get a general idea of how I wanted to design the website. Some of the initial ideas I had for the website may have changed during the development process. The shift in ideas came from external feedback and personal reflection.
+ ![Screenshot 2023-03-2 155134](https://user-images.githubusercontent.com/126810074/228578633-a0b4713b-4111-4317-9d4b-332d5562671a.png)
  
+ - To increase the content on the homepage, additional features have been added to the layout, enhancing its overall design. On the homepage you can find information regarding the timetable, nutritional foods along with their benefits and reasons to workout.
+
+
+ ![Screenshot 2023-03-2 152952](https://user-images.githubusercontent.com/126810074/228579177-4fe3e92f-3fe4-4d23-97b6-e8c16e21559c.png)
  
+ - I chose to use the masonry layout for the gallery page on my website as I felt it was the best fit at the time. Additionally, I added an embedded YouTube video, which was not included in the original gallery wireframe design.
+
+ ![Screenshot 2023-03-2 153852](https://user-images.githubusercontent.com/126810074/228578741-04a4740e-9e3a-4386-8d90-326caa88f9f4.png)
  
+
 # Feautures
 ## Page Elements
 ### Navigation Bar
@@ -87,10 +97,24 @@ Google Fonts was used for:
  
 - The footer, which uses the same [Font Awesome](https://fontawesome.com/) icons throughout, is located at the bottom of every page to maintain visual consistency. Each icon are linked to their corresponding social media websites for customers who want to know more about the gym and recieve the latest updates.
  
- ### Contact Form
+ ### Video
+ ![Screenshot 2023-03-29 144523](https://user-images.githubusercontent.com/126810074/228558443-f7e62442-fa9f-42bf-a2b4-0424836cd257.png)
+- This video can be found in the gallery section, and all video controls are available to the user for playback, including the ability to control the volume. for user experience the video has been set to mute by default.
+
+ ### Sign Up Page
  ![Screenshot 2023-03-27 152256](https://user-images.githubusercontent.com/126810074/228064618-99c0cc27-2247-4af1-832e-ca9d98bc99b3.png)
 
 - The contact form lets user input their personal information which includes their first and last name, their email address and indicate whether they want to join the gym to train with a group or solo when signing up. The web page also includes a motivational message to encourage our customers or potential customers to take action and sign up, so they can start pursuing their dreams and achieve their body goals.
+
+# Technologies
+## Languages Used
+- [HTML](https://en.wikipedia.org/wiki/HTML)
+- [CSS3](https://en.wikipedia.org/wiki/CSS)
+- [Google Fonts](https://fonts.google.com/)
+  - Google Font was used as a Font-family for the contents of the website.
+- [Font Awesome](https://fontawesome.com/)
+  - Used in the header, footer and body contents throughout the website.
+- 
 
 # Testing
 
