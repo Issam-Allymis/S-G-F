@@ -1,4 +1,6 @@
 # Strong Gym Fitness
+![Screenshot 2023-03-28 231336](https://user-images.githubusercontent.com/126810074/228635110-98dd66a9-371f-4d51-97fa-561716a3f16b.png)
+
 ![strong gym b (1)](https://user-images.githubusercontent.com/126810074/228396407-d16a2bda-2f19-4b34-a181-6c7bb6aa12f2.svg)
 
 The [Strong Gym Fitness](https://github.com/Issam-Allymis/S-G-F) Page is a web page that provides information about the gym's membership plans and pricing. The page is designed to be visually appealing and easy to navigate, with clear calls-to-action that encourage users to sign up for a membership.
