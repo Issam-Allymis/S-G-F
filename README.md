@@ -16,11 +16,10 @@ The Strong Gym Fitness Page is designed to be responsive, meaning that it adjust
 
 ## Goals
 **The target audience for the Strong Gym Fitness website:**
-- indiviudals who want a sturdy guidance towards great change physically and mentally.
+- indiviudals who want a sturdy guide plan towards great change physically and mentally.
 - indiviudals who want nutritional health insight for overall wellness.
 - indiviudals who want to be a part of a community full of like minded people.
-- indiviudals who want a sturdy guidance towards great change physically and mentally.
-- 
+- indiviudals who want a new and improved lifestyle
 
 **User goals are:**
 - To intuitively navigating through the different sections in the site, by using the menu and back to top button.
@@ -51,7 +50,7 @@ Google Fonts was used for:
 
 ## Colour Scheme
 - [Color-hex.com](https://www.color-hex.com/color-palette/1023831)
-- ![color palette](https://user-images.githubusercontent.com/126810074/227796932-ad18b931-f7ea-44c2-a2ce-2ae51ad371dc.png)
+![color palette](https://user-images.githubusercontent.com/126810074/227796932-ad18b931-f7ea-44c2-a2ce-2ae51ad371dc.png)
 
 **I chose these colours because:**
 - Blue is often associated with trust, reliability, and professionalism, which could be desirable qualities for a gym to convey to its customers.
@@ -113,7 +112,7 @@ As part of the planning stage, I used [Balsamiq](https://balsamiq.com/) to creat
 ## Languages Used
 - [HTML](https://en.wikipedia.org/wiki/HTML)
 - [CSS3](https://en.wikipedia.org/wiki/CSS)
-- 
+
 ## Libraries
 - [Google Fonts](https://fonts.google.com/)
   - Google Font was used as a Font-family for the contents of the website.
