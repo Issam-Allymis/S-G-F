@@ -162,4 +162,11 @@ See image below
   ![Screenshot 2023-03-30 130802](https://user-images.githubusercontent.com/126810074/228833355-9a3f8596-cd82-4e4d-adee-2eda4e2d8cf6.png)
   ![Screenshot 2023-03-30 133353](https://user-images.githubusercontent.com/126810074/228837230-fb1f4516-4766-4f18-a599-2d53ebbd4179.png)
 
+# Deployment 
+## GitHub 
+ **This this site was deployed using GitHub Pages following these steps listed below**:
+ 1
+ 2
+ 3
+
 Happy coding!
