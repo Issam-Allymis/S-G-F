@@ -182,6 +182,8 @@ See image below
 
 - Gallery images found here [class.pass.com](https://classpass.com/classes/athens-health-and-fitness-athens-nulj/pump-16fecc0bd46)
 
+- Gallery images found here [fitnessrepublic](https://wwws.fitnessrepublic.com/action/workout-challenges)
+
 - Gallery images found here [source](https://www.evolveyou.app/blog/commit-with-melissa-kendter-new-improved-guides) 
 
 - Gallery images found here [source](https://www.istockphoto.com/photo/every-step-taken-towards-fitness-pays-off-gm966295656-263660735) 
