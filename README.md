@@ -167,6 +167,7 @@ See image below
  **This this site was deployed using GitHub Pages following these steps listed below**:
  1. Log into GitHub and [GitHub Repository](https://github.com/Issam-Allymis?tab=repositories). This is where the project is located.
  2. Find the project's navbar and select the 'Settings' tab.
- 3
+ 3. in the settings page on the left hand side of the page, find "pages" under "Code and  automation" 
+ 4. 
 
 Happy coding!
