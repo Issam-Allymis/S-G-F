@@ -180,7 +180,7 @@ See image below
 
 - Gallery images found here [source](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.nit.pt%2Ffit%2Fha-uma-nova-aula-em-lisboa-que-mistura-spinning-e-musculacao&psig=AOvVaw1Y0a89sNSBgd5rpuaksaqW&ust=1679925971207000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCLjmlIni-f0CFQAAAAAdAAAAABAE) 	
 
-- Gallery images found here [source](https://www.nit.pt/wp-content/uploads/2020/02/e8a40b71ecc477d73877d432a5bdabd2.jpg)
+- Gallery images found here [class.pass.com](https://classpass.com/classes/athens-health-and-fitness-athens-nulj/pump-16fecc0bd46)
 
 - Gallery images found here [source](https://www.evolveyou.app/blog/commit-with-melissa-kendter-new-improved-guides) 
 
