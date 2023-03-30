@@ -176,14 +176,14 @@ See image below
 
 - The image quote was found on [wallpapercave.com](https://wallpapercave.com/bodybuilding-iphone-wallpapers)
 
-- One of the Gallery images found here [source](https://www.healthline.com/health-news/women-urged-to-exercise-vigorously-to-stay-heart-healthy) 
+- Gallery images found here [healthline.com](https://www.healthline.com/health-news/women-urged-to-exercise-vigorously-to-stay-heart-healthy) 
 
-- One of the Gallery images found here [source](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.nit.pt%2Ffit%2Fha-uma-nova-aula-em-lisboa-que-mistura-spinning-e-musculacao&psig=AOvVaw1Y0a89sNSBgd5rpuaksaqW&ust=1679925971207000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCLjmlIni-f0CFQAAAAAdAAAAABAE) 	
+- Gallery images found here [source](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.nit.pt%2Ffit%2Fha-uma-nova-aula-em-lisboa-que-mistura-spinning-e-musculacao&psig=AOvVaw1Y0a89sNSBgd5rpuaksaqW&ust=1679925971207000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCLjmlIni-f0CFQAAAAAdAAAAABAE) 	
 
-- One of the Gallery images found here [source](https://www.nit.pt/wp-content/uploads/2020/02/e8a40b71ecc477d73877d432a5bdabd2.jpg)
+- Gallery images found here [source](https://www.nit.pt/wp-content/uploads/2020/02/e8a40b71ecc477d73877d432a5bdabd2.jpg)
 
-- One of the Gallery images found here [source](https://www.evolveyou.app/blog/commit-with-melissa-kendter-new-improved-guides) 
+- Gallery images found here [source](https://www.evolveyou.app/blog/commit-with-melissa-kendter-new-improved-guides) 
 
-- One of the Gallery images found here [source](https://www.istockphoto.com/photo/every-step-taken-towards-fitness-pays-off-gm966295656-263660735) 
+- Gallery images found here [source](https://www.istockphoto.com/photo/every-step-taken-towards-fitness-pays-off-gm966295656-263660735) 
 
 Happy coding!
