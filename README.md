@@ -178,8 +178,6 @@ See image below
 
 - Gallery images found here [healthline.com](https://www.healthline.com/health-news/women-urged-to-exercise-vigorously-to-stay-heart-healthy) 
 
-- Gallery images found here [coaches.xing.com](https://coaches.xing.com/magazin/mentaltraining-im-business) 	
-
 - Gallery images found here [class.pass.com](https://classpass.com/classes/athens-health-and-fitness-athens-nulj/pump-16fecc0bd46)
 
 - Gallery images found here [fitnessrepublic](https://wwws.fitnessrepublic.com/action/workout-challenges)
@@ -187,5 +185,5 @@ See image below
 - Gallery images found here [evolveyou.app](https://www.evolveyou.app/blog/commit-with-melissa-kendter-new-improved-guides) 
 
 - Gallery images found here [istockphoto.com](https://www.istockphoto.com/photo/every-step-taken-towards-fitness-pays-off-gm966295656-263660735) 
-
+- Gallery images found here [gettingresults](https://gettingresults.com/how-tony-robbins-transformed-his-life-with-goals/) 	
 Happy coding!
