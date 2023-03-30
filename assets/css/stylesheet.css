@@ -1052,13 +1052,13 @@ table td::before {
     background-color: #2b3445;
   }
 
-  #strong-with-us {
+#strong-with-us {
     height: 2100px;
-  }
+}
 
-  .reason-p {
+.reason-p {
     border-right: 1px solid rgb(0, 0, 0);
-  }
+}
 
 .signup {
   width: 320px;
@@ -1071,7 +1071,7 @@ table td::before {
   border: 1px solid rgba(0, 0, 0, 0.5);
   background-color: rgba(0, 0, 0, 0.5);
   box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.5);
-  }
+}
 
 .motivation {
   width: 320px;
