@@ -174,7 +174,7 @@ See image below
  
 # Credits 
 
-- The image quote was found on pinterest [source](https://i.pinimg.com/736x/64/b1/9f/64b19ffca1eded799d415316e6cd490d.jpg)
+- The image quote was found on [wallpapercave.com](https://wallpapercave.com/bodybuilding-iphone-wallpapers)
 
 - One of the Gallery images found here [source](https://www.healthline.com/health-news/women-urged-to-exercise-vigorously-to-stay-heart-healthy) 
 
