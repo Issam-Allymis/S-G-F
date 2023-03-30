@@ -172,5 +172,18 @@ See image below
  5. The page will then automatically refresh.
  6. A link to the deployed site will appear after receiving a pop-up notification at the top of the page.
  
+# Credits 
+
+- The image quote was found on pinterest [source](https://i.pinimg.com/736x/64/b1/9f/64b19ffca1eded799d415316e6cd490d.jpg)
+
+- One of the Gallery images found here [source](https://www.healthline.com/health-news/women-urged-to-exercise-vigorously-to-stay-heart-healthy) 
+
+- One of the Gallery images found here [source](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.nit.pt%2Ffit%2Fha-uma-nova-aula-em-lisboa-que-mistura-spinning-e-musculacao&psig=AOvVaw1Y0a89sNSBgd5rpuaksaqW&ust=1679925971207000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCLjmlIni-f0CFQAAAAAdAAAAABAE) 	
+
+- One of the Gallery images found here [source](https://www.nit.pt/wp-content/uploads/2020/02/e8a40b71ecc477d73877d432a5bdabd2.jpg)
+
+- One of the Gallery images found here [source](https://www.evolveyou.app/blog/commit-with-melissa-kendter-new-improved-guides) 
+
+- One of the Gallery images found here [source](https://www.istockphoto.com/photo/every-step-taken-towards-fitness-pays-off-gm966295656-263660735) 
 
 Happy coding!
