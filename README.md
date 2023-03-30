@@ -186,6 +186,6 @@ See image below
 
 - Gallery images found here [evolveyou.app](https://www.evolveyou.app/blog/commit-with-melissa-kendter-new-improved-guides) 
 
-- Gallery images found here [source](https://www.istockphoto.com/photo/every-step-taken-towards-fitness-pays-off-gm966295656-263660735) 
+- Gallery images found here [istockphoto.com](https://www.istockphoto.com/photo/every-step-taken-towards-fitness-pays-off-gm966295656-263660735) 
 
 Happy coding!
