@@ -1029,7 +1029,7 @@ table td::before {
 }
 
 .colapsible input:checked ~ .colapsible-text {
-   max-height: 750px;
+  max-height: 750px;
 }
 }
 
