@@ -128,13 +128,6 @@ As part of the planning stage, I used [Balsamiq](https://balsamiq.com/) to creat
 # Testing
 The Strong Gym website should be designed to be responsive, ensuring that all content and images stack on top of each other when viewed on mobile or tablet devices. This allows a clean and organised feel of the page.
 
-### Mobile
-![Screenshot 2023-03-29 195225](https://user-images.githubusercontent.com/126810074/228824028-b6c1a374-dc9c-480c-92a5-4cdcbabd4ec7.png)
-
-![Screenshot 2023-03-30 122913](https://user-images.githubusercontent.com/126810074/228823054-42574a07-4d7e-4e30-867b-0f1e833b149d.png)
-
-![Screenshot 2023-03-29 195559](https://user-images.githubusercontent.com/126810074/228824724-c24e5ff8-f3f6-4f80-ab2e-f7cda4f019cc.png)
-
 
 ### Desktop
 ![Screenshot 2023-03-29 195240](https://user-images.githubusercontent.com/126810074/228824199-132adebf-0909-4dff-9afd-1830ca040b0d.png)
@@ -142,6 +135,13 @@ The Strong Gym website should be designed to be responsive, ensuring that all co
 ![Screenshot 2023-03-29 195501](https://user-images.githubusercontent.com/126810074/228824635-7973d2fe-7e95-4029-8b86-50f7362fd0fc.png)
 
 ![Screenshot 2023-03-29 195635](https://user-images.githubusercontent.com/126810074/228824858-ed70e0bf-b1dd-46e2-b5b3-bd1c220e3036.png)
+
+### Mobile
+![Screenshot 2023-03-29 195225](https://user-images.githubusercontent.com/126810074/228824028-b6c1a374-dc9c-480c-92a5-4cdcbabd4ec7.png)
+
+![Screenshot 2023-03-30 122913](https://user-images.githubusercontent.com/126810074/228823054-42574a07-4d7e-4e30-867b-0f1e833b149d.png)
+
+![Screenshot 2023-03-29 195559](https://user-images.githubusercontent.com/126810074/228824724-c24e5ff8-f3f6-4f80-ab2e-f7cda4f019cc.png)
 
 
 # Bugs
