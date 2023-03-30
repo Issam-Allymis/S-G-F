@@ -27,14 +27,17 @@ h1, h2 {
 
 h4 {
   color: #4ea3fb;
-  font-size: 2.5em;
   text-transform: uppercase;
   text-align: center;
-  margin-bottom: 20px;
+  margin-bottom: 5px;
 }
 
 h2 {
   font-size: 1.5em;
+}
+
+p {
+  color: #fff;
 }
 
 #logo {
@@ -174,10 +177,6 @@ animation-fill-mode: forwards;
     
 }
 
-p {
-  color: 	#ffffff;
-}
-
 #cover-info {
   font-size: 70%;
   font-family: Oswald, sans-serif;
@@ -248,9 +247,9 @@ hr {
 }
 
 #reason {
-  margin-top: 60px;
   font-size: 300%;
   background-color: #2b3445;
+  text-decoration: #2b3445 underline 15px;
 }
 
 .left-reason-about {
@@ -258,7 +257,7 @@ hr {
   line-height: 35px;
   float: right;
   clear: both;
-  margin-bottom: 47px;
+  margin-bottom: 6px;
 }
 
 .right-reason-about {
@@ -266,7 +265,7 @@ hr {
   line-height: 35px;
   float: left;
   clear: both;
-  margin-bottom: 47px;
+  margin-bottom: 20px;
 }
 
 #center-outer {
@@ -276,10 +275,10 @@ hr {
   border-radius: 20%;
   border: 0.1em solid #4289de;
   margin: 0 auto;
-  background: #2b3445;;
+  background: #2b3445;
 }
 
-#center-inner-img {
+.center-inner-img {
   background: url('./images/gym-quote.jpg') no-repeat;
   height: 290px;
   border-radius: 20%;
@@ -306,6 +305,10 @@ td, th {
   border-radius: 0.75em;
   letter-spacing: 4px;
   border: 2px #ffffff solid;
+}
+
+.table-heading {
+  text-align: center;
 }
 
 th,td:first-child { /*targets first column on timetable. (including table data and table heading)*/
@@ -345,24 +348,10 @@ th {
   margin-top: 100px;
   text-align: center;
 }
-
-#back-top {
-  border: 1px solid #2b3445;
-  border-radius: 100%;
-  border-top: 1px solid #4ea3fb;
-  width: 20px;
-  height: 20px;
-  animation: rotate 2s linear infinite;
-  }
-
-  @keyframes rotate {
-    0% { transform: rotate(0deg);}
-    100%{ transform:rotate(360deg);}
-  }
   
-  a {
+a {
     text-decoration: none;
-  }
+}
 
 /* collapsible text */
 .wrapper {
@@ -378,7 +367,7 @@ th {
 }
 
 .collapsible input {
-  display: none;  /* gets rid of the checkbox*/
+  display: none;  /* gets rid of the checkbox at top left*/
 }
 
 /*z-index property isn't neccessary, the label is still clickable with or without it. (left there to create stack order)*/
@@ -429,6 +418,65 @@ th {
   text-align: left;
 }
 
+/*sign up page  */
+.colapsible {
+  max-width: 222px;
+  overflow: hidden;
+  font-weight: 600;
+}
+
+.colapsible input {
+  display: none;  /* gets rid of the checkbox at top left*/
+}
+
+/*z-index property (left there to create stack order)*/
+.colapsible label { 
+  position: relative;
+  font-weight: 700;
+  box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.6), 0 4px 8px 0 rgba(0, 0, 0, 0.08);
+  color: #4ea3fb;
+  background-color: #2b3445;
+  display: inline-block;
+  margin-bottom: 10px;
+  margin-top: 80px;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 0.75em;
+  z-index: 1;
+}
+
+.colapsible-text {
+  max-height: 1px;
+  overflow: hidden;
+  border-radius: 0.75em;
+  line-height: 1.5;
+  position: relative;
+  top: -100%;
+  opacity: 0.5;
+  transition: all 0.2s ease;
+}
+
+.colapsible input:checked ~ .colapsible-text {
+  max-height: 700px;
+  padding-bottom: 30px;
+  background: #2b3445;
+  box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.5), 0 4px 11px 0 rgba(0, 0, 0, 0.08);
+  opacity: 3;
+  top: 0;
+}
+
+.colapsible-text h2 {
+  margin-bottom: 10px;
+  padding: 15px 15px 0;
+  color: #4289de;
+  text-align: center;
+}
+.colapsible-text p {
+  padding-left: 15px;
+  padding-right: 15px;
+  text-align: left;
+}
+
 /* weekend meet up blocks */
 #weekend {
   width: 18%;
@@ -458,9 +506,8 @@ th {
 
 /* monthly updates on beneficial foods */
 #food {
- width: 27%;
+ width: 100%;
  margin-top: 60px;
- transform: translateX(131%);
 }
 
 /* #food:hover { 
@@ -468,13 +515,13 @@ th {
 }*/
 
 #food div {
-  width: 100%;
+  width: 33%;
   color: #ffffff;
   border: 1.5px solid rgb(255, 255, 255);
   border-radius: 0.75em;
   font-weight: 850;
   height: 215px; 
-  display: inline-flexbox;
+  display: inline-block;
   text-align: center;
   background-color: rgb(0, 0, 0, 0.5);
   box-shadow: 0 5px 11px 0 hsla(0, 0%, 22%, 0.5), 0 4px 11px 0 hsla(0, 0%, 22%, 0.08);
@@ -551,9 +598,17 @@ footer p {
  margin-top: 20px;
 }
 
+footer > p {
+  color: 	#ffffff;
+}
+
 iframe {
  margin-bottom: 20px;
  box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.5), 0 4px 15px 0 rgba(0, 0, 0, 0.08);
+}
+
+.Gmaps {
+  width: 100%;
 }
 
 .address2 {
@@ -568,6 +623,15 @@ iframe {
   column-count: 3;
   clear: both;
   box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.5), 0 4px 15px 0 rgba(0, 0, 0, 0.08);
+}
+
+.video-container {
+  display: flex;
+  justify-content: center;
+}
+.video-container iframe {
+  width: 30%;
+  height: 400px;
 }
 
 /* sign up page */
@@ -650,16 +714,22 @@ label {
   margin-top: 120px;
 }
 
+.memberships {
+  position: absolute; 
+  margin: -28px 0 0 5px; 
+  text-align: center;
+}
+
 /* media quieries */
 
-/* for larger screens size from 1250px and down */
-@media screen and (max-width:1250px) {
+/* for larger screens size from 1300px and down */
+@media screen and (max-width:1300px) {
 
 #menu {
   clear: both;
   float: left;
   margin-left: 3%;
-  }
+}
 
 #strong-with-us {
   width: 100%;
@@ -692,15 +762,15 @@ label {
 #center-reason {
   clear:both;
   width: 100%;
- }
+}
 
 hr {
   display: none;
- }
+}
 
 #food div {
   width:100%;
-  height: 325px;
+  height: 150px;
 }
 
 #weekend div {
@@ -728,7 +798,7 @@ hr {
 .signup {
   width: 320px;
   height: 450px;
-  margin-top: 320px;
+  margin: 320px 0 0 340px;
   color: #ffffff;
   position: absolute;
   border-radius: 0.2em;
@@ -755,24 +825,30 @@ hr {
   background-color: rgba(0, 0, 0, 0.5);
   border: 1px solid #000000;
   border-radius: 0.75em;
-  position: relative;
-  transform: translateX(85px);
+  position: absolute;
+  transform: translateX(-200px);
   text-align: center;
-  margin-top: 52px;
+  margin-top: 50px;
 }
 
 .form-input {
   width: 70%;
 }
 
+.memberships {
+  position: absolute; 
+  margin: 75px 0 0 5px; 
+  text-align: center;
 }
 
-/* for medium screens size from 800px and down */
+}
+
+/* for medium screens size from 1000px and down */
 @media screen and (max-width:1000px) {
   
   #food div {
     width:100%;
-    height: 400px;
+    height: 200px;
   }
   
   #weekend div {
@@ -784,6 +860,35 @@ hr {
     column-count: 2;
     position: relative;
     width: 98%;
+  }
+
+   /* index page photos */
+  .media-photos {
+    width: 100%;
+  }
+
+  /* sign up form */
+  .signup {
+    width: 320px;
+    height: 450px;
+    margin: 320px 0 0 140px;
+    color: #ffffff;
+    position: absolute;
+    border-radius: 0.2em;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.5);
+    box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.5);
+  }
+
+  .memberships {
+    position: relative; 
+    margin: 0 0 0 500px; 
+    text-align: center;
+    z-index: 1;
+  }
+
+  .colapsible input:checked ~ .colapsible-text {
+    max-height: 680px;
   }
 }
 
@@ -819,6 +924,20 @@ table, table tbody, table, tr, table td {
   width: 99%;
 }
 
+table th {
+  display: block;
+  width: 99%;
+  height: 1px;
+  color: #314660;
+  border: 1px solid #314660;
+  background-color: #314660;
+}
+
+.table-heading {
+  text-align: center;
+  margin-bottom: -10px;
+}
+
 table tr {
   margin-bottom: 10px;
 }
@@ -836,23 +955,32 @@ table td::before {
   padding-left: 15px;
 }
 
- #food div {
-  width:100%;
-  height: 400px;
+#food div {
+  width: 99%;
+  height: 200px;
+}
+#food {
+  width: 99%;
 }
 
 #weekend div {
   width: 100%;
 }
 
+/* gallery */
 #photos {
   column-count: 2;
   position: relative;
   width: 98%;
 }
 
+.media-photos {
+  width: 100%;
+}
+
+/* sign up form */
 .form-section {
-  height: 1500px;
+  height: 1000px;
   clear: both;
   background-image: url(./images/hunger-for-success.jpg);
   box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.5)
@@ -864,6 +992,7 @@ table td::before {
   margin-top: 320px;
   color: #ffffff;
   position: absolute;
+  transform: translateX(-80px);
   border-radius: 0.2em;
   border: 1px solid rgba(0, 0, 0, 0.5);
   background-color: rgba(0, 0, 0, 0.5);
@@ -888,10 +1017,72 @@ table td::before {
   background-color: rgba(0, 0, 0, 0.5);
   border: 1px solid #000000;
   border-radius: 0.75em;
-  position: relative;
-  transform: translateX(85px);
+  position: absolute;
+  transform: translateX(-80px);
   text-align: center;
   margin-top: 52px;
 }
 
+.memberships {
+  position: relative; 
+  text-align: center;
+}
+
+.colapsible input:checked ~ .colapsible-text {
+   max-height: 750px;
+}
+}
+
+@media screen and (max-width:500px) {
+  #left-reason {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 0;
+    border-radius: 0.75em;
+    background-color: #2b3445;
+    display: flex; 
+  }
+  
+  #right-reason {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 0;
+    border-radius: 0.75em;
+    display: flex;
+    background-color: #2b3445;
+  }
+
+  #strong-with-us {
+    height: 2100px;
+  }
+
+  .reason-p {
+    border-right: 1px solid rgb(0, 0, 0);
+  }
+
+.signup {
+  width: 320px;
+  height: 500px;
+  margin: 350px 0 0 0;
+  color: #ffffff;
+  position: absolute;
+  transform: translateX(27px);
+  border-radius: 0.2em;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.5);
+  box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.5);
+  }
+
+.motivation {
+  width: 320px;
+  height: 240px;
+  background-color: rgba(0, 0, 0, 0.5);
+  border: 1px solid #000000;
+  border-radius: 0.75em;
+  position: relative;
+  text-align: center;
+  transform: translateX(90px);
+  margin: 30px 0 0 0;
+  z-index: 2;
+}
 }
