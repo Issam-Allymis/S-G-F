@@ -173,7 +173,7 @@ See image below
  6. A link to the deployed site will appear after receiving a pop-up notification at the top of the page.
  
 # Credits 
-
+- The hero image effect was inspired from the [Love Running]() CI Project
 - The image quote was found on [wallpapercave.com](https://wallpapercave.com/bodybuilding-iphone-wallpapers)
 
 - Gallery images found here [healthline.com](https://www.healthline.com/health-news/women-urged-to-exercise-vigorously-to-stay-heart-healthy) 
