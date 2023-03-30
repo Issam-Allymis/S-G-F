@@ -178,7 +178,7 @@ See image below
 
 - Gallery images found here [healthline.com](https://www.healthline.com/health-news/women-urged-to-exercise-vigorously-to-stay-heart-healthy) 
 
-- Gallery images found here [source](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.nit.pt%2Ffit%2Fha-uma-nova-aula-em-lisboa-que-mistura-spinning-e-musculacao&psig=AOvVaw1Y0a89sNSBgd5rpuaksaqW&ust=1679925971207000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCLjmlIni-f0CFQAAAAAdAAAAABAE) 	
+- Gallery images found here [coaches.xing.com](https://coaches.xing.com/magazin/mentaltraining-im-business) 	
 
 - Gallery images found here [class.pass.com](https://classpass.com/classes/athens-health-and-fitness-athens-nulj/pump-16fecc0bd46)
 
