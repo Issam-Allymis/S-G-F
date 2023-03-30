@@ -121,7 +121,7 @@ As part of the planning stage, I used [Balsamiq](https://balsamiq.com/) to creat
   - Used in the header, footer and body contents throughout the website.
 - [Balsamiq](https://balsamiq.com/)
   - Used to create the projected layout of the website.
-  
+
   ## Platforms 
 - [Github:](https://github.com/) Used for storing code remotely and for project deployment.
 - [Gitpod:](https://www.gitpod.io/) IDE for project development.
@@ -130,9 +130,37 @@ As part of the planning stage, I used [Balsamiq](https://balsamiq.com/) to creat
 The Strong Gym website should be designed to be responsive, ensuring that all content and images stack on top of each other when viewed on mobile or tablet devices. This allows a clean and organised feel of the page.
 
 ### Mobile
-![Screenshot 2023-03-28 154209](https://user-images.githubusercontent.com/126810074/228396788-8e6930be-093a-4353-adcc-cd167da91bb5.png)
-### Desktop
-![Screenshot 2023-03-28 154223](https://user-images.githubusercontent.com/126810074/228396806-70a3048a-9184-4f7e-a593-eaabb2c4ec17.png)
+![Screenshot 2023-03-29 195225](https://user-images.githubusercontent.com/126810074/228824028-b6c1a374-dc9c-480c-92a5-4cdcbabd4ec7.png)
 
+![Screenshot 2023-03-30 122913](https://user-images.githubusercontent.com/126810074/228823054-42574a07-4d7e-4e30-867b-0f1e833b149d.png)
+
+![Screenshot 2023-03-29 195559](https://user-images.githubusercontent.com/126810074/228824724-c24e5ff8-f3f6-4f80-ab2e-f7cda4f019cc.png)
+
+
+### Desktop
+![Screenshot 2023-03-29 195240](https://user-images.githubusercontent.com/126810074/228824199-132adebf-0909-4dff-9afd-1830ca040b0d.png)
+
+![Screenshot 2023-03-29 195501](https://user-images.githubusercontent.com/126810074/228824635-7973d2fe-7e95-4029-8b86-50f7362fd0fc.png)
+
+![Screenshot 2023-03-29 195635](https://user-images.githubusercontent.com/126810074/228824858-ed70e0bf-b1dd-46e2-b5b3-bd1c220e3036.png)
+
+
+# Bugs
+# Current Bugs
+
+There are non that I am currently aware of 
+
+# Resolved Bugs
+
+- The margin-left for the meet up section was larger than the screen width, which in turn caused the page to scroll horizontally to compensate the margin overflow. I tackled the issue by reducing the margin-left.
+
+ ![Screenshot 2023-03-19 123654](https://user-images.githubusercontent.com/126810074/228842289-6f24a043-ec25-4ac5-b34d-7a6e603a022c.png)
+
+- at 800px down, the Timetable section had large rows of six that separated the heading and the timetable which in turn didnt look visually pleasing. Initially these rows were columns that contained the 5 days of the week from Monday to Friday and the text "Times" which had the class times displayed below. I combatted this issue by reducing the height of the table heading as to bring the heading and timetable closer to eachother to reduce empty spaces on the page. It was my best solution at the time of completion.
+
+See image below
+
+  ![Screenshot 2023-03-30 130802](https://user-images.githubusercontent.com/126810074/228833355-9a3f8596-cd82-4e4d-adee-2eda4e2d8cf6.png)
+  ![Screenshot 2023-03-30 133353](https://user-images.githubusercontent.com/126810074/228837230-fb1f4516-4766-4f18-a599-2d53ebbd4179.png)
 
 Happy coding!
