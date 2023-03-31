@@ -492,10 +492,6 @@ span {
   transform: translateX(220%);
 }
 
-#weeend :hover {
-  background-color: #ffffff;
-}
-
 #weekend div {
   width: 46.8%;
   color: #ffffff;
@@ -510,8 +506,10 @@ span {
 #weekend {
   background-image: url(./images/blue-cup2.webp);
   border-radius: 0.75em;
+  margin-bottom: 8em;
 }
 
+/* nutriotion page */
 /* monthly updates on beneficial foods */
 #food {
  width: 100%;
