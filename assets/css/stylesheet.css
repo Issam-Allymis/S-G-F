@@ -512,13 +512,10 @@ span {
  width: 100%;
  clear: both;
  height: 200px;
- transform: translateY(100px);
+ transform: translateY(90px);
 }
 
-/* #food:hover { 
-  background-color: hsla(150, 20, 25, 0.3);
-}*/
-
+/* nutrition page */
 #food div {
   width: 33%;
   color: #ffffff;
@@ -538,6 +535,31 @@ span {
 
 #food div h3 {
   font-size: 2.5em;
+}
+
+.essentials {
+  width: 75%;
+  margin: 0 auto;
+  clear: both;
+  font-size: 1.5em;
+  text-align: center;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  margin-bottom: 50px;
+  border-radius: 0.75em;
+}
+
+div > p {
+  text-align: center;
+}
+
+#performance {
+  width: 50%;
+  margin: 0 auto;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  border-radius: 0.75em;
+  background-color: #2b3445;
 }
 
 #personal-trainers {
