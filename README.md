@@ -3,7 +3,7 @@
 
 ![strong gym b (1)](https://user-images.githubusercontent.com/126810074/228396407-d16a2bda-2f19-4b34-a181-6c7bb6aa12f2.svg)
 
-The [Strong Gym Fitness](https://github.com/Issam-Allymis/S-G-F) Page is a web page that provides information about the gym's membership plans and pricing. The page is designed to be visually appealing and easy to navigate, with clear calls-to-action that encourage users to sign up for a membership.
+The [Strong Gym Fitness](https://issam-allymis.github.io/S-G-F/index.html) Page is a web page that provides information about the gym's membership plans and pricing. The page is designed to be visually appealing and easy to navigate, with clear calls-to-action that encourage users to sign up for a membership.
 
 The Strong Gym Fitness Page is built entirely using HTML and CSS, without the need for any additional programming languages or frameworks. The page includes information about each membership plan, such as the price, the duration, and the benefits of each plan.
 
@@ -171,9 +171,20 @@ See image below
  4. At the Branch it is labelled as "none", click the dropdown menu and select "main" after hit save.
  5. The page will then automatically refresh.
  6. A link to the deployed site will appear after receiving a pop-up notification at the top of the page.
+
+## Forking The GitHub Repository
+Forks are commonly used in the GitHub platform, allowing users to create a duplicate of an existing repository on their own account. This duplication allows users to view and make changes to the code without affecting the original repository. Forking can be used for various purposes, such as to contribute to a project, experiment with changes without affecting the original codebase, or create a new project based on an existing one. 
  
+## **How to Fork a GitHub Repository**
+1. Log into your GitHub account and locate the project at [GitHub Repository](https://github.com/Issam-Allymis?tab=repositories)
+2. Locate the Fork button at the top right of the page and click Fork.
+3. You should now have a copy of the original repository in your GitHub account.
+
+## ****
+
 # Credits 
 - The hero image effect was inspired from the [Love Running](https://github.com/Code-Institute-Solutions/readme-template) CI Project
+
 - The image quote was found on [wallpapercave.com](https://wallpapercave.com/bodybuilding-iphone-wallpapers)
 
 - Gallery images found here [healthline.com](https://www.healthline.com/health-news/women-urged-to-exercise-vigorously-to-stay-heart-healthy) 
@@ -201,3 +212,5 @@ See image below
 - The drop down list was inspired by [Enhance Coding](https://www.youtube.com/watch?v=RvpYnUZRquw)
 
 Happy coding!
+
+ 
