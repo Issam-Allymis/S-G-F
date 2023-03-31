@@ -43,7 +43,7 @@ p {
 #logo {
   font-size: 250%;
   float: left;
-  margin-left: 25px;
+  margin-left: 1.56em;
   letter-spacing: 5px;
 }
 
@@ -57,7 +57,7 @@ p {
 #menu li {
   list-style-type: none;
   float: right;
-  margin-right: 25px;
+  margin-right: 1.56em;
 }
 
 #menu a {
@@ -66,7 +66,7 @@ p {
 }
 
 #menu, #logo {
-  line-height: 75px;
+  line-height: 4.7em;
 }
 
 #menu a:hover {
@@ -86,7 +86,7 @@ p {
 
 /* hero image and cover text info*/
 #hero-out {
-  height: 439px;
+  height: 27.44em;
   width: 100%;
   overflow: hidden;
   position: relative;
@@ -98,7 +98,7 @@ p {
 }
 
 #hero-image3 {
-  height: 900px;
+  height: 56.25em;
   width: 30%;
   background: url('./images/main-classes.jpg') no-repeat right center;
   float: right;
@@ -183,8 +183,8 @@ animation-fill-mode: forwards;
   text-transform: uppercase;
   letter-spacing: 4px;
 
-  width: 300px;
-  height: 95px;
+  width: 18.8em;
+  height: 5.93em;
 
   padding-top: 10px;
   padding-left: 10px;
@@ -198,7 +198,7 @@ animation-fill-mode: forwards;
 }
 
 #left-reason {
-  padding-top: 30px;
+  padding-top: 1.875em;
   width: 33%;
   float: left;
   margin-bottom: 0;
@@ -207,7 +207,7 @@ animation-fill-mode: forwards;
 }
 
 #right-reason {
-  padding-top: 30px;
+  padding-top: 1.875em;
   width: 33%;
   float: right;
   text-align: center;
@@ -217,18 +217,18 @@ animation-fill-mode: forwards;
 }
 
 .reason-p {
-  font-size: 18px;
+  font-size: 1.125em;
   color: #ffffff;
 }
 
 #center-reason {
-  padding-top: 30px;
+  padding-top: 1.875em;
   width: 33%;
   margin: 0 auto;
 }
 
 #strong-with-us {
-  height: 400px;
+  height: 25em;
   text-align: center;
 }
 
@@ -243,7 +243,7 @@ animation-fill-mode: forwards;
 hr {
   width: 96%;
   border: 1px #4289de solid;
-  margin: 12px;
+  margin: 0.75em;
 }
 
 #reason {
@@ -257,7 +257,7 @@ hr {
   line-height: 35px;
   float: right;
   clear: both;
-  margin-bottom: 6px;
+  margin-bottom: 0.375em;
 }
 
 .right-reason-about {
@@ -265,13 +265,13 @@ hr {
   line-height: 35px;
   float: left;
   clear: both;
-  margin-bottom: 20px;
+  margin-bottom: 1.25em;
 }
 
 #center-outer {
-  width: 295px;
-  height: 295px;
-  padding: 20px;
+  width: 18.43em;
+  height: 18.43em;
+  padding: 1.25em;
   border-radius: 20%;
   border: 0.1em solid #4289de;
   margin: 0 auto;
@@ -344,8 +344,13 @@ th {
   cursor: pointer;
 }
 
+#table-button-container {
+  margin: 1em 0 1em 0;
+  text-align: center;
+}
+
 #button-container {
-  margin-top: 100px;
+  margin-top: 6.25em;
   text-align: center;
 }
   
@@ -569,7 +574,7 @@ div > p {
 #personal-trainers h2 {
   font-size: 2.4em;
   text-align: center;
-  margin-top: 80px;
+  margin-top: 5em;
 }
 
 #personal-trainer div {
@@ -591,7 +596,7 @@ div > p {
 .row {
   text-align: center;
   margin: 0;
-  margin-top: 50px;
+  margin-top: 3.12em;
   border-radius: 5em;
   display: inline-block;
 }
@@ -615,7 +620,7 @@ footer a {
 
 footer {
  text-align: center;
- height: 40px;
+ height: 2.5em;
  box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.5), 0 4px 15px 0 rgba(0, 0, 0, 0.08);
 }
 
@@ -624,7 +629,7 @@ footer h3 {
 }
 
 footer p {
- margin-top: 20px;
+ margin-top: 1.25em;
 }
 
 footer > p {
@@ -632,7 +637,7 @@ footer > p {
 }
 
 iframe {
- margin-bottom: 20px;
+ margin-bottom: 1.25em;
  box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.5), 0 4px 15px 0 rgba(0, 0, 0, 0.08);
 }
 
@@ -660,12 +665,12 @@ iframe {
 }
 .video-container iframe {
   width: 30%;
-  height: 400px;
+  height: 25em;
 }
 
 /* sign up page */
 .form-section {
-  height: 850px;
+  height: 53.12em;
   clear: both;
   background-image: url(./images/hunger-for-success.jpg);
   box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.5);
@@ -678,8 +683,8 @@ iframe {
 }
 
 .signup {
-  width: 370px;
-  height: 460px;
+  width: 23.12em;
+  height: 28.75;
   margin: 10% 15% 0 15%;
   color: #ffffff;
   position: absolute;
@@ -694,7 +699,7 @@ iframe {
   background-color: rgba(0, 0, 0, 0.5);
   border: 1px solid #000000;
   display: flex;
-  width: 300px;
+  width: 18.75em;
   margin-bottom: 10%;
   margin-left: 7%;
   padding: 5px;
@@ -730,8 +735,8 @@ label {
 }
 
 .motivation {
-  width: 315px;
-  height: 235px;
+  width: 19.7em;
+  height: 14.7em;
   background-color: rgba(0, 0, 0, 0.5);
   border: 1px solid #000000;
   border-radius: 0.75em;
@@ -740,7 +745,7 @@ label {
   float: right;
   right: 31%;
   text-align: center;
-  margin-top: 120px;
+  margin-top: 7.5em;
 }
 
 .memberships {
@@ -763,12 +768,12 @@ label {
 #strong-with-us {
   width: 100%;
   float: left;
-  height: 1500px;
+  height: 67.8em;
   margin: 0 auto;
  }
 
 #strong-with-us > div {
-  margin-bottom: 100px;
+  margin-bottom: 6.25em;
  }
 
 #reason {
@@ -777,19 +782,25 @@ label {
  }
 
 #left-reason {
-  padding-top: 30px;
+  padding-top: 1.9em;
   width: 40%;
+  background-color: #314660;
  }
 
+.reason-p {
+  border-bottom: 1px solid black;
+  border-top: 1px solid black;
+}
+
  #right-reason {
-  padding-top: 30px;
+  padding-top: 1.8em;
   width: 40%;
-  float: right;
-  margin-left: 10px;
+  margin-left: 0.625em;
+  background-color: #314660;
 }
 
 #center-reason {
-  clear:both;
+  clear: both;
   width: 100%;
 }
 
@@ -799,7 +810,11 @@ hr {
 
 #food div {
   width:100%;
-  height: 150px;
+  height: 9.4em;
+}
+
+#food {
+  height: 28.5em;
 }
 
 #weekend div {
@@ -818,16 +833,16 @@ hr {
 }
 
 .form-section {
-  height: 850px;
+  height: 53.12em;
   clear: both;
   background-image: url(./images/hunger-for-success.jpg);
   box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.5)
 }
 
 .signup {
-  width: 320px;
-  height: 450px;
-  margin: 320px 0 0 340px;
+  width: 20em;
+  height: 28em;
+  margin: 20em 0 0 21.25em;
   color: #ffffff;
   position: absolute;
   border-radius: 0.2em;
@@ -877,28 +892,32 @@ hr {
   
   #food div {
     width:100%;
-    height: 200px;
+    height: 12.5em;
   }
-  
+  #food {
+    height: 37.5em;
+  }
+
   #weekend div {
     width: 100%;
-    height: 210px;
+    height: 13em;
   }
 
   #weekend {
     width: 18%;
     display: inline-flex;
+    margin-bottom: 8em;
   }
   
   .reason-p {
-    margin-bottom: 20px;
+    margin-bottom: 1.25em;
     border-bottom: 1px solid black;
   }
 
   #left-reason {
     width: 49%;
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 1.25em;
     background-color: #314660;
   }
   
@@ -906,7 +925,7 @@ hr {
     width: 49%;
     border-left: 1px solid black;
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 1.25em;
     background-color: #314660;
   }
 
@@ -917,6 +936,10 @@ hr {
     width: 98%;
   }
 
+  .wrapper {
+    margin-top: 8em;
+   }
+
    /* index page photos */
   .media-photos {
     width: 100%;
@@ -924,9 +947,9 @@ hr {
 
   /* sign up form */
   .signup {
-    width: 320px;
-    height: 450px;
-    margin: 320px 0 0 140px;
+    width: 20em;
+    height: 28em;
+    margin: 20em 0 0 9em;
     color: #ffffff;
     position: absolute;
     border-radius: 0.2em;
@@ -937,13 +960,13 @@ hr {
 
   .memberships {
     position: relative; 
-    margin: 0 0 0 500px; 
+    margin: 0 0 0 31em; 
     text-align: center;
     z-index: 1;
   }
 
   .colapsible input:checked ~ .colapsible-text {
-    max-height: 680px;
+    max-height: 49em;
   }
 }
 
@@ -958,16 +981,18 @@ hr {
 #left-reason {
   float: left;
   background-color: none;
+  margin-bottom: 1em;
 }
 
 #right-reason {
   float: right;
+  margin-bottom: 1em;
 }
 
 #strong-with-us {
   width: 100%;
   float: left;
-  height: 2000px;
+  height: 90em;
   margin: 0 auto;
  }
 
@@ -1109,7 +1134,7 @@ table td::before {
   }
 
 #strong-with-us {
-  height: 2100px;
+  height: 131em;
 }
 
 .reason-p {
@@ -1140,5 +1165,17 @@ table td::before {
   transform: translateX(90px);
   margin: 30px 0 0 0;
   z-index: 2;
+}
+
+/* nutrition */
+#nutrition {
+  margin-top: 3em; 
+}
+#food div {
+  width: 99%;
+  height: 20em;
+}
+#food {
+  height:60em;
 }
 }
