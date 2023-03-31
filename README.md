@@ -185,5 +185,14 @@ See image below
 - Gallery images found here [evolveyou.app](https://www.evolveyou.app/blog/commit-with-melissa-kendter-new-improved-guides) 
 
 - Gallery images found here [istockphoto.com](https://www.istockphoto.com/photo/every-step-taken-towards-fitness-pays-off-gm966295656-263660735) 
+
 - Gallery images found here [gettingresults](https://gettingresults.com/how-tony-robbins-transformed-his-life-with-goals/) 	
+
+- Gallery images found here [pixabay](https://pixabay.com/images/search/fitness%20gym%20group%20working%20out%20together/)
+
+- Gallery images found here [pinterest](https://www.pinterest.ie/pin/645844402824400477/)
+
+- Gallery images found here [wallpapers.com](https://wallpapers.com/wallpapers/project-rock-1332-x-850-85acn1akb6mw65iq.html)
+
+- Gallery images found here []()
 Happy coding!
