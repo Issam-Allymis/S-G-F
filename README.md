@@ -194,5 +194,10 @@ See image below
 
 - Gallery images found here [wallpapers.com](https://wallpapers.com/wallpapers/project-rock-1332-x-850-85acn1akb6mw65iq.html)
 
-- Gallery images found here []()
+- Gallery images found here [imiginn.com](https://imginn.com/adi.gillespie.collection/)
+ 
+- Gallery images found here [pinterest](https://za.pinterest.com/YogaEstelle/)
+
+- The drop down list was inspired by [Enhance Coding](https://www.youtube.com/watch?v=RvpYnUZRquw)
+
 Happy coding!
