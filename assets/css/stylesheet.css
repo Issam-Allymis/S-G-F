@@ -22,7 +22,6 @@ h1, h2 {
   font-size: 250%;
   font-family: Oswald, sans-serif;
   text-transform: uppercase;
-  letter-spacing: 4px;
 }
 
 h4 {
@@ -41,7 +40,7 @@ p {
 }
 
 #logo {
-  font-size: 250%;
+  font-sze: 250%;
   float: left;
   margin-left: 1.56em;
   letter-spacing: 5px;
@@ -65,8 +64,8 @@ p {
   color: #ffffff;
 }
 
-#menu, #logo {
-  line-height: 4.7em;
+#menu, #logo, a {
+  line-height: 75px;
 }
 
 #menu a:hover {
