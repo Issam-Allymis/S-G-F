@@ -3,7 +3,7 @@
 
 ![strong gym b (1)](https://user-images.githubusercontent.com/126810074/228396407-d16a2bda-2f19-4b34-a181-6c7bb6aa12f2.svg)
 
-The [Strong Gym Fitness](https://github.com/Issam-Allymis/S-G-F) Page is a web page that provides information about the gym's membership plans and pricing. The page is designed to be visually appealing and easy to navigate, with clear calls-to-action that encourage users to sign up for a membership.
+The [Strong Gym Fitness](https://issam-allymis.github.io/S-G-F/index.html) Page is a web page that provides information about the gym's membership plans and pricing. The page is designed to be visually appealing and easy to navigate, with clear calls-to-action that encourage users to sign up for a membership.
 
 The Strong Gym Fitness Page is built entirely using HTML and CSS, without the need for any additional programming languages or frameworks. The page includes information about each membership plan, such as the price, the duration, and the benefits of each plan.
 
@@ -112,6 +112,7 @@ As part of the planning stage, I used [Balsamiq](https://balsamiq.com/) to creat
 ## Languages Used
 - [HTML](https://en.wikipedia.org/wiki/HTML)
 - [CSS3](https://en.wikipedia.org/wiki/CSS)
+- image resizer was used to shrink the images [image resizer](https://imageresizer.com/)
 
 ## Libraries
 - [Google Fonts](https://fonts.google.com/)
@@ -171,9 +172,33 @@ See image below
  4. At the Branch it is labelled as "none", click the dropdown menu and select "main" after hit save.
  5. The page will then automatically refresh.
  6. A link to the deployed site will appear after receiving a pop-up notification at the top of the page.
+
+## Forking The GitHub Repository
+Forks are commonly used in the GitHub platform, allowing users to create a duplicate of an existing repository on their own account. This duplication allows users to view and make changes to the code without affecting the original repository. Forking can be used for various purposes, such as to contribute to a project, experiment with changes without affecting the original codebase, or create a new project based on an existing one. 
  
+## **How to Fork a GitHub Repository**
+1. Log into your GitHub account and locate the project at [GitHub Repository](https://github.com/Issam-Allymis?tab=repositories)
+2. Locate the Fork button at the top right of the page and click Fork.
+3. You should now have a copy of the original repository in your GitHub account.
+
+## **Clone Repository Steps**
+1. Log into Your GitHub account and locate to [GitHub Repository](https://github.com/Issam-Allymis?tab=repositories).
+2. In the repository page, find and click **code**.
+3. There are several ways of doing this next step:
+   - Clone the repository using HTTPs, under "Clone with HTTPS", then click the 'copy' icon.
+   - Clone a repository using GitHub CLI, click 'Use GitHub CLI', then ckick the 'copy' icon.
+   - Clone the repository using SSH key, click 'Use SSH', then click the 'copy' icon.
+4. Open GitBash in the terminal.
+5. Navigate to the directory where you want to clone a repository, you can use the "cd" command followed by the directory path. This will change the current working directory to the desired location.
+6. Type "git clone" command followed by the URL you copied.
+7.Press Enter.
+Forking creates a copy of a repository on GitHub, while cloning creates a local copy of the repository on your own computer.
+To find more information about forking click here ---->[Fork Here](https://docs.github.com/en/get-started/quickstart/fork-a-repo)<----
+
+
 # Credits 
 - The hero image effect was inspired from the [Love Running](https://github.com/Code-Institute-Solutions/readme-template) CI Project
+
 - The image quote was found on [wallpapercave.com](https://wallpapercave.com/bodybuilding-iphone-wallpapers)
 
 - Gallery images found here [healthline.com](https://www.healthline.com/health-news/women-urged-to-exercise-vigorously-to-stay-heart-healthy) 
@@ -194,5 +219,12 @@ See image below
 
 - Gallery images found here [wallpapers.com](https://wallpapers.com/wallpapers/project-rock-1332-x-850-85acn1akb6mw65iq.html)
 
-- Gallery images found here []()
+- Gallery images found here [imiginn.com](https://imginn.com/adi.gillespie.collection/)
+ 
+- Gallery images found here [pinterest](https://za.pinterest.com/YogaEstelle/)
+
+- The drop down list was inspired by [Enhance Coding](https://www.youtube.com/watch?v=RvpYnUZRquw)
+
 Happy coding!
+
+ 
