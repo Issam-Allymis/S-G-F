@@ -9,6 +9,8 @@ The page also includes a membership sign-up form that users can fill out to beco
 
 The Strong Gym Fitness Page is designed to be responsive, meaning that it adjusts to different screen sizes and devices. This ensures that users can view and sign up for memberships on any device, whether they're using a desktop computer, tablet, or smartphone.
 
+- [Website🕸️ ](https://issam-allymis.github.io/S-G-F/index.html)
+- [Repository📁](https://github.com/Issam-Allymis/S-G-F/edit/main/README.md)
 
 # User Experience (UX)
 
