@@ -7,8 +7,7 @@ The [Strong Gym Fitness](https://issam-allymis.github.io/S-G-F/index.html) Page 
 
 The Strong Gym Fitness Page is built entirely using HTML and CSS, without the need for any additional programming languages or frameworks. The page includes information about each membership plan, such as the price, the duration, and the benefits of each plan.
 
-The page also includes a membership sign-up form that users can fill out to become members of the gym. The form includes fields for personal information, such as name and email address, as well as options to select a membership plan and payment method.![Screenshot 2023-04-01 170459](https://user-images.githubusercontent.com/126810074/229302130-ea41bef3-b337-4480-935b-a1490ee70fd1.png)
-
+The page also includes a membership sign-up form that users can fill out to become members of the gym. The form includes fields for personal information, such as name and email address, as well as options to select a membership plan and payment method.
 
 The Strong Gym Fitness Page is designed to be responsive, meaning that it adjusts to different screen sizes and devices. This ensures that users can view and sign up for memberships on any device, whether they're using a desktop computer, tablet, or smartphone.
 
