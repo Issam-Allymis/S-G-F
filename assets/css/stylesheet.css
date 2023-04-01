@@ -682,7 +682,7 @@ iframe {
 
 .signup {
   width: 23.12em;
-  height: 28.75;
+  height: 28.75em;
   margin: 10% 15% 0 15%;
   color: #ffffff;
   position: absolute;
@@ -982,7 +982,6 @@ li {
 
 #left-reason {
   float: left;
-  background-color: none;
   margin-bottom: 1em;
 }
 
