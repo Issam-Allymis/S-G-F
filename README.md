@@ -180,7 +180,11 @@ Forks are commonly used in the GitHub platform, allowing users to create a dupli
 2. Locate the Fork button at the top right of the page and click Fork.
 3. You should now have a copy of the original repository in your GitHub account.
 
-## ****
+## **Clone Repository Steps**
+1. Log into Your GitHub account and locate to [GitHub Repository](https://github.com/Issam-Allymis?tab=repositories).
+2. In the repository page, find and click **code**.
+3. There are several ways of doing this next step:
+  - Clone the repository using HTTPs, under "Clone with HTTPS", click the 'copy' icon
 
 # Credits 
 - The hero image effect was inspired from the [Love Running](https://github.com/Code-Institute-Solutions/readme-template) CI Project
