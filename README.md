@@ -112,7 +112,6 @@ As part of the planning stage, I used [Balsamiq](https://balsamiq.com/) to creat
 ## Languages Used
 - [HTML](https://en.wikipedia.org/wiki/HTML)
 - [CSS3](https://en.wikipedia.org/wiki/CSS)
-- image resizer was used to shrink the images [image resizer](https://imageresizer.com/)
 
 ## Libraries
 - [Google Fonts](https://fonts.google.com/)
@@ -126,6 +125,9 @@ As part of the planning stage, I used [Balsamiq](https://balsamiq.com/) to creat
 - [Github:](https://github.com/) Used for storing code remotely and for project deployment.
 - [Gitpod:](https://www.gitpod.io/) IDE for project development.
 
+## Other Tools
+- Used to shrink the images [image resizer](https://imageresizer.com/)
+- Used for responsive design [Am I Responsive](https://ui.dev/amiresponsive)
 # Testing
 The Strong Gym website should be designed to be responsive, ensuring that all content and images stack on top of each other when viewed on mobile or tablet devices. This allows a clean and organised feel of the page.
 
