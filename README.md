@@ -184,7 +184,16 @@ Forks are commonly used in the GitHub platform, allowing users to create a dupli
 1. Log into Your GitHub account and locate to [GitHub Repository](https://github.com/Issam-Allymis?tab=repositories).
 2. In the repository page, find and click **code**.
 3. There are several ways of doing this next step:
-  - Clone the repository using HTTPs, under "Clone with HTTPS", click the 'copy' icon
+   - Clone the repository using HTTPs, under "Clone with HTTPS", then click the 'copy' icon.
+   - Clone a repository using GitHub CLI, click 'Use GitHub CLI', then ckick the 'copy' icon.
+   - Clone the repository using SSH key, click 'Use SSH', then click the 'copy' icon.
+4. Open GitBash in the terminal.
+5. Navigate to the directory where you want to clone a repository, you can use the "cd" command followed by the directory path. This will change the current working directory to the desired location.
+6. Type "git clone" command followed by the URL you copied.
+7.Press Enter.
+Forking creates a copy of a repository on GitHub, while cloning creates a local copy of the repository on your own computer.
+To find more information about forking click here ---->[Fork Here](https://docs.github.com/en/get-started/quickstart/fork-a-repo)<----
+
 
 # Credits 
 - The hero image effect was inspired from the [Love Running](https://github.com/Code-Institute-Solutions/readme-template) CI Project
