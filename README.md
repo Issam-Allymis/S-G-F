@@ -165,12 +165,16 @@ The Strong Gym website should be designed to be responsive, ensuring that all co
 ![Screenshot 2023-03-29 195635](https://user-images.githubusercontent.com/126810074/229302912-64664a3d-b9c4-4821-a976-09ad7a8a11cc.png)
 
 ### Mobile
+#### Home Page (index.html)
 ![Screenshot 2023-03-29 195225](https://user-images.githubusercontent.com/126810074/228824028-b6c1a374-dc9c-480c-92a5-4cdcbabd4ec7.png)
 
+#### Gallery (gallery.html)
 ![Screenshot 2023-03-30 122913](https://user-images.githubusercontent.com/126810074/228823054-42574a07-4d7e-4e30-867b-0f1e833b149d.png)
 
+#### Nutrition (nutrition.html)
 ![Screenshot 2023-04-01 173655](https://user-images.githubusercontent.com/126810074/229303489-070b9a26-2cd6-426e-bcd1-076d538d86b8.png)
 
+#### Sign (sign.html)
 ![Screenshot 2023-03-29 195559](https://user-images.githubusercontent.com/126810074/228824724-c24e5ff8-f3f6-4f80-ab2e-f7cda4f019cc.png)
 
 
