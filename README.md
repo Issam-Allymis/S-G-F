@@ -112,6 +112,7 @@ As part of the planning stage, I used [Balsamiq](https://balsamiq.com/) to creat
 ## Languages Used
 - [HTML](https://en.wikipedia.org/wiki/HTML)
 - [CSS3](https://en.wikipedia.org/wiki/CSS)
+- image resizer was used to shrink the images [image resizer](https://imageresizer.com/)
 
 ## Libraries
 - [Google Fonts](https://fonts.google.com/)
@@ -197,8 +198,6 @@ To find more information about forking click here ---->[Fork Here](https://docs.
 
 # Credits 
 - The hero image effect was inspired from the [Love Running](https://github.com/Code-Institute-Solutions/readme-template) CI Project
-
-- image resizer used to shrink the images [image resizer](https://imageresizer.com/)
 
 - The image quote was found on [wallpapercave.com](https://wallpapercave.com/bodybuilding-iphone-wallpapers)
 
