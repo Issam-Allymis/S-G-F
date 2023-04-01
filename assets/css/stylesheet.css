@@ -408,7 +408,6 @@ a {
   padding-bottom: 30px;
   background: #2b3445;
   box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.5), 0 4px 11px 0 rgba(0, 0, 0, 0.08);
-  opacity: 3;
   top: 0;
 }
 
@@ -470,8 +469,6 @@ span {
   padding-bottom: 30px;
   background: #2b3445;
   box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.5), 0 4px 11px 0 rgba(0, 0, 0, 0.08);
-  opacity: 3;
-  top: 0;
 }
 
 .colapsible-text h2 {
