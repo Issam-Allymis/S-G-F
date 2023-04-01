@@ -7,7 +7,8 @@ The [Strong Gym Fitness](https://issam-allymis.github.io/S-G-F/index.html) Page 
 
 The Strong Gym Fitness Page is built entirely using HTML and CSS, without the need for any additional programming languages or frameworks. The page includes information about each membership plan, such as the price, the duration, and the benefits of each plan.
 
-The page also includes a membership sign-up form that users can fill out to become members of the gym. The form includes fields for personal information, such as name and email address, as well as options to select a membership plan and payment method.
+The page also includes a membership sign-up form that users can fill out to become members of the gym. The form includes fields for personal information, such as name and email address, as well as options to select a membership plan and payment method.![Screenshot 2023-04-01 170459](https://user-images.githubusercontent.com/126810074/229302130-ea41bef3-b337-4480-935b-a1490ee70fd1.png)
+
 
 The Strong Gym Fitness Page is designed to be responsive, meaning that it adjusts to different screen sizes and devices. This ensures that users can view and sign up for memberships on any device, whether they're using a desktop computer, tablet, or smartphone.
 
@@ -75,7 +76,7 @@ As part of the planning stage, I used [Balsamiq](https://balsamiq.com/) to creat
 # Feautures
 ## Page Elements
 ### Navigation Bar
-![Screenshot 2023-03-27 151826](https://user-images.githubusercontent.com/126810074/228066146-b310d2d4-37e7-4f6b-a1b4-de46422d963f.png)
+![Screenshot 2023-04-01 140116](https://user-images.githubusercontent.com/126810074/229291377-475106f5-6766-4bb5-a26a-1dd025ca4957.png)
 
 - The navigation bar is located at the top of the page wrapped inside the header element. My menu is designed to make it simple for users to easily navigate through    pages. I added a hover effect to the menu to make the user experience more visually appealing and clean. I have designed the menu to highlight the current page a user is on, providing a clear indication of the user's location and reducing confusion for a better user experience. 
 
@@ -90,9 +91,13 @@ As part of the planning stage, I used [Balsamiq](https://balsamiq.com/) to creat
 ### Icons
 - The icons used on this website are sourced from [Font Awesome](https://fontawesome.com/), and can be found throughout the header, body, and footer sections.
 
+### Timetable Button
+![Screenshot 2023-04-01 130945](https://user-images.githubusercontent.com/126810074/229291057-f6e7251b-8d8f-4fda-bafe-16f4c2619895.png)
+- The Timetable button is located below the hero image in the [index.html](https://issam-allymis.github.io/S-G-F/index.html) page and provides a convenient way for regular site users to quickly locate to the Timetable without having to scroll through the page content.
+
 ### Back To Top
 ![Screenshot 2023-03-25 184509](https://user-images.githubusercontent.com/126810074/227954162-c25481c2-0cbe-4715-b028-e830d57f7c26.png)   
-- The back to top button is located at the bottom of the index page and provides a convenient way for users to quickly return to the top of the page without having to manually scroll all the way back up to the nav bar.
+- The back to top button is located at the bottom of the [index.html](https://issam-allymis.github.io/S-G-F/index.html) page and provides a convenient way for users to quickly return to the top of the page without having to manually scroll all the way back up to the nav bar.
  
  ### Footer
  ![Screenshot 2023-03-27 152208](https://user-images.githubusercontent.com/126810074/228062163-52a7ab70-d944-415a-9f6c-ff919b90fca9.png)
@@ -112,6 +117,7 @@ As part of the planning stage, I used [Balsamiq](https://balsamiq.com/) to creat
 ## Languages Used
 - [HTML](https://en.wikipedia.org/wiki/HTML)
 - [CSS3](https://en.wikipedia.org/wiki/CSS)
+- Used to shrink the images [image resizer](https://imageresizer.com/)
 
 ## Libraries
 - [Google Fonts](https://fonts.google.com/)
@@ -125,34 +131,56 @@ As part of the planning stage, I used [Balsamiq](https://balsamiq.com/) to creat
 - [Github:](https://github.com/) Used for storing code remotely and for project deployment.
 - [Gitpod:](https://www.gitpod.io/) IDE for project development.
 
-## Other Tools
-- Used to shrink the images [image resizer](https://imageresizer.com/)
-- Used for responsive design [Am I Responsive](https://ui.dev/amiresponsive)
 # Testing
-The Strong Gym website should be designed to be responsive, ensuring that all content and images stack on top of each other when viewed on mobile or tablet devices. This allows a clean and organised feel of the page.
+## introduction
 
+The Strong Gym website should be designed to be responsive, ensuring that all content and images stack on top of each other when viewed on mobile devices. This allows a clean and organised feel of the page. 3 Different tools will be used to test the websites performance. To make sure the website is running as intended.
+- Every page will be tested on Lighthouse for PC and Mobile.
+- HTML will be validated in the [HTML Validator](https://validator.w3.org/)
+- CSS will be validated in the [W3C CSS Validator - Jigsaw](https://jigsaw.w3.org/css-validator/)
+
+## W3C CSS validator
+**Was tested by input**
+- CSS Stylesheet has passed Jigsaw with no errors found
+
+![Screenshot 2023-04-01 170437](https://user-images.githubusercontent.com/126810074/229302202-1b155c87-f324-468b-8072-9b1620a6c3d5.png)
+
+![Screenshot 2023-04-01 153518](https://user-images.githubusercontent.com/126810074/229303553-74bf7a56-1a61-4050-9d20-c0e288a86ec2.png)
 
 ### Desktop
+#### Home Page (index.html)
 ![Screenshot 2023-03-29 195240](https://user-images.githubusercontent.com/126810074/228824199-132adebf-0909-4dff-9afd-1830ca040b0d.png)
+![Screenshot 2023-04-01 172500](https://user-images.githubusercontent.com/126810074/229302693-83074bcf-502c-494d-a645-6cc53f2201b0.png)
+![Screenshot 2023-03-29 225149](https://user-images.githubusercontent.com/126810074/229302593-9a9f7b3b-81b9-4b08-8efb-04d304d9ad1a.png)
 
+#### Gallery (gallery.html)
 ![Screenshot 2023-03-29 195501](https://user-images.githubusercontent.com/126810074/228824635-7973d2fe-7e95-4029-8b86-50f7362fd0fc.png)
+![Screenshot 2023-03-29 215629](https://user-images.githubusercontent.com/126810074/229302828-4099bfb0-f637-4f21-8861-f414bdbc391e.png)
 
-![Screenshot 2023-03-29 195635](https://user-images.githubusercontent.com/126810074/228824858-ed70e0bf-b1dd-46e2-b5b3-bd1c220e3036.png)
+#### Nutrition (nutrition.html)
+![Screenshot 2023-04-01 173942](https://user-images.githubusercontent.com/126810074/229303472-f3570e48-8e07-4dec-9907-b3edccefae34.png)
+![Screenshot 2023-04-01 173737](https://user-images.githubusercontent.com/126810074/229303423-80aeb86a-62b9-4f1d-bc72-53490f99e4ea.png)
+
+#### Sign (sign.html)
+![Screenshot 2023-03-29 195635](https://user-images.githubusercontent.com/126810074/229303020-3d242823-7951-41a2-9475-fd1070ab8fdd.png)
+![Screenshot 2023-03-29 195635](https://user-images.githubusercontent.com/126810074/229302912-64664a3d-b9c4-4821-a976-09ad7a8a11cc.png)
 
 ### Mobile
 ![Screenshot 2023-03-29 195225](https://user-images.githubusercontent.com/126810074/228824028-b6c1a374-dc9c-480c-92a5-4cdcbabd4ec7.png)
 
 ![Screenshot 2023-03-30 122913](https://user-images.githubusercontent.com/126810074/228823054-42574a07-4d7e-4e30-867b-0f1e833b149d.png)
 
+![Screenshot 2023-04-01 173655](https://user-images.githubusercontent.com/126810074/229303489-070b9a26-2cd6-426e-bcd1-076d538d86b8.png)
+
 ![Screenshot 2023-03-29 195559](https://user-images.githubusercontent.com/126810074/228824724-c24e5ff8-f3f6-4f80-ab2e-f7cda4f019cc.png)
 
 
 # Bugs
-# Current Bugs
+## Current Bugs
 
 There are non that I am currently aware of 
 
-# Resolved Bugs
+## Resolved Bugs
 
 - The margin-left for the meet up section was larger than the screen width, which in turn caused the page to scroll horizontally to compensate the margin overflow. I tackled the issue by reducing the margin-left.
 
@@ -194,9 +222,11 @@ Forks are commonly used in the GitHub platform, allowing users to create a dupli
 5. Navigate to the directory where you want to clone a repository, you can use the "cd" command followed by the directory path. This will change the current working directory to the desired location.
 6. Type "git clone" command followed by the URL you copied.
 7.Press Enter.
-Forking creates a copy of a repository on GitHub, while cloning creates a local copy of the repository on your own computer.
-To find more information about forking click here ---->[Fork Here](https://docs.github.com/en/get-started/quickstart/fork-a-repo)<----
+Forking creates a copy of a repository on GitHub, while on the other hand, cloning creates a local copy of the repository on your own computer.
+To find more information about forking click here 
+->[Fork Here](https://docs.github.com/en/get-started/quickstart/fork-a-repo)<-
 
+**Happy coding!**
 
 # Credits 
 - The hero image effect was inspired from the [Love Running](https://github.com/Code-Institute-Solutions/readme-template) CI Project
@@ -229,6 +259,5 @@ To find more information about forking click here ---->[Fork Here](https://docs.
 
 - The drop down list was inspired by [Enhance Coding](https://www.youtube.com/watch?v=RvpYnUZRquw)
 
-Happy coding!
 
  
