@@ -1,5 +1,5 @@
 # Strong Gym Fitness
-![Screenshot 2023-03-28 231336](https://user-images.githubusercontent.com/126810074/228635110-98dd66a9-371f-4d51-97fa-561716a3f16b.png)
+![Screenshot 2023-04-01 175634](https://user-images.githubusercontent.com/126810074/229304311-08efd54d-4e2a-4249-835b-e5a54481b80c.png)
 
 ![strong gym b (1)](https://user-images.githubusercontent.com/126810074/228396407-d16a2bda-2f19-4b34-a181-6c7bb6aa12f2.svg)
 
