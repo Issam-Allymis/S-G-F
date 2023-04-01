@@ -1,8 +1,6 @@
 # Strong Gym Fitness
 ![Screenshot 2023-04-01 175634](https://user-images.githubusercontent.com/126810074/229304311-08efd54d-4e2a-4249-835b-e5a54481b80c.png)
 
-![strong gym b (1)](https://user-images.githubusercontent.com/126810074/228396407-d16a2bda-2f19-4b34-a181-6c7bb6aa12f2.svg)
-
 The [Strong Gym Fitness](https://issam-allymis.github.io/S-G-F/index.html) Page is a web page that provides information about the gym's membership plans and pricing. The page is designed to be visually appealing and easy to navigate, with clear calls-to-action that encourage users to sign up for a membership.
 
 The Strong Gym Fitness Page is built entirely using HTML and CSS, without the need for any additional programming languages or frameworks. The page includes information about each membership plan, such as the price, the duration, and the benefits of each plan.
@@ -220,16 +218,20 @@ Forks are commonly used in the GitHub platform, allowing users to create a dupli
 3. There are several ways of doing this next step:
    - Clone the repository using HTTPs, under "Clone with HTTPS", then click the 'copy' icon.
    - Clone a repository using GitHub CLI, click 'Use GitHub CLI', then ckick the 'copy' icon.
-   - Clone the repository using SSH key, click 'Use SSH', then click the 'copy' icon.
+   - Clone the repository using SSH key, click 'Use SSH', then click the 'copy' icon. 
 4. Open GitBash in the terminal.
 5. Navigate to the directory where you want to clone a repository, you can use the "cd" command followed by the directory path. This will change the current working directory to the desired location.
 6. Type "git clone" command followed by the URL you copied.
-7.Press Enter.
+7. Press Enter.
+
 Forking creates a copy of a repository on GitHub, while on the other hand, cloning creates a local copy of the repository on your own computer.
-To find more information about forking click here 
-->[Fork Here](https://docs.github.com/en/get-started/quickstart/fork-a-repo)<-
+To learn more information about fork click
+--->[Fork A Repo](https://docs.github.com/en/get-started/quickstart/fork-a-repo)<---
 
 **Happy coding!**
+💪
+
+![strong gym b (1)](https://user-images.githubusercontent.com/126810074/228396407-d16a2bda-2f19-4b34-a181-6c7bb6aa12f2.svg)
 
 # Credits 
 - The hero image effect was inspired from the [Love Running](https://github.com/Code-Institute-Solutions/readme-template) CI Project
