@@ -1117,6 +1117,10 @@ table td::before {
 }
 
 @media screen and (max-width:500px) {
+  #logo {
+    float: left;
+    margin-left: 0.1em;
+  }
   #left-reason {
   width: 100%;
   text-align: center;
@@ -1140,7 +1144,7 @@ table td::before {
 }
 
 li {
-  font-size: 0.45em;
+  font-size: 0.4em;
 }
 
 .reason-p {
