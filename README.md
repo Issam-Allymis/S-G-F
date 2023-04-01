@@ -223,6 +223,8 @@ To find more information about forking click here ---->[Fork Here](https://docs.
  
 - Gallery images found here [pinterest](https://za.pinterest.com/YogaEstelle/)
 
+- Gallery images found here [wallpaperaccess](https://wallpaperaccess.com/fruits-and-vegetables-high-resolution)
+
 - The drop down list was inspired by [Enhance Coding](https://www.youtube.com/watch?v=RvpYnUZRquw)
 
 Happy coding!

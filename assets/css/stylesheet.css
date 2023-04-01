@@ -40,7 +40,6 @@ p {
 }
 
 #logo {
-  font-sze: 250%;
   float: left;
   margin-left: 1.56em;
   letter-spacing: 5px;
@@ -51,11 +50,14 @@ p {
   font-size: 115%;
   letter-spacing: 4px;
   text-decoration: none;
+  display: inline-flex;
+  float: left;
+  clear: both;
+  margin-left: 3.5em;
 }
 
 #menu li {
   list-style-type: none;
-  float: right;
   margin-right: 1.56em;
 }
 
@@ -514,10 +516,10 @@ span {
  width: 100%;
  clear: both;
  height: 200px;
- transform: translateY(90px);
+ transform: translateY(40px);
 }
 
-/* nutrition page */
+/* NUTRITION PAGE */
 #food div {
   width: 33%;
   color: #ffffff;
@@ -547,7 +549,7 @@ span {
   text-align: center;
   border-top: 1px solid black;
   border-bottom: 1px solid black;
-  margin-bottom: 50px;
+  margin-bottom: 3em;
   border-radius: 0.75em;
 }
 
@@ -558,6 +560,7 @@ div > p {
 #performance {
   width: 50%;
   margin: 0 auto;
+  margin-bottom: 4.5em;
   border-top: 1px solid black;
   border-bottom: 1px solid black;
   border-radius: 0.75em;
@@ -973,6 +976,10 @@ hr {
   float: left;
 }
 
+li {
+  font-size: 0.6em;
+}
+
 #left-reason {
   float: left;
   background-color: none;
@@ -1130,6 +1137,10 @@ table td::before {
 
 #strong-with-us {
   height: 131em;
+}
+
+li {
+  font-size: 0.45em;
 }
 
 .reason-p {
