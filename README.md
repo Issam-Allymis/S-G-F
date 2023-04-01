@@ -198,6 +198,8 @@ To find more information about forking click here ---->[Fork Here](https://docs.
 # Credits 
 - The hero image effect was inspired from the [Love Running](https://github.com/Code-Institute-Solutions/readme-template) CI Project
 
+- image resizer used to shrink the images [image resizer](https://imageresizer.com/)
+
 - The image quote was found on [wallpapercave.com](https://wallpapercave.com/bodybuilding-iphone-wallpapers)
 
 - Gallery images found here [healthline.com](https://www.healthline.com/health-news/women-urged-to-exercise-vigorously-to-stay-heart-healthy) 
