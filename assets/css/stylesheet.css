@@ -321,7 +321,7 @@ th {
 }
 
 /* back to top href link */
-#top-button {
+.top-button {
   width: 60px;
   color: #314660;
   font-size: 20px;
@@ -337,7 +337,7 @@ th {
   box-shadow: 0 3px 9px 0 #05131f, 0 0.2em 0.2em 0 #05131f;
 }
 
-#top-button:hover {
+.top-button:hover {
   color: #4289de;
   background-color: midnightblue;
   cursor: pointer;
