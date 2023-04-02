@@ -732,6 +732,7 @@ label {
 
 .join:hover {
   background-color: #000000;
+  cursor: pointer;
   color: #42b6c4;
 }
 
