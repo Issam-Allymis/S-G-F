@@ -534,7 +534,7 @@ div #pi {
   border-bottom: 1px solid black;
   border-radius: 0.75em;
   box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.5);
-  background-image: url(./images/water.jpg);
+  background-image: url(./images/spalsh.png);
   border-radius: 0.75em;
   height: 60px;
 }
@@ -552,7 +552,7 @@ div #pii {
   border-radius: 0.75em;
   box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.5);
   background-color: rgba(0, 0, 0, 0.5);
-  background-image: url(./images/yoga-mat.jpg);
+  background-image: url(./images/women-stretching.png);
   border-radius: 0.75em;
 }
 div #piii {
@@ -567,7 +567,7 @@ div #piii {
   border-bottom: 1px solid black;
   border-radius: 0.75em;
   box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.5);
-  background-image: url(./images/bed-time-clock.jpg);
+  background-image: url(./images/alarm-clock.jpg);
   border-radius: 0.75em;
   height: 60px;
 }
@@ -854,28 +854,18 @@ textarea {
 #left-reason {
   padding-top: 1.9em;
   width: 40%;
-  background-color: #314660;
- }
-
-.reason-p {
-  border-bottom: 1px solid black;
-  border-top: 1px solid black;
+  background-color: #314660
 }
 
  #right-reason {
   padding-top: 1.8em;
   width: 40%;
-  margin-left: 0.625em;
   background-color: #314660;
 }
 
 #center-reason {
   clear: both;
   width: 100%;
-}
-
-hr {
-  display: none;
 }
 
 #food div {
@@ -891,65 +881,25 @@ hr {
   width: 44.7%;
 }
 
-/* i made the photos section 98% as to align the photos with the footer and to prevent image over-flow */
+
 #photos {
   column-count: 2;
   position: relative;
-  width: 98%;
-}
-
-.form-section {
-  width: 100%;
-}
-
-.form-section {
-  height: 53.12em;
-  clear: both;
-  background-image: url(./images/hunger-for-success.jpg);
-  box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.5)
 }
 
 .signup {
-  width: 20em;
-  height: 28em;
   margin: 20em 0 0 21.25em;
-  color: #ffffff;
   position: absolute;
-  border-radius: 0.2em;
-  border: 1px solid rgba(0, 0, 0, 0.5);
-  background-color: rgba(0, 0, 0, 0.5);
-  box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.5);
-}
-
-.form-input {
-  color: #ffffff;
-  background-color: rgba(0, 0, 0, 0.5);
-  border: 1px solid #000000;
-  display: flex;
-  width: 250px;
-  margin-bottom: 10%;
-  margin-right: 7%;
-  padding: 5px;
-  border-radius: 0.75em;
 }
 
 .motivation {
-  width: 300px;
-  height: 250px;
-  background-color: rgba(0, 0, 0, 0.5);
-  border: 1px solid #000000;
-  border-radius: 0.75em;
   position: absolute;
   transform: translateX(-200px);
   text-align: center;
   margin-top: 50px;
 }
 
-.form-input {
-  width: 70%;
-}
-
-.memberships {
+.memerships {
   position: absolute; 
   margin: 75px 0 0 5px; 
   text-align: center;
@@ -986,19 +936,17 @@ hr {
 
   #left-reason {
     width: 49%;
-    text-align: center;
     margin-bottom: 1.25em;
     background-color: #314660;
   }
   
   #right-reason {
     width: 49%;
-    border-left: 1px solid black;
-    text-align: center;
     margin-bottom: 1.25em;
     background-color: #314660;
   }
 
+  /* Personal Trainers section */
   .column {
     width: 100%;
     position: relative;
@@ -1024,18 +972,12 @@ hr {
     width: 20em;
     height: 28em;
     margin: 20em 0 0 9em;
-    color: #ffffff;
     position: absolute;
-    border-radius: 0.2em;
-    border: 1px solid rgba(0, 0, 0, 0.5);
-    background-color: rgba(0, 0, 0, 0.5);
-    box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.5);
   }
 
   .memberships {
     position: relative; 
     margin: 0 0 0 31em; 
-    text-align: center;
     z-index: 1;
   }
 
@@ -1056,19 +998,7 @@ li {
   font-size: 0.6em;
 }
 
-#left-reason {
-  float: left;
-  margin-bottom: 1em;
-}
-
-#right-reason {
-  float: right;
-  margin-bottom: 1em;
-}
-
 #strong-with-us {
-  width: 100%;
-  float: left;
   height: 90em;
   margin: 0 auto;
  }
@@ -1082,13 +1012,15 @@ table, table tbody, table, tr, table td {
   width: 99%;
 }
 
+/* minimises the table head text for a more cleaner display */
 table th {
   display: block;
-  width: 99%;
-  height: 1px;
-  color: #314660;
-  border: 1px solid #314660;
-  background-color: #314660;
+  width: 0.1%;
+  height: 0.1px;
+  font-size: 0.1px;
+  color: #000000;
+  border: 1px solid #000000;
+  background-color: #000000;
 }
 
 .table-heading {
@@ -1113,16 +1045,17 @@ table td::before {
   padding-left: 15px;
 }
 
+#weekend div {
+  width: 100%;
+}
+
+/* Nutrition  */
 #food div {
   width: 99%;
   height: 200px;
 }
 #food {
   width: 99%;
-}
-
-#weekend div {
-  width: 100%;
 }
 
 /* Personal Trainers */
@@ -1135,7 +1068,7 @@ table td::before {
   width: 100%;
 }
 
-/* gallery */
+/* Gallery */
 #photos {
   column-count: 2;
   position: relative;
@@ -1146,21 +1079,18 @@ table td::before {
   width: 100%;
 }
 
-/* sign up form */
+/* Sign Form */
 .form-section {
   height: 1000px;
 }
 
 .signup {
-  width: 320px;
-  height: 450px;
   margin-top: 320px;
   position: absolute;
   transform: translateX(-80px);
 }
 
 .form-input {
-  width: 250px;
   margin-bottom: 10%;
   margin-right: 7%;
   padding: 5px;
@@ -1216,23 +1146,21 @@ header li {
   font-size: 0.4em;
 }
 
+/* adds structure and separates the 4 reasons on the index page */
 .reason-p {
   border-right: 1px solid rgb(0, 0, 0);
 }
 
 .signup {
-  width: 320px;
-  height: 500px;
-  margin: 350px 0 0 0;
+  margin: 0 auto;
+  margin-top: 350px;
   position: absolute;
   transform: translateX(27px);
 }
 
 .motivation {
-  width: 320px;
-  height: 240px;
   transform: translateX(90px);
-  margin: 30px 0 0 0;
+  margin: 30px 5em 0 0;
 }
 
 /* nutrition */
