@@ -1,13 +1,7 @@
 # Strong Gym Fitness
 ![Screenshot 2023-04-01 175634](https://user-images.githubusercontent.com/126810074/229304311-08efd54d-4e2a-4249-835b-e5a54481b80c.png)
 
-The [Strong Gym Fitness](https://issam-allymis.github.io/S-G-F/index.html) Page is a web page that provides information about the gym's membership plans and pricing. The page is designed to be visually appealing and easy to navigate, with clear calls-to-action that encourage users to sign up for a membership.
-
-The Strong Gym Fitness Page is built entirely using HTML and CSS, without the need for any additional programming languages or frameworks. The page includes information about each membership plan, such as the price, the duration, and the benefits of each plan.
-
-The page also includes a membership sign-up form that users can fill out to become members of the gym. The form includes fields for personal information, such as name and email address, as well as options to select a membership plan and payment method.
-
-The Strong Gym Fitness Page is designed to be responsive, meaning that it adjusts to different screen sizes and devices. This ensures that users can view and sign up for memberships on any device, whether they're using a desktop computer, tablet, or smartphone.
+The [Strong Gym Fitness](https://issam-allymis.github.io/S-G-F/index.html) Page is a web page that provides information about the gym's membership plans and pricing. The page is designed to be visually appealing and easy to navigate, with clear calls-to-action that encourage users to sign up for a membership. The Strong Gym Fitness Page is built entirely using HTML and CSS, without the need for any additional programming languages or frameworks. The page includes information about each membership plan, and the benefits of each plan. The page also includes a membership sign-up form that users can fill out to become members of the gym. The form includes fields for personal information, such as name and email address, as well as options to select a membership plan and a text area for feedback from the customers. The Strong Gym website also offers monthly dietry information in the nutrients section... The Strong Gym Fitness Page is designed to be responsive, meaning that it adjusts to different screen sizes and devices. This ensures that users can view and sign up for memberships on any device, whether they're using a desktop computer, tablet, or smartphone. 
 
 ## Website
   - [Website🕸️](https://issam-allymis.github.io/S-G-F/index.html)
@@ -254,7 +248,7 @@ To learn more information about fork click
 
 - Gallery images found here [gettingresults](https://gettingresults.com/how-tony-robbins-transformed-his-life-with-goals/) 	
 
-- Gallery images found here [pixabay](https://pixabay.com/images/search/fitness%20gym%20group%20working%20out%20together/)
+- Nutritional background images found here [pixabay](https://pixabay.com/)
 
 - Gallery images found here [pinterest](https://www.pinterest.ie/pin/645844402824400477/)
 
