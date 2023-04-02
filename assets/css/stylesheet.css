@@ -70,8 +70,14 @@ p {
   line-height: 75px;
 }
 
+header a {
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 0.75em;
+  box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.5);
+}
+
 #menu a:hover {
-  background-color:#4289de;
+  background-color: rgba(0, 0, 0, 0.5);
   color: #ffffff;
   padding: 2.5px;
   border-radius: 0.50em;
@@ -81,8 +87,8 @@ p {
 
 /* indicates to the user what page they are on */
 .current {
-  border-left: 1px solid #4ea3fb;
-  border-right: 1px solid #4ea3fb;
+  border-left: 3px solid #4ea3fb;
+  border-right: 3px solid #4ea3fb;
 }
 
 /* hero image and cover text info*/
@@ -113,7 +119,7 @@ animation-fill-mode: forwards;
 
 }
 
-/* creats a level of zoom for the hero image */
+/* creates a level of zoom for the hero image */
 @keyframes hero-zoom {
     from{
          transform: scale(1.5)
@@ -140,7 +146,7 @@ animation-fill-mode: forwards;
 
 }
 
-/* creats a level of zoom for the hero image */
+/* creates a level of zoom for the hero image */
 @keyframes hero-zoom {
     from{
          transform: scale(1.5)
@@ -166,7 +172,7 @@ animation-fill-mode: forwards;
 
 }
 
-/* creats a level of zoom for the hero image */
+/* creates a level of zoom for the hero image */
 @keyframes hero-zoom {
     from{
          transform: scale(1.5)
@@ -226,6 +232,7 @@ animation-fill-mode: forwards;
   padding-top: 1.875em;
   width: 33%;
   margin: 0 auto;
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 #strong-with-us {
@@ -259,6 +266,7 @@ hr {
   float: right;
   clear: both;
   margin-bottom: 0.375em;
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 .right-reason-about {
@@ -267,6 +275,7 @@ hr {
   float: left;
   clear: both;
   margin-bottom: 1.25em;
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 #center-outer {
@@ -277,12 +286,14 @@ hr {
   border: 0.1em solid #4289de;
   margin: 0 auto;
   background: #2b3445;
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 .center-inner-img {
   background: url('./images/gym-quote.jpg') no-repeat;
   height: 290px;
   border-radius: 20%;
+  background-color: rgba(0, 0, 0, 0.5);
   box-shadow: 0 6px 11px 0 #05131f, 0 1em 1em 0 #05131f;
 }
 
@@ -322,7 +333,7 @@ th {
   text-decoration: underline;
 }
 
-/* back to top href link */
+/* back to top href & t-table link */
 .top-button {
   width: 60px;
   color: #314660;
@@ -341,18 +352,20 @@ th {
 
 .top-button:hover {
   color: #4289de;
-  background-color: midnightblue;
+  background-color: rgb(25, 25, 112);
   cursor: pointer;
 }
 
 #table-button-container {
   margin: 1em 0 1em 0;
   text-align: center;
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 #button-container {
   margin-top: 6.25em;
   text-align: center;
+  background-color: rgba(0, 0, 0, 0.5);
 }
   
 a {
@@ -418,75 +431,19 @@ a {
   color: #4289de;
   text-align: center;
 }
+
 .collapsible-text p {
   padding-left: 15px;
   padding-right: 15px;
   text-align: left;
 }
-span {
+
+/* Targets the dropdown lists front cover text at HOME PAGE and SIGN PAGE */
+.mem-benefits {
   font-size: 2em;
 }
 
-/*sign up page  */
-.colapsible {
-  max-width: 222px;
-  overflow: hidden;
-  font-weight: 600;
-}
-
-.colapsible input {
-  display: none;  /* gets rid of the checkbox at top left*/
-}
-
-/*z-index property (left there to create stack order)*/
-.colapsible label { 
-  position: relative;
-  font-weight: 700;
-  box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.6), 0 4px 8px 0 rgba(0, 0, 0, 0.08);
-  color: #4ea3fb;
-  background-color: #2b3445;
-  display: inline-block;
-  margin-bottom: 10px;
-  margin-top: 80px;
-  cursor: pointer;
-  padding: 15px;
-  border-radius: 0.75em;
-  z-index: 1;
-}
-
-.colapsible-text {
-  max-height: 1px;
-  overflow: hidden;
-  border-radius: 0.75em;
-  line-height: 1.5;
-  position: relative;
-  top: -100%;
-  opacity: 0.5;
-  transition: all 0.2s ease;
-}
-
-.colapsible input:checked ~ .colapsible-text {
-  max-height: 700px;
-  padding-bottom: 30px;
-  background: #2b3445;
-  box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.5), 0 4px 11px 0 rgba(0, 0, 0, 0.08);
-  opacity: 3;
-  top: 0;
-}
-
-.colapsible-text h2 {
-  margin-bottom: 10px;
-  padding: 15px 15px 0;
-  color: #4289de;
-  text-align: center;
-}
-.colapsible-text p {
-  padding-left: 15px;
-  padding-right: 15px;
-  text-align: left;
-}
-
-/* weekend meet up blocks */
+/* weekend meet up blocks (saturday & sunday)*/
 #weekend {
   width: 18%;
   margin-top: 40px;
@@ -504,13 +461,14 @@ span {
   background-color: rgba(0, 0, 0, 0.5);
   box-shadow: 0 5px 11px 0 hsla(0, 0%, 0%, 0.5), 0 4px 11px 0 hsla(0, 0%, 22%, 0.08);
 }
+
 #weekend {
   background-image: url(./images/blue-cup2.webp);
   border-radius: 0.75em;
   margin-bottom: 8em;
 }
 
-/* nutriotion page */
+/* NUTRITION PAGE */
 /* monthly updates on beneficial foods */
 #food {
  width: 100%;
@@ -519,7 +477,6 @@ span {
  transform: translateY(40px);
 }
 
-/* NUTRITION PAGE */
 #food div {
   width: 33%;
   color: #ffffff;
@@ -532,6 +489,7 @@ span {
   background-color: rgb(0, 0, 0, 0.5);
   box-shadow: 0 5px 11px 0 hsla(0, 0%, 22%, 0.5), 0 4px 11px 0 hsla(0, 0%, 22%, 0.08);
 }
+
 #food {
   background-image: url(./images/colorful-fruits-and-vegetables\ \(1\).jpg);
   border-radius: 0.75em;
@@ -547,6 +505,7 @@ span {
   clear: both;
   font-size: 1.5em;
   text-align: center;
+  background-color: rgba(0, 0, 0, 0.5);
   border-top: 1px solid black;
   border-left: 1px solid black;
   border-right: 1px solid black;
@@ -558,8 +517,31 @@ div > p {
   text-align: center;
 }
 
-#performance {
+.p1 {
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 0.35em;
+}
+
+div #pi {
   width: 50%;
+  height: 50px;
+  margin: 0 auto;
+  color: #ffffff;
+  font-size: .9em;
+  font-weight: 900;
+  margin-bottom: 4.5em;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  border-radius: 0.75em;
+  box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.5);
+  background-image: url(./images/water.jpg);
+  border-radius: 0.75em;
+  height: 60px;
+}
+
+div #pii {
+  width: 50%;
+  height: 60px;
   margin: 0 auto;
   color: #ffffff;
   font-size: .9em;
@@ -568,14 +550,29 @@ div > p {
   border-top: 1px solid black;
   border-bottom: 1px solid black;
   border-radius: 0.75em;
-  background-image: url(./images/dumbells.jpg);
   box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.5);
-}
-#performance p {
   background-color: rgba(0, 0, 0, 0.5);
+  background-image: url(./images/yoga-mat.jpg);
   border-radius: 0.75em;
 }
+div #piii {
+  width: 50%;
+  height: 50px;
+  margin: 0 auto;
+  color: #ffffff;
+  font-size: .9em;
+  font-weight: 700;
+  margin-bottom: 4.5em;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  border-radius: 0.75em;
+  box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.5);
+  background-image: url(./images/bed-time-clock.jpg);
+  border-radius: 0.75em;
+  height: 60px;
+}
 
+/* Personal Trainers Section */
 #personal-trainers {
   width: 100%;
 }
@@ -596,10 +593,10 @@ div > p {
 
 .column {
   float: left;
-  width: 100%;
   text-align: center;
   position: relative;
   clear: both;
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 .row {
@@ -608,16 +605,18 @@ div > p {
   margin-top: 3.12em;
   border-radius: 5em;
   display: inline-block;
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 .rounded-image {
   border-radius: 50%;
 }
 
-
+/* FOOTER */
 /* footer links */
 a:hover {
  color: #42b6c6;
+ background-color: rgba(0, 0, 0, 0.5);
 }
 
 footer a {
@@ -657,7 +656,7 @@ iframe {
  box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.5), 0 4px 15px 0 rgba(0, 0, 0, 0.08);
 }
 
-/* gallery section */
+/* GALLERY PAGE */
 #photos {
   line-height: 0;
   column-gap: 0;
@@ -675,7 +674,7 @@ iframe {
   height: 25em;
 }
 
-/* sign up page */
+/* SIGN PAGE */
 .form-section {
   height: 53.12em;
   clear: both;
@@ -736,6 +735,11 @@ label {
   color: #42b6c4;
 }
 
+textarea {
+  color: #ffffff;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
 .motivation > p {
   color: #ffff;
   font-weight: 500;
@@ -759,6 +763,65 @@ label {
   position: absolute; 
   margin: -28px 0 0 5px; 
   text-align: center;
+}
+
+.colapsible {
+  max-width: 222px;
+  overflow: hidden;
+  font-weight: 600;
+}
+
+.colapsible input {
+  display: none;  /* gets rid of the checkbox at top left*/
+}
+
+/*z-index property (left there to create stack order)*/
+.colapsible label { 
+  position: relative;
+  font-weight: 700;
+  box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.6), 0 4px 8px 0 rgba(0, 0, 0, 0.08);
+  color: #4ea3fb;
+  background-color: #2b3445;
+  display: inline-block;
+  margin-bottom: 10px;
+  margin-top: 80px;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 0.75em;
+  z-index: 1;
+}
+
+.colapsible-text {
+  max-height: 1px;
+  overflow: hidden;
+  border-radius: 0.75em;
+  line-height: 1.5;
+  position: relative;
+  top: -100%;
+  opacity: 0.5;
+  transition: all 0.2s ease;
+}
+
+.colapsible input:checked ~ .colapsible-text {
+  max-height: 700px;
+  padding-bottom: 30px;
+  background: #2b3445;
+  box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.5), 0 4px 11px 0 rgba(0, 0, 0, 0.08);
+  opacity: 3;
+  top: 0;
+}
+
+.colapsible-text h2 {
+  margin-bottom: 10px;
+  padding: 15px 15px 0;
+  color: #4289de;
+  text-align: center;
+}
+
+.colapsible-text p {
+  padding-left: 15px;
+  padding-right: 15px;
+  text-align: left;
 }
 
 /* media quieries */
@@ -1058,6 +1121,21 @@ table td::before {
   width: 100%;
 }
 
+/* Personal Trainers */
+.column {
+  width: 100%;
+  position: relative;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.row {
+  width: 100%;
+  margin-top: 3.12em;
+  border-radius: 5em;
+  display: inline-block;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
 /* gallery */
 #photos {
   column-count: 2;
@@ -1072,9 +1150,6 @@ table td::before {
 /* sign up form */
 .form-section {
   height: 1000px;
-  clear: both;
-  background-image: url(./images/hunger-for-success.jpg);
-  box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.5)
 }
 
 .signup {
@@ -1085,9 +1160,6 @@ table td::before {
   position: absolute;
   transform: translateX(-80px);
   border-radius: 0.2em;
-  border: 1px solid rgba(0, 0, 0, 0.5);
-  background-color: rgba(0, 0, 0, 0.5);
-  box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.5);
 }
 
 .form-input {
@@ -1099,7 +1171,6 @@ table td::before {
   margin-bottom: 10%;
   margin-right: 7%;
   padding: 5px;
-  border-radius: 0.75em;
 }
 
 .motivation {
@@ -1109,9 +1180,7 @@ table td::before {
   border: 1px solid #000000;
   border-radius: 0.75em;
   position: absolute;
-  transform: translateX(-80px);
-  text-align: center;
-  margin-top: 52px;
+  transform: translateX(-165px);
 }
 
 .memberships {
@@ -1124,39 +1193,55 @@ table td::before {
 }
 }
 
-@media screen and (max-width:500px) {
-  #logo {
-    float: left;
-    margin-left: 0.1em;
-  }
-  #left-reason {
+@media screen and (max-width:600px) {
+#logo {
+  float: left;
+  margin-left: 0.1em;
+}
+
+#left-reason {
   width: 100%;
   text-align: center;
   margin-bottom: 0;
   border-radius: 0.75em;
   background-color: #2b3445;
   display: flex; 
-  }
+}
   
-  #right-reason {
+#right-reason {
   width: 100%;
   text-align: center;
   margin-bottom: 0;
   border-radius: 0.75em;
   display: flex;
   background-color: #2b3445;
-  }
+}
 
 #strong-with-us {
   height: 131em;
 }
 
-li {
+/* Menu links */
+header li {
   font-size: 0.4em;
 }
 
 .reason-p {
   border-right: 1px solid rgb(0, 0, 0);
+}
+
+.column {
+  width: 100%;
+  position: relative;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.row {
+  width: 100%;
+  margin-top: 3.12em;
+  border-radius: 5em;
+  display: inline-block;
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 .signup {
