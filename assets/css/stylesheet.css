@@ -999,6 +999,15 @@ hr {
     background-color: #314660;
   }
 
+  .column {
+    width: 100%;
+    position: relative;
+  }
+  
+  .row {
+    width: 100%;
+  }
+
   /* Gallery */
   #photos {
     column-count: 2;
@@ -1008,12 +1017,7 @@ hr {
 
   .wrapper {
     margin-top: 8em;
-   }
-
-   /* index page photos */
-  .media-photos {
-    width: 100%;
-  }
+   } 
 
   /* sign up form */
   .signup {
@@ -1125,15 +1129,10 @@ table td::before {
 .column {
   width: 100%;
   position: relative;
-  background-color: rgba(0, 0, 0, 0.5);
 }
 
 .row {
   width: 100%;
-  margin-top: 3.12em;
-  border-radius: 5em;
-  display: inline-block;
-  background-color: rgba(0, 0, 0, 0.5);
 }
 
 /* gallery */
@@ -1156,17 +1155,11 @@ table td::before {
   width: 320px;
   height: 450px;
   margin-top: 320px;
-  color: #ffffff;
   position: absolute;
   transform: translateX(-80px);
-  border-radius: 0.2em;
 }
 
 .form-input {
-  color: #ffffff;
-  background-color: rgba(0, 0, 0, 0.5);
-  border: 1px solid #000000;
-  display: flex;
   width: 250px;
   margin-bottom: 10%;
   margin-right: 7%;
@@ -1176,9 +1169,6 @@ table td::before {
 .motivation {
   width: 300px;
   height: 250px;
-  background-color: rgba(0, 0, 0, 0.5);
-  border: 1px solid #000000;
-  border-radius: 0.75em;
   position: absolute;
   transform: translateX(-165px);
 }
@@ -1230,44 +1220,19 @@ header li {
   border-right: 1px solid rgb(0, 0, 0);
 }
 
-.column {
-  width: 100%;
-  position: relative;
-  background-color: rgba(0, 0, 0, 0.5);
-}
-
-.row {
-  width: 100%;
-  margin-top: 3.12em;
-  border-radius: 5em;
-  display: inline-block;
-  background-color: rgba(0, 0, 0, 0.5);
-}
-
 .signup {
   width: 320px;
   height: 500px;
   margin: 350px 0 0 0;
-  color: #ffffff;
   position: absolute;
   transform: translateX(27px);
-  border-radius: 0.2em;
-  border: 1px solid rgba(0, 0, 0, 0.5);
-  background-color: rgba(0, 0, 0, 0.5);
-  box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.5);
 }
 
 .motivation {
   width: 320px;
   height: 240px;
-  background-color: rgba(0, 0, 0, 0.5);
-  border: 1px solid #000000;
-  border-radius: 0.75em;
-  position: relative;
-  text-align: center;
   transform: translateX(90px);
   margin: 30px 0 0 0;
-  z-index: 2;
 }
 
 /* nutrition */
