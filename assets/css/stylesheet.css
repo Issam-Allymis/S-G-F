@@ -20,6 +20,9 @@ marquee {
 h1, h2 {
   color: #4ea3fb;
   font-size: 250%;
+  border-right: 0.1em solid #fff;
+  border-left: 0.1em solid #fff;
+  border-radius: 0.75em;
   font-family: Oswald, sans-serif;
   text-transform: uppercase;
 }
@@ -33,10 +36,6 @@ h4 {
 
 h2 {
   font-size: 1.5em;
-}
-
-p {
-  color: #fff;
 }
 
 #logo {
@@ -61,25 +60,26 @@ p {
   margin-right: 1.56em;
 }
 
-#menu a {
+#menu a, p, #cover-info, #cover-info {
   text-decoration: none;
   color: #ffffff;
 }
 
 #menu, #logo, a {
   line-height: 75px;
+  text-decoration: none;
 }
 
 header a {
-  background-color: rgba(0, 0, 0, 0.5);
   border-radius: 0.75em;
+  background-color: rgba(0, 0, 0, 0.5);
   box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.5);
 }
 
 #menu a:hover {
-  background-color: rgba(0, 0, 0, 0.5);
-  color: #ffffff;
   padding: 2.5px;
+  color: #ffffff;
+  background-color: rgba(0, 0, 0, 0.5);
   border-radius: 0.50em;
   border-bottom: 5.5px solid #05131f;
   border-right: 5.5px solid #05131f;
@@ -93,15 +93,15 @@ header a {
 
 /* hero image and cover text info*/
 #hero-out {
-  height: 27.44em;
   width: 100%;
+  height: 27.44em;
   overflow: hidden;
   position: relative;
 }
 
-/* blue information box to the bottom right */
-#cover-info, #cover-info h2 {
-  color: #ffff;
+/* aimed at blue cover info over hero image */
+#cover-text {
+  color: #fff;
 }
 
 #hero-image3 {
@@ -189,18 +189,13 @@ animation-fill-mode: forwards;
   font-family: Oswald, sans-serif;
   text-transform: uppercase;
   letter-spacing: 4px;
-
   width: 18.8em;
   height: 5.93em;
-
   padding-top: 10px;
   padding-left: 10px;
-
   bottom: 7px;
   right: 6px;
-
   background-color: rgba(56, 141, 216, 0.7);
-
   position: absolute;
 }
 
@@ -367,10 +362,6 @@ th {
   text-align: center;
   background-color: rgba(0, 0, 0, 0.5);
 }
-  
-a {
-    text-decoration: none;
-}
 
 /* collapsible text */
 .wrapper {
@@ -438,7 +429,7 @@ a {
   text-align: left;
 }
 
-/* Targets the dropdown lists front cover text at HOME PAGE and SIGN PAGE */
+/* Targets dropdown lists font-size text at HOME PAGE and SIGN PAGE */
 .mem-benefits {
   font-size: 2em;
 }
@@ -494,6 +485,7 @@ a {
   background-image: url(./images/colorful-fruits-and-vegetables\ \(1\).jpg);
   border-radius: 0.75em;
 }
+
 #food p {
   padding-top: 0.5em;
 }
@@ -1032,7 +1024,7 @@ table, table tbody, table, tr, table td {
   width: 99%;
 }
 
-/* minimises the table head text for a more cleaner display */
+/* minimises the table head text, removes the faint texts */
 table th {
   display: block;
   width: 0.1%;
