@@ -591,7 +591,7 @@ div > p {
 }
 
 #personal-trainers h3 {
-  color: #42b6c6;
+  color: #fff;
 }
 
 .column {
@@ -639,7 +639,6 @@ footer h3 {
 }
 
 footer > p {
-  color: 	#ffffff;
   margin-top: 1.25em;
 }
 
@@ -684,7 +683,6 @@ iframe {
 }
 
 .signup > h2 {
-  color: #fafafa;
   margin-bottom: 10%;
   text-align: center;
 }
