@@ -494,6 +494,13 @@ a {
   background-image: url(./images/colorful-fruits-and-vegetables\ \(1\).jpg);
   border-radius: 0.75em;
 }
+#food p {
+  padding-top: 0.5em;
+}
+
+#food h3 {
+  padding-top: 50px;
+}
 
 #food div h3 {
   font-size: 2.5em;
@@ -522,10 +529,11 @@ div > p {
   border-radius: 0.35em;
 }
 
-div #pi {
+#pi {
   width: 50%;
   height: 50px;
   margin: 0 auto;
+  padding-top: 1em;
   color: #ffffff;
   font-size: .9em;
   font-weight: 900;
@@ -539,10 +547,11 @@ div #pi {
   height: 60px;
 }
 
-div #pii {
+#pii {
   width: 50%;
   height: 60px;
   margin: 0 auto;
+  padding-top: 1em;
   color: #ffffff;
   font-size: .9em;
   font-weight: 700;
@@ -552,13 +561,15 @@ div #pii {
   border-radius: 0.75em;
   box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.5);
   background-color: rgba(0, 0, 0, 0.5);
-  background-image: url(./images/women-stretching.png);
+  background-image: url(./images/woman-yoga.png);
   border-radius: 0.75em;
 }
-div #piii {
+
+#piii {
   width: 50%;
   height: 50px;
   margin: 0 auto;
+  padding-top: 1em;
   color: #ffffff;
   font-size: .9em;
   font-weight: 700;
@@ -596,7 +607,6 @@ div #piii {
   text-align: center;
   position: relative;
   clear: both;
-  background-color: rgba(0, 0, 0, 0.5);
 }
 
 .row {
@@ -605,7 +615,6 @@ div #piii {
   margin-top: 3.12em;
   border-radius: 5em;
   display: inline-block;
-  background-color: rgba(0, 0, 0, 0.5);
 }
 
 .rounded-image {
@@ -869,13 +878,19 @@ textarea {
   width: 100%;
 }
 
+/* NUTRITION */
 #food div {
-  width:100%;
+  width: 99.9%;
   height: 9.4em;
 }
 
 #food {
-  height: 28.5em;
+  width: 98.5%;
+  height: 28.4em;
+}
+
+#food p {
+  padding-top: 50px;
 }
 
 #weekend div {
@@ -910,7 +925,7 @@ textarea {
 
 /* for medium screens size from 1000px and down */
 @media screen and (max-width:1000px) {
-  
+  /* NUTRITION */
   #food div {
     width:100%;
     height: 12.5em;
@@ -918,6 +933,10 @@ textarea {
   #food {
     height: 37.5em;
   }
+  #food h3, p {
+    padding-top: 50px;
+  }
+
 
   #weekend div {
     width: 100%;
@@ -947,7 +966,7 @@ textarea {
     background-color: #314660;
   }
 
-  /* Personal Trainers section */
+  /* PERSONAL TRAINERS section */
   .column {
     width: 100%;
     position: relative;
@@ -957,7 +976,7 @@ textarea {
     width: 100%;
   }
 
-  /* Gallery */
+  /* GALLERY */
   #photos {
     column-count: 2;
     position: relative;
@@ -968,7 +987,7 @@ textarea {
     margin-top: 8em;
    } 
 
-  /* sign up form */
+  /* SIGN UP FORM */
   .signup {
     width: 20em;
     height: 28em;
@@ -1050,13 +1069,22 @@ table td::before {
   width: 100%;
 }
 
-/* Nutrition  */
+/* NUTRITION  */
 #food div {
   width: 99%;
   height: 200px;
 }
+
 #food {
   width: 99%;
+}
+
+#pi, #pii, #piii {
+  height: 80px;
+}
+
+#food h3, p {
+  padding-top: 50px;
 }
 
 /* Personal Trainers */
@@ -1169,7 +1197,12 @@ header li {
   width: 99%;
   height: 20em;
 }
+
 #food {
-  height:60em;
+  height: 60em;
+}
+
+#pi, #pii, #piii {
+  height: 140px;
 }
 }
