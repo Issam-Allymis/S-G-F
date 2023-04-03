@@ -73,7 +73,6 @@ As part of the planning stage, I used [Balsamiq](https://balsamiq.com/) to creat
 ### Navigation Bar
 ![Screenshot 2023-04-03 023553](https://user-images.githubusercontent.com/126810074/229392664-c6a18fef-d153-4777-a3db-85e9c4d11515.png)
 
-
 - The navigation bar is located at the top of the page wrapped inside the header element. My menu is designed to make it simple for users to easily navigate through    pages. I added a hover effect to the menu to make the user experience more visually appealing and clean. I have designed the menu to highlight the current page a user is on, providing a clear indication of the user's location and reducing confusion for a better user experience. 
 
 ### Timetable
@@ -82,6 +81,8 @@ As part of the planning stage, I used [Balsamiq](https://balsamiq.com/) to creat
 - Our timetable displays all the training classes available to gym members from morning until early afternoon. Our gym offers classes from Monday to Friday. On weekends, we encourage gym-goers to attend a coffee meetup with fellow members and personal trainers to connect and get to know each other better over a cup of coffee.
 
 ### Personal Trainers
+![Screenshot 2023-04-03 155756](https://user-images.githubusercontent.com/126810074/229548501-c57d03fd-aeaf-4195-8ce0-d09a89ae36e9.png)
+
 - Each class is led by a professional trainer who provides helpful training tips to attendees. Each trainer ensures that attendees perform each exercise with correct form and maximum effort. Correct form is essential to reduce the risk of injury and achieve faster, more effective results.
 
 ### Icons
@@ -97,13 +98,19 @@ As part of the planning stage, I used [Balsamiq](https://balsamiq.com/) to creat
  
  ### Footer
  ![Screenshot 2023-04-03 024649](https://user-images.githubusercontent.com/126810074/229393658-45714387-2388-4261-95a7-fc6d4fb49734.png)
+ ![Screenshot 2023-04-03 154924](https://user-images.githubusercontent.com/126810074/229547697-2e0bc5c6-91b5-43c1-a700-926c6a743a43.png)
 
-
-- The footer, which uses the same [Font Awesome](https://fontawesome.com/) icons throughout, is located at the bottom of every page to maintain visual consistency. Each icon are linked to their corresponding social media websites for customers who want to know more about the gym and recieve the latest updates.
+- The footer section contains four social media icons ['*Font Awesome*'](https://fontawesome.com/) at the bottom of every page to maintain visual consistency, each leading to their corresponding platforms, and also includes Google Maps displaying the precise location of the gym.
  
  ### Video
  ![Screenshot 2023-03-29 144523](https://user-images.githubusercontent.com/126810074/228558443-f7e62442-fa9f-42bf-a2b4-0424836cd257.png)
 - This video can be found in the gallery section, and all video controls are available to the user for playback, including the ability to control the volume. for user experience the video has been set to mute by default.
+
+### Nutrition Page
+![Screenshot 2023-04-03 160134](https://user-images.githubusercontent.com/126810074/229550070-2c36bb77-4d27-413e-86e8-a57ca43aa228.png)
+![Screenshot 2023-04-03 160212](https://user-images.githubusercontent.com/126810074/229550098-74d24ecd-31a6-4bcf-8cef-84d0f0cf5ffc.png)
+
+- This section provides information on ***dieting*** and ***routine*** to optimise your gym progress to achieve the best results in the shortest amount of time.
 
  ### Sign Up Page
  ![Screenshot 2023-04-03 024908](https://user-images.githubusercontent.com/126810074/229393845-e982c109-badf-487b-8a77-1157fc31a217.png)
