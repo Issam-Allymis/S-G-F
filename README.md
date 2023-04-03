@@ -81,7 +81,7 @@ As part of the planning stage, I used [Balsamiq](https://balsamiq.com/) to creat
 - Our timetable displays all the training classes available to gym members from morning until early afternoon. Our gym offers classes from Monday to Friday. On weekends, we encourage gym-goers to attend a coffee meetup with fellow members and personal trainers to connect and get to know each other better over a cup of coffee.
 
 ### Personal Trainers
-![Screenshot 2023-04-03 155756](https://user-images.githubusercontent.com/126810074/229548501-c57d03fd-aeaf-4195-8ce0-d09a89ae36e9.png)
+![Screenshot 2023-04-03 173747](https://user-images.githubusercontent.com/126810074/229573028-28c5bf5c-44ac-4cea-8cc7-fd4ca0d05217.png)
 
 - Each class is led by a professional trainer who provides helpful training tips to attendees. Each trainer ensures that attendees perform each exercise with correct form and maximum effort. Correct form is essential to reduce the risk of injury and achieve faster, more effective results.
 
@@ -107,10 +107,10 @@ As part of the planning stage, I used [Balsamiq](https://balsamiq.com/) to creat
 - This video can be found in the gallery section, and all video controls are available to the user for playback, including the ability to control the volume. for user experience the video has been set to mute by default.
 
 ### Nutrition Page
-![Screenshot 2023-04-03 160134](https://user-images.githubusercontent.com/126810074/229550070-2c36bb77-4d27-413e-86e8-a57ca43aa228.png)
-![Screenshot 2023-04-03 160212](https://user-images.githubusercontent.com/126810074/229550098-74d24ecd-31a6-4bcf-8cef-84d0f0cf5ffc.png)
+![Screenshot 2023-04-03 173953](https://user-images.githubusercontent.com/126810074/229573565-9ea896a6-bf82-4acf-80f2-343ddbe895f2.png)
+![Screenshot 2023-04-03 174008](https://user-images.githubusercontent.com/126810074/229573605-7b4c6059-e5a7-4db3-a8b3-a7c661bb3c58.png)
 
-- This section provides information on ***dieting*** and ***routine*** to optimise your gym progress to achieve the best results in the shortest amount of time.
+- This section provides information on ***dieting*** and ***routine*** to optimise your gym progress to achieve the best results in the shortest amount of time. In this section, you'll find helpful tips for creating a sustainable and healthy diet plan.
 
  ### Sign Up Page
  ![Screenshot 2023-04-03 024908](https://user-images.githubusercontent.com/126810074/229393845-e982c109-badf-487b-8a77-1157fc31a217.png)
