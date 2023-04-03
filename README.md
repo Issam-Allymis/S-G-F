@@ -122,7 +122,6 @@ As part of the planning stage, I used [Balsamiq](https://balsamiq.com/) to creat
 ## Languages Used
 - [HTML](https://en.wikipedia.org/wiki/HTML)
 - [CSS3](https://en.wikipedia.org/wiki/CSS)
-- Used to shrink the images [image resizer](https://imageresizer.com/)
 
 ## Libraries
 - [Google Fonts](https://fonts.google.com/)
@@ -132,9 +131,12 @@ As part of the planning stage, I used [Balsamiq](https://balsamiq.com/) to creat
 - [Balsamiq](https://balsamiq.com/)
   - Used to create the projected layout of the website.
 
-  ## Platforms 
+## Platforms 
 - [Github:](https://github.com/) Used for storing code remotely and for project deployment.
 - [Gitpod:](https://www.gitpod.io/) IDE for project development.
+
+***Other Tools***
+- Used to resize the images [image resizer](https://imageresizer.com/)
 
 # Testing
 ## introduction
