@@ -1,12 +1,12 @@
 # Strong Gym Fitness
-![Screenshot 2023-04-01 175634](https://user-images.githubusercontent.com/126810074/229304311-08efd54d-4e2a-4249-835b-e5a54481b80c.png)
+![Screenshot 2023-04-02 185633](https://user-images.githubusercontent.com/126810074/229387110-8632e287-a52c-46dc-b0b6-a16660535f46.png)
 
-The [Strong Gym Fitness](https://issam-allymis.github.io/S-G-F/index.html) Page is a web page that provides information about the gym's membership plans and pricing. The page is designed to be visually appealing and easy to navigate, with clear calls-to-action that encourage users to sign up for a membership. The Strong Gym Fitness Page is built entirely using HTML and CSS, without the need for any additional programming languages or frameworks. The page includes information about each membership plan, and the benefits of each plan. The page also includes a membership sign-up form that users can fill out to become members of the gym. The form includes fields for personal information, such as name and email address, as well as options to select a membership plan and a text area for feedback from the customers. The Strong Gym website also offers monthly dietry information in the nutrients section... The Strong Gym Fitness Page is designed to be responsive, meaning that it adjusts to different screen sizes and devices. This ensures that users can view and sign up for memberships on any device, whether they're using a desktop computer, tablet, or smartphone. 
+The [***Strong Gym Fitness***](https://issam-allymis.github.io/S-G-F/index.html) Page is a web page that provides information about the gym's membership plans and pricing. The page is designed to be visually appealing and easy to navigate, with clear calls-to-action that encourage users to sign up for a membership. The Strong Gym Fitness Page is built entirely using HTML and CSS, without the need for any additional programming languages or frameworks. The page includes information about each membership plan, and the benefits of each plan. The page also includes a membership sign-up form that users can fill out to become members of the gym. The form includes fields for personal information, such as name and email address, as well as options to select a membership plan and a text area for feedback from the customers. The Strong Gym website provides monthly dietary information in the "*Nutrients*" section, promoting healthy, nutritious foods for better daily performance. The *Strong Gym Fitness* Page is designed to be responsive, meaning that it adjusts to different screen sizes and devices. This ensures that users can view and sign up for memberships on any device, whether they're using a desktop computer, tablet, or smartphone. 
 
 ## Website
-  - [Website🕸️](https://issam-allymis.github.io/S-G-F/index.html)
+  - [**Website🕸️**](https://issam-allymis.github.io/S-G-F/index.html)
 ## Repository
-  - [Repository📁](https://github.com/Issam-Allymis/S-G-F)
+  - [**Repository📁**](https://github.com/Issam-Allymis/S-G-F)
 
 # User Experience (UX)
 
@@ -71,7 +71,8 @@ As part of the planning stage, I used [Balsamiq](https://balsamiq.com/) to creat
 # Feautures
 ## Page Elements
 ### Navigation Bar
-![Screenshot 2023-04-01 140116](https://user-images.githubusercontent.com/126810074/229291377-475106f5-6766-4bb5-a26a-1dd025ca4957.png)
+![Screenshot 2023-04-03 023553](https://user-images.githubusercontent.com/126810074/229392664-c6a18fef-d153-4777-a3db-85e9c4d11515.png)
+
 
 - The navigation bar is located at the top of the page wrapped inside the header element. My menu is designed to make it simple for users to easily navigate through    pages. I added a hover effect to the menu to make the user experience more visually appealing and clean. I have designed the menu to highlight the current page a user is on, providing a clear indication of the user's location and reducing confusion for a better user experience. 
 
@@ -95,8 +96,9 @@ As part of the planning stage, I used [Balsamiq](https://balsamiq.com/) to creat
 - The back to top button is located at the bottom of the [index.html](https://issam-allymis.github.io/S-G-F/index.html) page and provides a convenient way for users to quickly return to the top of the page without having to manually scroll all the way back up to the nav bar.
  
  ### Footer
- ![Screenshot 2023-03-27 152208](https://user-images.githubusercontent.com/126810074/228062163-52a7ab70-d944-415a-9f6c-ff919b90fca9.png)
- 
+ ![Screenshot 2023-04-03 024649](https://user-images.githubusercontent.com/126810074/229393658-45714387-2388-4261-95a7-fc6d4fb49734.png)
+
+
 - The footer, which uses the same [Font Awesome](https://fontawesome.com/) icons throughout, is located at the bottom of every page to maintain visual consistency. Each icon are linked to their corresponding social media websites for customers who want to know more about the gym and recieve the latest updates.
  
  ### Video
@@ -104,7 +106,8 @@ As part of the planning stage, I used [Balsamiq](https://balsamiq.com/) to creat
 - This video can be found in the gallery section, and all video controls are available to the user for playback, including the ability to control the volume. for user experience the video has been set to mute by default.
 
  ### Sign Up Page
- ![Screenshot 2023-03-27 152256](https://user-images.githubusercontent.com/126810074/228064618-99c0cc27-2247-4af1-832e-ca9d98bc99b3.png)
+ ![Screenshot 2023-04-03 024908](https://user-images.githubusercontent.com/126810074/229393845-e982c109-badf-487b-8a77-1157fc31a217.png)
+
 
 - The contact form lets user input their personal information which includes their first and last name, their email address and indicate whether they want to join the gym to train with a group or solo when signing up. The web page also includes a motivational message to encourage our customers or potential customers to take action and sign up, so they can start pursuing their dreams and achieve their body goals.
 
@@ -185,12 +188,13 @@ There are non that I am currently aware of
 
  ![Screenshot 2023-03-19 123654](https://user-images.githubusercontent.com/126810074/228842289-6f24a043-ec25-4ac5-b34d-7a6e603a022c.png)
 
-- at 800px down, the Timetable section had large rows of six that separated the heading and the timetable which in turn didnt look visually pleasing. Initially these rows were columns that contained the 5 days of the week from Monday to Friday and the text "Times" which had the class times displayed below. I combatted this issue by reducing the height of the table heading as to bring the heading and timetable closer to eachother to reduce empty spaces on the page. It was my best solution at the time of completion.
+- at 800px down, the Timetable section had large rows of six that separated the heading and the timetable which in turn didnt look visually pleasing. Initially these rows were columns that contained the 5 days of the week from Monday to Friday and the text "Times" which had the class times displayed below. I combatted this issue by reducing the height of the table heading as to bring the heading and timetable closer to eachother to reduce empty spaces on the page. It was my best solution at the time of completion. I got rid of the blue fuzzy text by setting the font-size and width to 0.1px.
 
 See image below
 
   ![Screenshot 2023-03-30 130802](https://user-images.githubusercontent.com/126810074/228833355-9a3f8596-cd82-4e4d-adee-2eda4e2d8cf6.png)
   ![Screenshot 2023-03-30 133353](https://user-images.githubusercontent.com/126810074/228837230-fb1f4516-4766-4f18-a599-2d53ebbd4179.png)
+  ![Screenshot 2023-04-03 025208](https://user-images.githubusercontent.com/126810074/229394104-52b3fe65-1123-46ce-8183-7d0cf3e350bf.png)
 
 # Deployment 
 ## GitHub 
