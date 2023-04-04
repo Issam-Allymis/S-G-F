@@ -23,20 +23,21 @@ The [***Strong Gym Fitness***](https://issam-allymis.github.io/S-G-F/index.html)
 - To access the sites content in an accessible format, including semantic structure.
 - To cater to the visually impaired with the use of the alt attribute.
 - Users may visit the website with the goal of viewing the gym's class schedule.
+- Users may visit the site to gather dietary updates on the nutrients page.
 
 ### First Time Visitors
-- To find the services offered
-- To attain dietry and nutritional knowledge
-- To learn what the gym is about
-- To learn correct form and workout tips
-
-### Returning Visitor Goals
-- To refresh/increase dietry and nutritonal knowledge.
-- To find out if there are any new deals or offerings available.
+- To find the services offered.
+- To attain dietry and nutritional knowledge.
+- To attain an effective route to their body goals.
+- To learn what the gym is about.
+- To learn correct form and workout tips.
 
 ### Frequent Visitor Goals
 - To learn new effective workouts with correct form from a professional.
-- To icrease knowledge in diet and nutrition and spread the knowledge.
+- To navigate their way throughout the website quickly and intuitively.
+- To check if there are any timetable changes that have been made.
+- To check if any new useful dietry information has been released.
+- To watch insightful video on how to plan for progress while at the gym.
 
 # Design
 ## Typography
@@ -114,7 +115,6 @@ As part of the planning stage, I used [Balsamiq](https://balsamiq.com/) to creat
 
  ### Sign Up Page
  ![Screenshot 2023-04-03 024908](https://user-images.githubusercontent.com/126810074/229393845-e982c109-badf-487b-8a77-1157fc31a217.png)
-
 
 - The contact form lets user input their personal information which includes their first and last name, their email address and indicate whether they want to join the gym to train with a group or solo when signing up. The web page also includes a motivational message to encourage our customers or potential customers to take action and sign up, so they can start pursuing their dreams and achieve their body goals.
 
@@ -275,5 +275,5 @@ To learn more information about fork click
 
 - The drop down list was inspired by [Enhance Coding](https://www.youtube.com/watch?v=RvpYnUZRquw)
 
-
+- The marquee tag idea was found on [Youtube](https://www.youtube.com/shorts/UowO6mrInOQ)
  
