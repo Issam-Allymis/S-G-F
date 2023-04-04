@@ -12,10 +12,10 @@ The [***Strong Gym Fitness***](https://issam-allymis.github.io/S-G-F/index.html)
 
 ## Goals
 **The target audience for the Strong Gym Fitness website:**
-- indiviudals who want a sturdy guide plan towards great change physically and mentally.
-- indiviudals who want nutritional health insight for overall wellness.
-- indiviudals who want to be a part of a community full of like minded people.
-- indiviudals who want a new and improved lifestyle
+- Indiviudals who want a sturdy guide plan towards great change physically and mentally.
+- Indiviudals who want nutritional health insight for overall wellness.
+- Indiviudals who want to be a part of a community full of like minded people.
+- Indiviudals who want a new lifestyle that consists of good habits.
 
 **User goals are:**
 - To intuitively navigating through the different sections in the site, by using the menu and back to top button.
@@ -48,6 +48,12 @@ Google Fonts was used for:
 ## Colour Scheme
 - [Color-hex.com](https://www.color-hex.com/color-palette/1023831)
 ![color palette](https://user-images.githubusercontent.com/126810074/227796932-ad18b931-f7ea-44c2-a2ce-2ae51ad371dc.png)
+
+- #4ea3fb	
+- #4289de
+- #314660	
+- #2b3445	
+- #05131f
 
 **I chose these colours because:**
 - Blue is often associated with trust, reliability, and professionalism, which could be desirable qualities for a gym to convey to its customers.
@@ -245,35 +251,22 @@ To learn more information about fork click
 ![strong gym b (1)](https://user-images.githubusercontent.com/126810074/228396407-d16a2bda-2f19-4b34-a181-6c7bb6aa12f2.svg)
 
 # Credits 
+## code 
+- The drop down list was inspired by [Enhance Coding](https://www.youtube.com/watch?v=RvpYnUZRquw)
+- The marquee tag idea was found on [Youtube](https://www.youtube.com/shorts/UowO6mrInOQ)
+
+## Media
+- Gallery images found here [healthline.com](https://www.healthline.com/health-news/women-urged-to-exercise-vigorously-to-stay-heart-healthy) 
+- Gallery images found here [class.pass.com](https://classpass.com/classes/athens-health-and-fitness-athens-nulj/pump-16fecc0bd46)
+- Gallery images found here [fitnessrepublic](https://wwws.fitnessrepublic.com/action/workout-challenges)
+- Gallery images found here [evolveyou.app](https://www.evolveyou.app/blog/commit-with-melissa-kendter-new-improved-guides) 
+- Gallery images found here [istockphoto.com](https://www.istockphoto.com/photo/every-step-taken-towards-fitness-pays-off-gm966295656-263660735) 
+- Gallery images found here [gettingresults](https://gettingresults.com/how-tony-robbins-transformed-his-life-with-goals/) 	
+- Gallery images found here [pinterest](https://www.pinterest.ie/business/hub/)
+- Gallery images found here [imiginn.com](https://imginn.com/adi.gillespie.collection/)
+- Nutritional background images found here [pixabay](https://pixabay.com/)
+- The image quote was found on [wallpapercave.com](https://wallpapercave.com/bodybuilding-iphone-wallpapers)
+- Some images were downloaded from [Google images](https://www.google.com/imghp?hl=en)
 - The hero image effect was inspired from the [Love Running](https://github.com/Code-Institute-Solutions/readme-template) CI Project
 
-- The image quote was found on [wallpapercave.com](https://wallpapercave.com/bodybuilding-iphone-wallpapers)
-
-- Gallery images found here [healthline.com](https://www.healthline.com/health-news/women-urged-to-exercise-vigorously-to-stay-heart-healthy) 
-
-- Gallery images found here [class.pass.com](https://classpass.com/classes/athens-health-and-fitness-athens-nulj/pump-16fecc0bd46)
-
-- Gallery images found here [fitnessrepublic](https://wwws.fitnessrepublic.com/action/workout-challenges)
-
-- Gallery images found here [evolveyou.app](https://www.evolveyou.app/blog/commit-with-melissa-kendter-new-improved-guides) 
-
-- Gallery images found here [istockphoto.com](https://www.istockphoto.com/photo/every-step-taken-towards-fitness-pays-off-gm966295656-263660735) 
-
-- Gallery images found here [gettingresults](https://gettingresults.com/how-tony-robbins-transformed-his-life-with-goals/) 	
-
-- Nutritional background images found here [pixabay](https://pixabay.com/)
-
-- Gallery images found here [pinterest](https://www.pinterest.ie/pin/645844402824400477/)
-
-- Gallery images found here [wallpapers.com](https://wallpapers.com/wallpapers/project-rock-1332-x-850-85acn1akb6mw65iq.html)
-
-- Gallery images found here [imiginn.com](https://imginn.com/adi.gillespie.collection/)
- 
-- Gallery images found here [pinterest](https://za.pinterest.com/YogaEstelle/)
-
-- Gallery images found here [wallpaperaccess](https://wallpaperaccess.com/fruits-and-vegetables-high-resolution)
-
-- The drop down list was inspired by [Enhance Coding](https://www.youtube.com/watch?v=RvpYnUZRquw)
-
-- The marquee tag idea was found on [Youtube](https://www.youtube.com/shorts/UowO6mrInOQ)
  
