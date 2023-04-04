@@ -1,7 +1,7 @@
 # Strong Gym Fitness
 ![Screenshot 2023-04-02 185633](https://user-images.githubusercontent.com/126810074/229387110-8632e287-a52c-46dc-b0b6-a16660535f46.png)
 
-The [***Strong Gym Fitness***](https://issam-allymis.github.io/S-G-F/index.html) Page is a web page that provides information about the gym's membership plans and pricing. The page is designed to be visually appealing and easy to navigate, with clear calls-to-action that encourage users to sign up for a membership. The Strong Gym Fitness Page is built entirely using HTML and CSS, without the need for any additional programming languages or frameworks. The page includes information about each membership plan, and the benefits of each plan. The page also includes a membership sign-up form that users can fill out to become members of the gym. The form includes fields for personal information, such as name and email address, as well as options to select a membership plan and a text area for feedback from the customers. The Strong Gym website provides monthly dietary information in the "*Nutrients*" section, promoting healthy, nutritious foods for better daily performance. The *Strong Gym Fitness* Page is designed to be responsive, meaning that it adjusts to different screen sizes and devices. This ensures that users can view and sign up for memberships on any device, whether they're using a desktop computer, tablet, or smartphone. 
+The [***Strong Gym Fitness***](https://issam-allymis.github.io/S-G-F/index.html) Page is a web page that provides information about the gym's membership plans and pricing. The page is designed to be visually appealing and easy to navigate, with clear calls-to-action that encourage users to sign up for a membership. The Strong Gym Fitness Page is built entirely using HTML and CSS, without the need for any additional programming languages or frameworks. The page includes information about each membership plan, and the benefits of each plan. The page also includes a membership sign-up form that users can fill out to become members of the gym. The form includes fields for personal information, such as name and email address, as well as options to select a membership plan and a text area for feedback from the customers. The Strong Gym website provides monthly dietary information in the "*Nutrients*" section, promoting healthy, nutritious foods for better daily performance. It's important for individuals to not only focus on physical exercise but also on nutrition and overall lifestyle habits that can support their body goals. Creating a realistic and sustainable plan that includes a variety of exercises and incorporates rest and recovery days can also help individuals achieve their body goals in a safe and healthy manner. The *Strong Gym Fitness* Page is designed to be responsive, meaning that it adjusts to different screen sizes and devices. This ensures that users can view and sign up for memberships on any device, whether they're using a desktop computer, tablet, or smartphone. 
 
 ## Website
   - [**Website🕸️**](https://issam-allymis.github.io/S-G-F/index.html)
@@ -199,7 +199,7 @@ There are non that I am currently aware of
 
 ## Resolved Bugs
 
-- The margin-left for the meet up section was larger than the screen width, which in turn caused the page to scroll horizontally to compensate the margin overflow. I tackled the issue by reducing the margin-left.
+- The margin-right for the meet up section was larger than the screen width, which in turn caused the page to scroll horizontally to compensate the margin overflow. I tackled the issue by reducing the margin-right of the div and section. For the weekend selector, I widened the section by setting the width to 18% and centralized its container by transforming translateX to 220%. Additionally, I made the weekend divs side by side instead of stacked on top of each other by setting their width to 46.8%.
 
  ![Screenshot 2023-03-19 123654](https://user-images.githubusercontent.com/126810074/228842289-6f24a043-ec25-4ac5-b34d-7a6e603a022c.png)
 
@@ -254,6 +254,7 @@ To learn more information about fork click
 ## code 
 - The drop down list was inspired by [Enhance Coding](https://www.youtube.com/watch?v=RvpYnUZRquw)
 - The marquee tag idea was found on [Youtube](https://www.youtube.com/shorts/UowO6mrInOQ)
+- The [W3Schools.com](https://www.w3schools.com/) website helped me with formatting the code for my timetable. 
 
 ## Media
 - Gallery images found here [healthline.com](https://www.healthline.com/health-news/women-urged-to-exercise-vigorously-to-stay-heart-healthy) 
