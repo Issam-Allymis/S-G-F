@@ -1,7 +1,7 @@
 # Strong Gym Fitness
 ![Screenshot 2023-04-02 185633](https://user-images.githubusercontent.com/126810074/229387110-8632e287-a52c-46dc-b0b6-a16660535f46.png)
 
-The [***Strong Gym Fitness***](https://issam-allymis.github.io/S-G-F/index.html) Page is a web page that provides information about the gym's membership plans and pricing. The page is designed to be visually appealing and easy to navigate, with clear calls-to-action that encourage users to sign up for a membership. The Strong Gym Fitness Page is built entirely using HTML and CSS, without the need for any additional programming languages or frameworks. The page includes information about each membership plan, and the benefits of each plan. The page also includes a membership sign-up form that users can fill out to become members of the gym. The form includes fields for personal information, such as name and email address, as well as options to select a membership plan and a text area for feedback from the customers. The Strong Gym website provides monthly dietary information in the "*Nutrients*" section, promoting healthy, nutritious foods for better daily performance. The *Strong Gym Fitness* Page is designed to be responsive, meaning that it adjusts to different screen sizes and devices. This ensures that users can view and sign up for memberships on any device, whether they're using a desktop computer, tablet, or smartphone. 
+The [***Strong Gym Fitness***](https://issam-allymis.github.io/S-G-F/index.html) Page is a web page that provides information about the gym's membership plans and pricing. The page is designed to be visually appealing and easy to navigate, with clear calls-to-action that encourage users to sign up for a membership. The Strong Gym Fitness Page is built entirely using HTML and CSS, without the need for any additional programming languages or frameworks. The page includes information about each membership plan, and the benefits of each plan. The page also includes a membership sign-up form that users can fill out to become members of the gym. The form includes fields for personal information, such as name and email address, as well as options to select a membership plan and a text area for feedback from the customers. The Strong Gym website provides monthly dietary information in the "*Nutrients*" section, promoting healthy, nutritious foods for better daily performance. It's important for individuals to not only focus on physical exercise but also on nutrition and overall lifestyle habits that can support their body goals. Creating a realistic and sustainable plan that includes a variety of exercises and incorporates rest and recovery days can also help individuals achieve their body goals in a safe and healthy manner. The *Strong Gym Fitness* Page is designed to be responsive, meaning that it adjusts to different screen sizes and devices. This ensures that users can view and sign up for memberships on any device, whether they're using a desktop computer, tablet, or smartphone. 
 
 ## Website
   - [**Website🕸️**](https://issam-allymis.github.io/S-G-F/index.html)
@@ -12,10 +12,10 @@ The [***Strong Gym Fitness***](https://issam-allymis.github.io/S-G-F/index.html)
 
 ## Goals
 **The target audience for the Strong Gym Fitness website:**
-- indiviudals who want a sturdy guide plan towards great change physically and mentally.
-- indiviudals who want nutritional health insight for overall wellness.
-- indiviudals who want to be a part of a community full of like minded people.
-- indiviudals who want a new and improved lifestyle
+- Indiviudals who want a sturdy guide plan towards great change physically and mentally.
+- Indiviudals who want nutritional health insight for overall wellness.
+- Indiviudals who want to be a part of a community full of like minded people.
+- Indiviudals who want a new lifestyle that consists of good habits.
 
 **User goals are:**
 - To intuitively navigating through the different sections in the site, by using the menu and back to top button.
@@ -23,20 +23,21 @@ The [***Strong Gym Fitness***](https://issam-allymis.github.io/S-G-F/index.html)
 - To access the sites content in an accessible format, including semantic structure.
 - To cater to the visually impaired with the use of the alt attribute.
 - Users may visit the website with the goal of viewing the gym's class schedule.
+- Users may visit the site to gather dietary updates on the nutrients page.
 
 ### First Time Visitors
-- To find the services offered
-- To attain dietry and nutritional knowledge
-- To learn what the gym is about
-- To learn correct form and workout tips
-
-### Returning Visitor Goals
-- To refresh/increase dietry and nutritonal knowledge.
-- To find out if there are any new deals or offerings available.
+- To find the services offered.
+- To attain dietry and nutritional knowledge.
+- To attain an effective route to their body goals.
+- To learn what the gym is about.
+- To learn correct form and workout tips.
 
 ### Frequent Visitor Goals
 - To learn new effective workouts with correct form from a professional.
-- To icrease knowledge in diet and nutrition and spread the knowledge.
+- To navigate their way throughout the website quickly and intuitively.
+- To check if there are any timetable changes that have been made.
+- To check if any new useful dietry information has been released.
+- To watch insightful video on how to plan for progress while at the gym.
 
 # Design
 ## Typography
@@ -47,6 +48,12 @@ Google Fonts was used for:
 ## Colour Scheme
 - [Color-hex.com](https://www.color-hex.com/color-palette/1023831)
 ![color palette](https://user-images.githubusercontent.com/126810074/227796932-ad18b931-f7ea-44c2-a2ce-2ae51ad371dc.png)
+
+- #4ea3fb	
+- #4289de
+- #314660	
+- #2b3445	
+- #05131f
 
 **I chose these colours because:**
 - Blue is often associated with trust, reliability, and professionalism, which could be desirable qualities for a gym to convey to its customers.
@@ -114,7 +121,6 @@ As part of the planning stage, I used [Balsamiq](https://balsamiq.com/) to creat
 
  ### Sign Up Page
  ![Screenshot 2023-04-03 024908](https://user-images.githubusercontent.com/126810074/229393845-e982c109-badf-487b-8a77-1157fc31a217.png)
-
 
 - The contact form lets user input their personal information which includes their first and last name, their email address and indicate whether they want to join the gym to train with a group or solo when signing up. The web page also includes a motivational message to encourage our customers or potential customers to take action and sign up, so they can start pursuing their dreams and achieve their body goals.
 
@@ -193,7 +199,7 @@ There are non that I am currently aware of
 
 ## Resolved Bugs
 
-- The margin-left for the meet up section was larger than the screen width, which in turn caused the page to scroll horizontally to compensate the margin overflow. I tackled the issue by reducing the margin-left.
+- The margin-right for the meet up section was larger than the screen width, which in turn caused the page to scroll horizontally to compensate the margin overflow. I tackled the issue by reducing the margin-right of the div and section. For the weekend selector, I widened the section by setting the width to 18% and centralized its container by transforming translateX to 220%. Additionally, I made the weekend divs side by side instead of stacked on top of each other by setting their width to 46.8%.
 
  ![Screenshot 2023-03-19 123654](https://user-images.githubusercontent.com/126810074/228842289-6f24a043-ec25-4ac5-b34d-7a6e603a022c.png)
 
@@ -245,35 +251,23 @@ To learn more information about fork click
 ![strong gym b (1)](https://user-images.githubusercontent.com/126810074/228396407-d16a2bda-2f19-4b34-a181-6c7bb6aa12f2.svg)
 
 # Credits 
-- The hero image effect was inspired from the [Love Running](https://github.com/Code-Institute-Solutions/readme-template) CI Project
-
-- The image quote was found on [wallpapercave.com](https://wallpapercave.com/bodybuilding-iphone-wallpapers)
-
-- Gallery images found here [healthline.com](https://www.healthline.com/health-news/women-urged-to-exercise-vigorously-to-stay-heart-healthy) 
-
-- Gallery images found here [class.pass.com](https://classpass.com/classes/athens-health-and-fitness-athens-nulj/pump-16fecc0bd46)
-
-- Gallery images found here [fitnessrepublic](https://wwws.fitnessrepublic.com/action/workout-challenges)
-
-- Gallery images found here [evolveyou.app](https://www.evolveyou.app/blog/commit-with-melissa-kendter-new-improved-guides) 
-
-- Gallery images found here [istockphoto.com](https://www.istockphoto.com/photo/every-step-taken-towards-fitness-pays-off-gm966295656-263660735) 
-
-- Gallery images found here [gettingresults](https://gettingresults.com/how-tony-robbins-transformed-his-life-with-goals/) 	
-
-- Nutritional background images found here [pixabay](https://pixabay.com/)
-
-- Gallery images found here [pinterest](https://www.pinterest.ie/pin/645844402824400477/)
-
-- Gallery images found here [wallpapers.com](https://wallpapers.com/wallpapers/project-rock-1332-x-850-85acn1akb6mw65iq.html)
-
-- Gallery images found here [imiginn.com](https://imginn.com/adi.gillespie.collection/)
- 
-- Gallery images found here [pinterest](https://za.pinterest.com/YogaEstelle/)
-
-- Gallery images found here [wallpaperaccess](https://wallpaperaccess.com/fruits-and-vegetables-high-resolution)
-
+## code 
 - The drop down list was inspired by [Enhance Coding](https://www.youtube.com/watch?v=RvpYnUZRquw)
+- The marquee tag idea was found on [Youtube](https://www.youtube.com/shorts/UowO6mrInOQ)
+- The [W3Schools.com](https://www.w3schools.com/) website helped me with formatting the code for my timetable. 
 
+## Media
+- Gallery images found here [healthline.com](https://www.healthline.com/health-news/women-urged-to-exercise-vigorously-to-stay-heart-healthy) 
+- Gallery images found here [class.pass.com](https://classpass.com/classes/athens-health-and-fitness-athens-nulj/pump-16fecc0bd46)
+- Gallery images found here [fitnessrepublic](https://wwws.fitnessrepublic.com/action/workout-challenges)
+- Gallery images found here [evolveyou.app](https://www.evolveyou.app/blog/commit-with-melissa-kendter-new-improved-guides) 
+- Gallery images found here [istockphoto.com](https://www.istockphoto.com/photo/every-step-taken-towards-fitness-pays-off-gm966295656-263660735) 
+- Gallery images found here [gettingresults](https://gettingresults.com/how-tony-robbins-transformed-his-life-with-goals/) 	
+- Gallery images found here [pinterest](https://www.pinterest.ie/business/hub/)
+- Gallery images found here [imiginn.com](https://imginn.com/adi.gillespie.collection/)
+- Nutritional background images found here [pixabay](https://pixabay.com/)
+- The image quote was found on [wallpapercave.com](https://wallpapercave.com/bodybuilding-iphone-wallpapers)
+- Some images were downloaded from [Google images](https://www.google.com/imghp?hl=en)
+- The hero image effect was inspired from the [Love Running](https://github.com/Code-Institute-Solutions/readme-template) CI Project
 
  
