@@ -272,7 +272,9 @@ To learn more information about fork click
 
 ![strong gym b (1)](https://user-images.githubusercontent.com/126810074/228396407-d16a2bda-2f19-4b34-a181-6c7bb6aa12f2.svg)
 
-# Credits 
+# Credits
+-The blue picture logo was created using [Canva](https://www.canva.com/en_gb/)
+
 ## code 
 - The drop down list was inspired by [Enhance Coding](https://www.youtube.com/watch?v=RvpYnUZRquw)
 - The marquee tag idea was found on [Youtube](https://www.youtube.com/shorts/UowO6mrInOQ)
