@@ -1160,6 +1160,16 @@ table td::before {
   height: 131em;
 }
 
+/* Weekend meet up */
+#weekend div {
+  width: 120%;
+  height: 15em;
+}
+
+#weekend {
+  width: 15%;
+}
+
 /* Menu links */
 header li {
   font-size: 0.4em;
