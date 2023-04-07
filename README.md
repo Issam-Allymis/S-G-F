@@ -297,6 +297,6 @@ I would like to thank the [CI](https://learn.codeinstitute.net/login?next=/dashb
 I would like to thank my friends and family for the small tips they gave me while also helping me identify bugs and imperfections during the making of my project.
 
 # Disclaimer
-__*The Strong Gym Fitness Project Was Created Only For Educational Purposes.*
+***The Strong Gym Fitness Project Was Created Only For Educational Purposes.***
 
  
