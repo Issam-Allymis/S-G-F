@@ -120,9 +120,12 @@ As part of the planning stage, I used [Balsamiq](https://balsamiq.com/) to creat
 - This section provides information on ***dieting*** and ***routine*** to optimise your gym progress to achieve the best results in the shortest amount of time. In this section, you'll find helpful tips for creating a sustainable and healthy diet plan.
 
  ### Sign Up Page
- ![Screenshot 2023-04-03 024908](https://user-images.githubusercontent.com/126810074/229393845-e982c109-badf-487b-8a77-1157fc31a217.png)
+![Screenshot 2023-04-03 024908](https://user-images.githubusercontent.com/126810074/229393845-e982c109-badf-487b-8a77-1157fc31a217.png)
+![Screenshot 2023-04-07 140414](https://user-images.githubusercontent.com/126810074/230613619-004d2268-5be9-48e2-850c-843ec04f6c16.png)
+![Screenshot 2023-04-07 140324](https://user-images.githubusercontent.com/126810074/230613526-f692b87c-ff13-4451-9039-787b11181612.png)
 
-- The contact form lets user input their personal information which includes their first and last name, their email address and indicate whether they want to join the gym to train with a group or solo when signing up. The web page also includes a motivational message to encourage our customers or potential customers to take action and sign up, so they can start pursuing their dreams and achieve their body goals.
+- The contact form lets user input their personal information which includes their first and last name, their email address and indicate whether they want to join the gym to train with a group or solo when signing up. The web page also includes a motivational message to encourage our customers or potential customers to take action and sign up, so they can start pursuing their dreams and achieve their body goals. The membership drop list plan can also be found in the [sign up](https://issam-allymis.github.io/S-G-F/sign.html) page
+- I later decided to change the font heading colour in the sign up form to a lighter blue to better suit the colour scheme of the whole website.
 
 # Technologies
 ## Languages Used
@@ -193,9 +196,28 @@ The Strong Gym website should be designed to be responsive, ensuring that all co
 
 
 # Bugs
-## Current Bugs
+ ***Android***
 
-There are non that I am currently aware of 
+![WhatsApp Image 2023-04-07 at 13 53 22 (1)](https://user-images.githubusercontent.com/126810074/230620758-49e2b461-4760-4d85-ad02-3038a1efa0d7.jpeg)
+
+
+ ***IOS***
+
+![WhatsApp Image 2023-04-07 at 13 50 51 (1)](https://user-images.githubusercontent.com/126810074/230620737-11fb2f1d-f082-4b81-9455-5a694f99dc59.jpeg)
+
+- Another bug I have found on my page was more smaller screen related. As you can see on the Android Device the text menu and their emojis are all aligned horizontally. However, on the IOS Device the text menu and their emojis are stacked over each other. I tried solving this issue by decreasing the menu font size. Which did work. However, when I went down past 0.4em, the text became illegible (at a media query of 600px).
+
+***Weekend***
+
+![Screenshot 2023-04-07 142344](https://user-images.githubusercontent.com/126810074/230623524-3589d895-40dd-4766-b141-66f085af6ed5.png)
+
+- The background image in the div isn't filling the empty space. I did this purposely as to properly center the two divs blocks in the middle of the page. I did my best to address the issue, but for now, this is the best that I can do.
+## Current Bugs
+***Sign Page***
+![Screenshot 2023-04-07 141301](https://user-images.githubusercontent.com/126810074/230616780-336b60a4-f2a7-4119-b883-f1febcc5ed69.png)
+***Other Pages***
+![Screenshot 2023-04-07 144235](https://user-images.githubusercontent.com/126810074/230618964-b6a65013-059f-48cc-86b4-77c0d3c28cb9.png)
+- The box shadow on every page except for the sign up page all look similar. At this current moment i cant seem to identify why this is happening. 
 
 ## Resolved Bugs
 
@@ -250,7 +272,9 @@ To learn more information about fork click
 
 ![strong gym b (1)](https://user-images.githubusercontent.com/126810074/228396407-d16a2bda-2f19-4b34-a181-6c7bb6aa12f2.svg)
 
-# Credits 
+# Credits
+- The blue picture logo was created using [Canva](https://www.canva.com/en_gb/)
+
 ## code 
 - The drop down list was inspired by [Enhance Coding](https://www.youtube.com/watch?v=RvpYnUZRquw)
 - The marquee tag idea was found on [Youtube](https://www.youtube.com/shorts/UowO6mrInOQ)
@@ -269,5 +293,12 @@ To learn more information about fork click
 - The image quote was found on [wallpapercave.com](https://wallpapercave.com/bodybuilding-iphone-wallpapers)
 - Some images were downloaded from [Google images](https://www.google.com/imghp?hl=en)
 - The hero image effect was inspired from the [Love Running](https://github.com/Code-Institute-Solutions/readme-template) CI Project
+
+# Acknowledgment
+I would like to thank the [CI](https://learn.codeinstitute.net/login?next=/dashboard) course for the invaluable Knowledge passed onto me through the modules on the course.
+I would like to thank my friends and family for the small tips they gave me while also helping me identify bugs and imperfections during the making of my project.
+
+# Disclaimer
+***The Strong Gym Fitness Project Was Created Only For Educational Purposes.***
 
  
